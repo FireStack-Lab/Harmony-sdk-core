@@ -22,7 +22,7 @@
 
 • **chainId**: *ChainID*
 
-*Defined in [util.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/util.ts#L7)*
+*Defined in [util.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/util.ts#L7)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **chainType**: *ChainType*
 
-*Defined in [util.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/util.ts#L6)*
+*Defined in [util.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/util.ts#L6)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **chainUrl**: *string*
 
-*Defined in [util.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/util.ts#L5)*
+*Defined in [util.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/util.ts#L5)*

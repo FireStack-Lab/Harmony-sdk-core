@@ -38,7 +38,7 @@
 
 *Overrides [Coder](coder.md).[constructor](coder.md#constructor)*
 
-*Defined in [abi/abiCoder.ts:669](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L669)*
+*Defined in [abi/abiCoder.ts:669](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L669)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ Name | Type |
 
 *Inherited from [Coder](coder.md).[coerceFunc](coder.md#coercefunc)*
 
-*Defined in [abi/abiCoder.ts:486](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L486)*
+*Defined in [abi/abiCoder.ts:486](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L486)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 *Inherited from [Coder](coder.md).[dynamic](coder.md#dynamic)*
 
-*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
+*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **length**: *number*
 
-*Defined in [abi/abiCoder.ts:669](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L669)*
+*Defined in [abi/abiCoder.ts:669](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L669)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from [Coder](coder.md).[localName](coder.md#optional-localname)*
 
-*Defined in [abi/abiCoder.ts:489](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L489)*
+*Defined in [abi/abiCoder.ts:489](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L489)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from [Coder](coder.md).[name](coder.md#name)*
 
-*Defined in [abi/abiCoder.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L487)*
+*Defined in [abi/abiCoder.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L487)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [Coder](coder.md).[type](coder.md#type)*
 
-*Defined in [abi/abiCoder.ts:488](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L488)*
+*Defined in [abi/abiCoder.ts:488](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L488)*
 
 ## Methods
 
@@ -116,7 +116,7 @@ ___
 
 *Overrides [Coder](coder.md).[decode](coder.md#abstract-decode)*
 
-*Defined in [abi/abiCoder.ts:703](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L703)*
+*Defined in [abi/abiCoder.ts:703](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L703)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 *Overrides [Coder](coder.md).[encode](coder.md#abstract-encode)*
 
-*Defined in [abi/abiCoder.ts:676](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L676)*
+*Defined in [abi/abiCoder.ts:676](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L676)*
 
 **Parameters:**
 

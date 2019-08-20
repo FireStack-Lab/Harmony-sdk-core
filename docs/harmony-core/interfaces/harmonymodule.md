@@ -26,7 +26,7 @@
 
 • **Account**: *Account*
 
-*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L14)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **Blockchain**: *[Blockchain](../classes/blockchain.md)*
 
-*Defined in [types.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L10)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **HttpProvider**: *HttpProvider*
 
-*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L8)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **Messenger**: *Messenger*
 
-*Defined in [types.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L9)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **Transaction**: *Transaction*
 
-*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L13)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **TransactionFactory**: *TransactionFactory*
 
-*Defined in [types.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L11)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **Wallet**: *Wallet*
 
-*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-core/src/types.ts#L12)*

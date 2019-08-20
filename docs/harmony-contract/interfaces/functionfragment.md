@@ -27,7 +27,7 @@
 
 • **constant**: *boolean*
 
-*Defined in [abi/abiCoder.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L59)*
+*Defined in [abi/abiCoder.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L59)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **gas**: *BN | null*
 
-*Defined in [abi/abiCoder.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L67)*
+*Defined in [abi/abiCoder.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L67)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **inputs**: *[ParamType](paramtype.md)[]*
 
-*Defined in [abi/abiCoder.ts:61](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L61)*
+*Defined in [abi/abiCoder.ts:61](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L61)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [abi/abiCoder.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L57)*
+*Defined in [abi/abiCoder.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L57)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **outputs**: *[ParamType](paramtype.md)[]*
 
-*Defined in [abi/abiCoder.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L62)*
+*Defined in [abi/abiCoder.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L62)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **payable**: *boolean*
 
-*Defined in [abi/abiCoder.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L64)*
+*Defined in [abi/abiCoder.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L64)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **stateMutability**: *string | null*
 
-*Defined in [abi/abiCoder.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L65)*
+*Defined in [abi/abiCoder.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L65)*
 
 ___
 
@@ -83,4 +83,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [abi/abiCoder.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L56)*
+*Defined in [abi/abiCoder.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-contract/src/abi/abiCoder.ts#L56)*
