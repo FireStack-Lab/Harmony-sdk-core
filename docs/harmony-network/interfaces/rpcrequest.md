@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[RPCRequest](rpcrequest.md) /
+[Globals](../README.md) › [RPCRequest](rpcrequest.md)
 
 # Interface: RPCRequest <**T**>
 
@@ -26,15 +26,15 @@
 
 • **options**: *[RPCRequestOptions](rpcrequestoptions.md)*
 
-*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L37)*
 
 ___
 
 ###  payload
 
-• **payload**: *[RPCRequestPayload](rpcrequestpayload.md)‹*`T`*›*
+• **payload**: *[RPCRequestPayload](rpcrequestpayload.md)‹T›*
 
-*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L36)*
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **url**: *string*
 
-*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L35)*

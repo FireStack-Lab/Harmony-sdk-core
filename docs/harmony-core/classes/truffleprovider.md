@@ -1,12 +1,12 @@
-> **[@harmony-js/core](../README.md)**
+**[@harmony-js/core](../README.md)**
 
-[TruffleProvider](truffleprovider.md) /
+[Globals](../README.md) › [TruffleProvider](truffleprovider.md)
 
 # Class: TruffleProvider
 
 ## Hierarchy
 
-* `HDNode`
+* HDNode
 
   * **TruffleProvider**
 
@@ -44,22 +44,22 @@
 
 ###  constructor
 
-\+ **new TruffleProvider**(`provider`: string | `HttpProvider` | `WSProvider`, `menmonic?`: undefined | string, `index`: number, `addressCount`: number, `chainType`: `ChainType`, `chainId`: `ChainID`, `gasLimit`: string, `gasPrice`: string): *[TruffleProvider](truffleprovider.md)*
+\+ **new TruffleProvider**(`provider`: string | HttpProvider | WSProvider, `menmonic?`: undefined | string, `index`: number, `addressCount`: number, `chainType`: ChainType, `chainId`: ChainID, `gasLimit`: string, `gasPrice`: string): *[TruffleProvider](truffleprovider.md)*
 
 *Overrides void*
 
-*Defined in [truffleProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L19)*
+*Defined in [truffleProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L19)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`provider` | string \| `HttpProvider` \| `WSProvider` | "http://localhost:9500" |
+`provider` | string \| HttpProvider \| WSProvider | "http://localhost:9500" |
 `menmonic?` | undefined \| string | - |
 `index` | number | 0 |
 `addressCount` | number | 1 |
-`chainType` | `ChainType` |  ChainType.Harmony |
-`chainId` | `ChainID` |  ChainID.Default |
+`chainType` | ChainType |  ChainType.Harmony |
+`chainId` | ChainID |  ChainID.Default |
 `gasLimit` | string | "1000000" |
 `gasPrice` | string | "2000000000" |
 
@@ -69,7 +69,7 @@ Name | Type | Default |
 
 ###  provider
 
-• **provider**: *`HttpProvider` | `WSProvider`*
+• **provider**: *HttpProvider | WSProvider*
 
 *Inherited from void*
 
@@ -97,7 +97,7 @@ ___
 
 ###  getAccounts
 
-▸ **getAccounts**(`cb?`: `Function`): *string[]*
+▸ **getAccounts**(`cb?`: Function): *string[]*
 
 *Inherited from void*
 
@@ -107,7 +107,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ac
 
 Name | Type |
 ------ | ------ |
-`cb?` | `Function` |
+`cb?` | Function |
 
 **Returns:** *string[]*
 
@@ -163,7 +163,7 @@ ___
 
 ###  getPrivateKey
 
-▸ **getPrivateKey**(`address`: string, `cb?`: `Function`): *any*
+▸ **getPrivateKey**(`address`: string, `cb?`: Function): *any*
 
 *Inherited from void*
 
@@ -174,7 +174,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ac
 Name | Type |
 ------ | ------ |
 `address` | string |
-`cb?` | `Function` |
+`cb?` | Function |
 
 **Returns:** *any*
 
@@ -200,15 +200,15 @@ ___
 
 ###  resolveArgs
 
-▸ **resolveArgs**(...`args`: [`RPCRequestPayload<any>`, any]): *[ArgsResolver](../interfaces/argsresolver.md)*
+▸ **resolveArgs**(...`args`: [RPCRequestPayload‹any›, any]): *[ArgsResolver](../interfaces/argsresolver.md)*
 
-*Defined in [truffleProvider.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L119)*
+*Defined in [truffleProvider.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L119)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | [`RPCRequestPayload<any>`, any] |
+`...args` | [RPCRequestPayload‹any›, any] |
 
 **Returns:** *[ArgsResolver](../interfaces/argsresolver.md)*
 
@@ -218,7 +218,7 @@ ___
 
 ▸ **resolveCallback**(`err`: any, `res`: any, `callback`: function): *void*
 
-*Defined in [truffleProvider.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L145)*
+*Defined in [truffleProvider.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L145)*
 
 **Parameters:**
 
@@ -228,14 +228,14 @@ ___
 
 ▪ **callback**: *function*
 
-▸ (`error`: any, `res?`: `ResponseMiddleware` | any): *void*
+▸ (`error`: any, `res?`: ResponseMiddleware | any): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `error` | any |
-`res?` | `ResponseMiddleware` \| any |
+`res?` | ResponseMiddleware \| any |
 
 **Returns:** *void*
 
@@ -243,15 +243,15 @@ ___
 
 ###  resolveResult
 
-▸ **resolveResult**(`response`: `ResponseMiddleware` | any): *any*
+▸ **resolveResult**(`response`: ResponseMiddleware | any): *any*
 
-*Defined in [truffleProvider.ts:139](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L139)*
+*Defined in [truffleProvider.ts:139](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L139)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`response` | `ResponseMiddleware` \| any |
+`response` | ResponseMiddleware \| any |
 
 **Returns:** *any*
 
@@ -259,39 +259,39 @@ ___
 
 ###  send
 
-▸ **send**(...`args`: [`RPCRequestPayload<any>`, any]): *`Promise<any>`*
+▸ **send**(...`args`: [RPCRequestPayload‹any›, any]): *Promise‹any›*
 
-*Defined in [truffleProvider.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L41)*
+*Defined in [truffleProvider.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L41)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | [`RPCRequestPayload<any>`, any] |
+`...args` | [RPCRequestPayload‹any›, any] |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
 ###  sendAsync
 
-▸ **sendAsync**(...`args`: [`RPCRequestPayload<any>`, any]): *`Promise<any>`*
+▸ **sendAsync**(...`args`: [RPCRequestPayload‹any›, any]): *Promise‹any›*
 
-*Defined in [truffleProvider.ts:115](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/truffleProvider.ts#L115)*
+*Defined in [truffleProvider.ts:115](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/truffleProvider.ts#L115)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`...args` | [`RPCRequestPayload<any>`, any] |
+`...args` | [RPCRequestPayload‹any›, any] |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
 ###  setProvider
 
-▸ **setProvider**(`provider`: string | `HttpProvider` | `WSProvider`): *`HttpProvider` | `WSProvider`*
+▸ **setProvider**(`provider`: string | HttpProvider | WSProvider): *HttpProvider | WSProvider*
 
 *Inherited from void*
 
@@ -301,9 +301,9 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ac
 
 Name | Type |
 ------ | ------ |
-`provider` | string \| `HttpProvider` \| `WSProvider` |
+`provider` | string \| HttpProvider \| WSProvider |
 
-**Returns:** *`HttpProvider` | `WSProvider`*
+**Returns:** *HttpProvider | WSProvider*
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 ###  signTransaction
 
-▸ **signTransaction**(`txParams`: any | `Web3TxPrams`): *`Promise<string>`*
+▸ **signTransaction**(`txParams`: any | Web3TxPrams): *Promise‹string›*
 
 *Inherited from void*
 
@@ -337,9 +337,9 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ac
 
 Name | Type |
 ------ | ------ |
-`txParams` | any \| `Web3TxPrams` |
+`txParams` | any \| Web3TxPrams |
 
-**Returns:** *`Promise<string>`*
+**Returns:** *Promise‹string›*
 
 ___
 

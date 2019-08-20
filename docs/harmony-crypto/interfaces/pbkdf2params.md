@@ -1,6 +1,6 @@
-> **[@harmony-js/crypto](../README.md)**
+**[@harmony-js/crypto](../README.md)**
 
-[PBKDF2Params](pbkdf2params.md) /
+[Globals](../README.md) › [PBKDF2Params](pbkdf2params.md)
 
 # Interface: PBKDF2Params
 
@@ -22,7 +22,7 @@
 
 • **c**: *number*
 
-*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/types.ts#L6)*
+*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/types.ts#L6)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **dklen**: *number*
 
-*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/types.ts#L5)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **salt**: *string*
 
-*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/types.ts#L4)*

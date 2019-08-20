@@ -1,6 +1,6 @@
-> **[@harmony-js/account](../README.md)**
+**[@harmony-js/account](../README.md)**
 
-[Globals](../globals.md) / [Web3TxPrams](web3txprams.md) /
+[Globals](../globals.md) › [Web3TxPrams](web3txprams.md)
 
 # Interface: Web3TxPrams
 
@@ -34,7 +34,7 @@
 
 • **chainId**? : *undefined | number*
 
-*Defined in [hdnode.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L36)*
+*Defined in [hdnode.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L36)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **data**? : *undefined | string*
 
-*Defined in [hdnode.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L34)*
+*Defined in [hdnode.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L34)*
 
 ___
 
@@ -50,23 +50,23 @@ ___
 
 • **from**? : *undefined | string*
 
-*Defined in [hdnode.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L27)*
+*Defined in [hdnode.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L27)*
 
 ___
 
 ### `Optional` gasLimit
 
-• **gasLimit**? : *`BN` | number | string*
+• **gasLimit**? : *BN | number | string*
 
-*Defined in [hdnode.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L30)*
+*Defined in [hdnode.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L30)*
 
 ___
 
 ### `Optional` gasPrice
 
-• **gasPrice**? : *`BN` | number | string*
+• **gasPrice**? : *BN | number | string*
 
-*Defined in [hdnode.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L31)*
+*Defined in [hdnode.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L31)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **id**? : *undefined | string*
 
-*Defined in [hdnode.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L26)*
+*Defined in [hdnode.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L26)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **nonce**? : *number | string*
 
-*Defined in [hdnode.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L29)*
+*Defined in [hdnode.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L29)*
 
 ___
 
@@ -90,15 +90,15 @@ ___
 
 • **rawTransaction**? : *undefined | string*
 
-*Defined in [hdnode.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L37)*
+*Defined in [hdnode.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L37)*
 
 ___
 
 ### `Optional` receipt
 
-• **receipt**? : *`TransasctionReceipt`*
+• **receipt**? : *TransasctionReceipt*
 
-*Defined in [hdnode.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L40)*
+*Defined in [hdnode.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L40)*
 
 ___
 
@@ -106,15 +106,15 @@ ___
 
 • **shardID**? : *number | string*
 
-*Defined in [hdnode.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L32)*
+*Defined in [hdnode.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L32)*
 
 ___
 
 ### `Optional` signature
 
-• **signature**? : *`Signature` | string*
+• **signature**? : *Signature | string*
 
-*Defined in [hdnode.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L39)*
+*Defined in [hdnode.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L39)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 • **to**? : *undefined | string*
 
-*Defined in [hdnode.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L28)*
+*Defined in [hdnode.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L28)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 • **toShardID**? : *number | string*
 
-*Defined in [hdnode.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L33)*
+*Defined in [hdnode.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L33)*
 
 ___
 
@@ -138,12 +138,12 @@ ___
 
 • **unsignedRawTransaction**? : *undefined | string*
 
-*Defined in [hdnode.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L38)*
+*Defined in [hdnode.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L38)*
 
 ___
 
 ### `Optional` value
 
-• **value**? : *`BN`*
+• **value**? : *BN*
 
-*Defined in [hdnode.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L35)*
+*Defined in [hdnode.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L35)*

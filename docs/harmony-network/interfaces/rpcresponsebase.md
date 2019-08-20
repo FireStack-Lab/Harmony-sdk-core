@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[RPCResponseBase](rpcresponsebase.md) /
+[Globals](../README.md) › [RPCResponseBase](rpcresponsebase.md)
 
 # Interface: RPCResponseBase
 
@@ -23,7 +23,7 @@
 
 • **id**: *string*
 
-*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L42)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **jsonrpc**: *string*
 
-*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L41)*

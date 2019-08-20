@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[RPCRequestOptions](rpcrequestoptions.md) /
+[Globals](../README.md) › [RPCRequestOptions](rpcrequestoptions.md)
 
 # Interface: RPCRequestOptions
 
@@ -21,7 +21,7 @@
 
 • **headers**: *[]*
 
-*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L30)*
+*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L30)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **method**: *string*
 
-*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L31)*
+*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L31)*

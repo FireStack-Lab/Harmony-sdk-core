@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[Messenger](messenger.md) /
+[Globals](../README.md) › [Messenger](messenger.md)
 
 # Class: Messenger
 
@@ -16,7 +16,7 @@
 
 ## Hierarchy
 
-* `HarmonyCore`
+* HarmonyCore
 
   * **Messenger**
 
@@ -55,19 +55,19 @@
 
 ###  constructor
 
-\+ **new Messenger**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md), `chainType`: `ChainType`, `chainId`: `ChainID`, `config?`: undefined | object): *[Messenger](messenger.md)*
+\+ **new Messenger**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md), `chainType`: ChainType, `chainId`: ChainID, `config?`: undefined | object): *[Messenger](messenger.md)*
 
 *Overrides void*
 
-*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L28)*
+*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L28)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
 `provider` | [HttpProvider](httpprovider.md) \| [WSProvider](wsprovider.md) | - |
-`chainType` | `ChainType` |  defaultConfig.Default.Chain_Type |
-`chainId` | `ChainID` |  defaultConfig.Default.Chain_ID |
+`chainType` | ChainType |  defaultConfig.Default.Chain_Type |
+`chainId` | ChainID |  defaultConfig.Default.Chain_ID |
 `config?` | undefined \| object | - |
 
 **Returns:** *[Messenger](messenger.md)*
@@ -78,7 +78,7 @@ Name | Type | Default |
 
 • **JsonRpc**: *[JsonRpc](jsonrpc.md)*
 
-*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L28)*
+*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L28)*
 
 ___
 
@@ -86,13 +86,13 @@ ___
 
 • **Network_ID**: *string* = "Default"
 
-*Defined in [messenger/messenger.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L27)*
+*Defined in [messenger/messenger.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L27)*
 
 ___
 
 ###  chainId
 
-• **chainId**: *`ChainID`*
+• **chainId**: *ChainID*
 
 *Inherited from void*
 
@@ -112,7 +112,7 @@ ___
 
 ###  chainType
 
-• **chainType**: *`ChainType`*
+• **chainType**: *ChainType*
 
 *Inherited from void*
 
@@ -124,13 +124,13 @@ ___
 
 • **config**? : *undefined | object*
 
-*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L25)*
+*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L25)*
 
 ___
 
 ###  getChainId
 
-• **getChainId**: *`ChainID`*
+• **getChainId**: *ChainID*
 
 *Inherited from void*
 
@@ -142,7 +142,7 @@ ___
 
 • **provider**: *[HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)*
 
-*Defined in [messenger/messenger.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L24)*
+*Defined in [messenger/messenger.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L24)*
 
 ## Methods
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **providerCheck**(): *void*
 
-*Defined in [messenger/messenger.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L119)*
+*Defined in [messenger/messenger.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L119)*
 
 **`function`** providerCheck
 
@@ -166,9 +166,9 @@ ___
 
 ###  send
 
-▸ **send**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *`Promise<any>`*
+▸ **send**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L74)*
+*Defined in [messenger/messenger.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L74)*
 
 **Parameters:**
 
@@ -178,7 +178,7 @@ Name | Type | Description |
 `params?` | string \| any[] \| undefined | RPC method params |
 `rpcPrefix?` | undefined \| string | - |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 RPC result
 
@@ -186,7 +186,7 @@ ___
 
 ###  setChainId
 
-▸ **setChainId**(`chainId`: `ChainID`): *void*
+▸ **setChainId**(`chainId`: ChainID): *void*
 
 *Inherited from void*
 
@@ -196,7 +196,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ut
 
 Name | Type |
 ------ | ------ |
-`chainId` | `ChainID` |
+`chainId` | ChainID |
 
 **Returns:** *void*
 
@@ -204,7 +204,7 @@ ___
 
 ###  setChainType
 
-▸ **setChainType**(`chainType`: `ChainType`): *void*
+▸ **setChainType**(`chainType`: ChainType): *void*
 
 *Inherited from void*
 
@@ -214,7 +214,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ut
 
 Name | Type |
 ------ | ------ |
-`chainType` | `ChainType` |
+`chainType` | ChainType |
 
 **Returns:** *void*
 
@@ -224,7 +224,7 @@ ___
 
 ▸ **setNetworkID**(`id`: string): *void*
 
-*Defined in [messenger/messenger.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L153)*
+*Defined in [messenger/messenger.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L153)*
 
 **`function`** setNetworkID
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **setProvider**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *void*
 
-*Defined in [messenger/messenger.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L109)*
+*Defined in [messenger/messenger.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L109)*
 
 **`function`** setProvider
 
@@ -268,7 +268,7 @@ ___
 
 ▸ **setRPCPrefix**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `prefix`: string): *string*
 
-*Defined in [messenger/messenger.ts:157](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L157)*
+*Defined in [messenger/messenger.ts:157](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L157)*
 
 **Parameters:**
 
@@ -285,7 +285,7 @@ ___
 
 ▸ **setReqMiddleware**(`middleware`: any, `method`: string): *void*
 
-*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L132)*
+*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L132)*
 
 **`function`** setReqMiddleware
 
@@ -308,7 +308,7 @@ ___
 
 ▸ **setResMiddleware**(`middleware`: any, `method`: string): *void*
 
-*Defined in [messenger/messenger.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L143)*
+*Defined in [messenger/messenger.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L143)*
 
 **`function`** setResMiddleware
 
@@ -329,9 +329,9 @@ ___
 
 ###  subscribe
 
-▸ **subscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `returnType`: [SubscribeReturns](../enums/subscribereturns.md), `rpcPrefix`: string): *`Promise<any>`*
+▸ **subscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `returnType`: [SubscribeReturns](../enums/subscribereturns.md), `rpcPrefix`: string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L166)*
+*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L166)*
 
 **Parameters:**
 
@@ -342,15 +342,15 @@ Name | Type | Default |
 `returnType` | [SubscribeReturns](../enums/subscribereturns.md) |  SubscribeReturns.all |
 `rpcPrefix` | string |  this.chainPrefix |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
 ###  unsubscribe
 
-▸ **unsubscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *`Promise<any>`*
+▸ **unsubscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/messenger/messenger.ts#L211)*
+*Defined in [messenger/messenger.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/messenger/messenger.ts#L211)*
 
 **Parameters:**
 
@@ -360,4 +360,4 @@ Name | Type |
 `params?` | string \| any[] \| undefined |
 `rpcPrefix?` | undefined \| string |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*

@@ -1,6 +1,6 @@
-> **[@harmony-js/utils](../README.md)**
+**[@harmony-js/utils](../README.md)**
 
-[DefaultBlockParams](defaultblockparams.md) /
+[Globals](../README.md) › [DefaultBlockParams](defaultblockparams.md)
 
 # Enumeration: DefaultBlockParams
 
@@ -18,7 +18,7 @@
 
 • **earliest**: = "earliest"
 
-*Defined in [validators.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-utils/src/validators.ts#L143)*
+*Defined in [validators.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-utils/src/validators.ts#L143)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **latest**: = "latest"
 
-*Defined in [validators.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-utils/src/validators.ts#L145)*
+*Defined in [validators.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-utils/src/validators.ts#L145)*
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 • **pending**: = "pending"
 
-*Defined in [validators.ts:144](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-utils/src/validators.ts#L144)*
+*Defined in [validators.ts:144](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-utils/src/validators.ts#L144)*

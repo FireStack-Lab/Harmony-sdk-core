@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[PollingBlockTracker](pollingblocktracker.md) /
+[Globals](../README.md) › [PollingBlockTracker](pollingblocktracker.md)
 
 # Class: PollingBlockTracker
 
@@ -76,7 +76,7 @@
 
 *Overrides [BaseBlockTracker](baseblocktracker.md).[constructor](baseblocktracker.md#constructor)*
 
-*Defined in [tracker/pollingTracker.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L25)*
+*Defined in [tracker/pollingTracker.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L25)*
 
 **Parameters:**
 
@@ -106,7 +106,7 @@ Name | Type | Default |
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_blockResetDuration](baseblocktracker.md#optional-_blockresetduration)*
 
-*Defined in [tracker/baseTracker.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L12)*
+*Defined in [tracker/baseTracker.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L12)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_blockResetTimeout](baseblocktracker.md#_blockresettimeout)*
 
-*Defined in [tracker/baseTracker.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L14)*
+*Defined in [tracker/baseTracker.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L14)*
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_currentBlock](baseblocktracker.md#_currentblock)*
 
-*Defined in [tracker/baseTracker.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L16)*
+*Defined in [tracker/baseTracker.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L16)*
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_isRunning](baseblocktracker.md#_isrunning)*
 
-*Defined in [tracker/baseTracker.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L18)*
+*Defined in [tracker/baseTracker.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L18)*
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 • **_keepEventLoopActive**: *boolean*
 
-*Defined in [tracker/pollingTracker.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L23)*
+*Defined in [tracker/pollingTracker.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L23)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 • **_pollingInterval**: *number*
 
-*Defined in [tracker/pollingTracker.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L19)*
+*Defined in [tracker/pollingTracker.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L19)*
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 • **_retryTimeout**: *number*
 
-*Defined in [tracker/pollingTracker.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L21)*
+*Defined in [tracker/pollingTracker.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L21)*
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 • **_setSkipCacheFlag**: *boolean*
 
-*Defined in [tracker/pollingTracker.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L25)*
+*Defined in [tracker/pollingTracker.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L25)*
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[emit](emitter.md#emit)*
 
-*Defined in [providers/emitter.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L7)*
+*Defined in [providers/emitter.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L7)*
 
 #### Type declaration:
 
@@ -195,11 +195,11 @@ ___
 
 ###  emitter
 
-• **emitter**: *`Emitter`*
+• **emitter**: *Emitter*
 
 *Inherited from [Emitter](emitter.md).[emitter](emitter.md#emitter)*
 
-*Defined in [providers/emitter.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L5)*
+*Defined in [providers/emitter.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L5)*
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[handlers](emitter.md#optional-handlers)*
 
-*Defined in [providers/emitter.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L4)*
+*Defined in [providers/emitter.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L4)*
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 • **messenger**: *[Messenger](messenger.md)*
 
-*Defined in [tracker/pollingTracker.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L17)*
+*Defined in [tracker/pollingTracker.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L17)*
 
 ___
 
@@ -227,28 +227,28 @@ ___
 
 *Inherited from [Emitter](emitter.md).[off](emitter.md#off)*
 
-*Defined in [providers/emitter.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L6)*
+*Defined in [providers/emitter.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L6)*
 
 #### Type declaration:
 
-▸ (`type`: string, `handler`: `mitt.Handler`): *void*
+▸ (`type`: string, `handler`: mitt.Handler): *void*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 ___
 
 ###  promise
 
-• **promise**: *`Promise<__type>`*
+• **promise**: *Promise‹__type›*
 
 *Inherited from [Emitter](emitter.md).[promise](emitter.md#promise)*
 
-*Defined in [providers/emitter.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L8)*
+*Defined in [providers/emitter.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L8)*
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[reject](emitter.md#optional-reject)*
 
-*Defined in [providers/emitter.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L10)*
+*Defined in [providers/emitter.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L10)*
 
 ___
 
@@ -268,7 +268,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[resolve](emitter.md#optional-resolve)*
 
-*Defined in [providers/emitter.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L9)*
+*Defined in [providers/emitter.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L9)*
 
 ___
 
@@ -278,7 +278,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[then](emitter.md#optional-then)*
 
-*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L11)*
+*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L11)*
 
 ## Methods
 
@@ -288,7 +288,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_cancelBlockResetTimeout](baseblocktracker.md#_cancelblockresettimeout)*
 
-*Defined in [tracker/baseTracker.ts:182](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L182)*
+*Defined in [tracker/baseTracker.ts:182](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L182)*
 
 **Returns:** *void*
 
@@ -300,7 +300,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_end](baseblocktracker.md#_end)*
 
-*Defined in [tracker/baseTracker.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L87)*
+*Defined in [tracker/baseTracker.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L87)*
 
 **Returns:** *void*
 
@@ -308,11 +308,11 @@ ___
 
 ###  _fetchLatestBlock
 
-▸ **_fetchLatestBlock**(): *`Promise<any>`*
+▸ **_fetchLatestBlock**(): *Promise‹any›*
 
-*Defined in [tracker/pollingTracker.ts:106](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L106)*
+*Defined in [tracker/pollingTracker.ts:106](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L106)*
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
@@ -322,7 +322,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_getBlockTrackerEventCount](baseblocktracker.md#_getblocktrackereventcount)*
 
-*Defined in [tracker/baseTracker.ts:141](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L141)*
+*Defined in [tracker/baseTracker.ts:141](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L141)*
 
 **Returns:** *number*
 
@@ -334,7 +334,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_maybeEnd](baseblocktracker.md#_maybeend)*
 
-*Defined in [tracker/baseTracker.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L132)*
+*Defined in [tracker/baseTracker.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L132)*
 
 **Returns:** *void*
 
@@ -346,7 +346,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_maybeStart](baseblocktracker.md#_maybestart)*
 
-*Defined in [tracker/baseTracker.ts:122](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L122)*
+*Defined in [tracker/baseTracker.ts:122](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L122)*
 
 **Returns:** *void*
 
@@ -358,7 +358,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_newPotentialLatest](baseblocktracker.md#_newpotentiallatest)*
 
-*Defined in [tracker/baseTracker.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L147)*
+*Defined in [tracker/baseTracker.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L147)*
 
 **Parameters:**
 
@@ -372,18 +372,18 @@ ___
 
 ###  _onNewListener
 
-▸ **_onNewListener**(`eventName`: string, `handler?`: `mitt.Handler`): *void*
+▸ **_onNewListener**(`eventName`: string, `handler?`: mitt.Handler): *void*
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_onNewListener](baseblocktracker.md#_onnewlistener)*
 
-*Defined in [tracker/baseTracker.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L105)*
+*Defined in [tracker/baseTracker.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L105)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `eventName` | string |
-`handler?` | `mitt.Handler` |
+`handler?` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -391,18 +391,18 @@ ___
 
 ###  _onRemoveListener
 
-▸ **_onRemoveListener**(`eventName`: string, `handler?`: `mitt.Handler`): *void*
+▸ **_onRemoveListener**(`eventName`: string, `handler?`: mitt.Handler): *void*
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_onRemoveListener](baseblocktracker.md#_onremovelistener)*
 
-*Defined in [tracker/baseTracker.ts:114](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L114)*
+*Defined in [tracker/baseTracker.ts:114](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L114)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `eventName` | string |
-`handler?` | `mitt.Handler` |
+`handler?` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -410,11 +410,11 @@ ___
 
 ###  _performSync
 
-▸ **_performSync**(): *`Promise<void>`*
+▸ **_performSync**(): *Promise‹void›*
 
-*Defined in [tracker/pollingTracker.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L79)*
+*Defined in [tracker/pollingTracker.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L79)*
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*
 
 ___
 
@@ -424,7 +424,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_resetCurrentBlock](baseblocktracker.md#_resetcurrentblock)*
 
-*Defined in [tracker/baseTracker.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L186)*
+*Defined in [tracker/baseTracker.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L186)*
 
 **Returns:** *void*
 
@@ -436,7 +436,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_setCurrentBlock](baseblocktracker.md#_setcurrentblock)*
 
-*Defined in [tracker/baseTracker.ts:161](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L161)*
+*Defined in [tracker/baseTracker.ts:161](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L161)*
 
 **Parameters:**
 
@@ -454,7 +454,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_setupBlockResetTimeout](baseblocktracker.md#_setupblockresettimeout)*
 
-*Defined in [tracker/baseTracker.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L168)*
+*Defined in [tracker/baseTracker.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L168)*
 
 **Returns:** *void*
 
@@ -466,7 +466,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[_setupInternalEvents](baseblocktracker.md#_setupinternalevents)*
 
-*Defined in [tracker/baseTracker.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L95)*
+*Defined in [tracker/baseTracker.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L95)*
 
 **Returns:** *void*
 
@@ -478,7 +478,7 @@ ___
 
 *Overrides [BaseBlockTracker](baseblocktracker.md).[_start](baseblocktracker.md#_start)*
 
-*Defined in [tracker/pollingTracker.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L75)*
+*Defined in [tracker/pollingTracker.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L75)*
 
 **Returns:** *void*
 
@@ -486,28 +486,28 @@ ___
 
 ###  _updateLatestBlock
 
-▸ **_updateLatestBlock**(): *`Promise<void>`*
+▸ **_updateLatestBlock**(): *Promise‹void›*
 
-*Defined in [tracker/pollingTracker.ts:100](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L100)*
+*Defined in [tracker/pollingTracker.ts:100](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L100)*
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*
 
 ___
 
 ###  addEventListener
 
-▸ **addEventListener**(`type`: string, `handler`: `mitt.Handler`): *void*
+▸ **addEventListener**(`type`: string, `handler`: mitt.Handler): *void*
 
 *Inherited from [Emitter](emitter.md).[addEventListener](emitter.md#addeventlistener)*
 
-*Defined in [providers/emitter.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L41)*
+*Defined in [providers/emitter.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L41)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -515,11 +515,11 @@ ___
 
 ###  checkForLatestBlock
 
-▸ **checkForLatestBlock**(): *`Promise<any>`*
+▸ **checkForLatestBlock**(): *Promise‹any›*
 
-*Defined in [tracker/pollingTracker.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/pollingTracker.ts#L65)*
+*Defined in [tracker/pollingTracker.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/pollingTracker.ts#L65)*
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
@@ -529,7 +529,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[getCurrentBlock](baseblocktracker.md#getcurrentblock)*
 
-*Defined in [tracker/baseTracker.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L48)*
+*Defined in [tracker/baseTracker.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L48)*
 
 **Returns:** *any*
 
@@ -537,13 +537,13 @@ ___
 
 ###  getLatestBlock
 
-▸ **getLatestBlock**(): *`Promise<any>`*
+▸ **getLatestBlock**(): *Promise‹any›*
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[getLatestBlock](baseblocktracker.md#getlatestblock)*
 
-*Defined in [tracker/baseTracker.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L52)*
+*Defined in [tracker/baseTracker.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L52)*
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
@@ -553,7 +553,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[isRunning](baseblocktracker.md#isrunning)*
 
-*Defined in [tracker/baseTracker.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L44)*
+*Defined in [tracker/baseTracker.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L44)*
 
 **Returns:** *boolean*
 
@@ -565,7 +565,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[listenerCount](emitter.md#listenercount)*
 
-*Defined in [providers/emitter.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L64)*
+*Defined in [providers/emitter.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L64)*
 
 **Parameters:**
 
@@ -579,20 +579,20 @@ ___
 
 ###  on
 
-▸ **on**(`type`: string, `handler`: `mitt.Handler`): *`this`*
+▸ **on**(`type`: string, `handler`: mitt.Handler): *this*
 
 *Inherited from [Emitter](emitter.md).[on](emitter.md#on)*
 
-*Defined in [providers/emitter.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L30)*
+*Defined in [providers/emitter.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L30)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
-**Returns:** *`this`*
+**Returns:** *this*
 
 ___
 
@@ -602,7 +602,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[onData](emitter.md#ondata)*
 
-*Defined in [providers/emitter.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L60)*
+*Defined in [providers/emitter.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L60)*
 
 **Parameters:**
 
@@ -620,7 +620,7 @@ ___
 
 *Inherited from [Emitter](emitter.md).[onError](emitter.md#onerror)*
 
-*Defined in [providers/emitter.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L56)*
+*Defined in [providers/emitter.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L56)*
 
 **Parameters:**
 
@@ -634,18 +634,18 @@ ___
 
 ###  once
 
-▸ **once**(`type`: string, `handler`: `mitt.Handler`): *void*
+▸ **once**(`type`: string, `handler`: mitt.Handler): *void*
 
 *Inherited from [Emitter](emitter.md).[once](emitter.md#once)*
 
-*Defined in [providers/emitter.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L34)*
+*Defined in [providers/emitter.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L34)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -657,7 +657,7 @@ ___
 
 *Inherited from [BaseBlockTracker](baseblocktracker.md).[removeAllListeners](baseblocktracker.md#removealllisteners)*
 
-*Defined in [tracker/baseTracker.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/tracker/baseTracker.ts#L66)*
+*Defined in [tracker/baseTracker.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/tracker/baseTracker.ts#L66)*
 
 **Parameters:**
 
@@ -671,18 +671,18 @@ ___
 
 ###  removeEventListener
 
-▸ **removeEventListener**(`type?`: undefined | string, `handler?`: `mitt.Handler`): *void*
+▸ **removeEventListener**(`type?`: undefined | string, `handler?`: mitt.Handler): *void*
 
 *Inherited from [Emitter](emitter.md).[removeEventListener](emitter.md#removeeventlistener)*
 
-*Defined in [providers/emitter.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L45)*
+*Defined in [providers/emitter.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L45)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type?` | undefined \| string |
-`handler?` | `mitt.Handler` |
+`handler?` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -694,6 +694,6 @@ ___
 
 *Inherited from [Emitter](emitter.md).[resetHandlers](emitter.md#resethandlers)*
 
-*Defined in [providers/emitter.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/emitter.ts#L24)*
+*Defined in [providers/emitter.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/emitter.ts#L24)*
 
 **Returns:** *void*

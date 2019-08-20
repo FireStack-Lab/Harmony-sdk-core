@@ -1,6 +1,6 @@
-> **[@harmony-js/crypto](../README.md)**
+**[@harmony-js/crypto](../README.md)**
 
-[Signature](signature.md) /
+[Globals](../README.md) › [Signature](signature.md)
 
 # Interface: Signature
 
@@ -23,7 +23,7 @@
 
 • **r**: *string*
 
-*Defined in [bytes.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/bytes.ts#L13)*
+*Defined in [bytes.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/bytes.ts#L13)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **recoveryParam**? : *undefined | number*
 
-*Defined in [bytes.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/bytes.ts#L17)*
+*Defined in [bytes.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/bytes.ts#L17)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **s**: *string*
 
-*Defined in [bytes.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/bytes.ts#L14)*
+*Defined in [bytes.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/bytes.ts#L14)*
 
 ___
 
@@ -47,4 +47,4 @@ ___
 
 • **v**? : *undefined | number*
 
-*Defined in [bytes.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/bytes.ts#L18)*
+*Defined in [bytes.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/bytes.ts#L18)*

@@ -1,4 +1,6 @@
-> **[@harmony-js/core](README.md)**
+**[@harmony-js/core](README.md)**
+
+[Globals](README.md)
 
 ## Index
 
@@ -29,7 +31,7 @@
 
 ▸ **createWeb3**(`_web3`: any): *void*
 
-*Defined in [util.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/util.ts#L11)*
+*Defined in [util.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/util.ts#L11)*
 
 **Parameters:**
 

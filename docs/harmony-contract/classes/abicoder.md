@@ -1,6 +1,6 @@
-> **[@harmony-js/contract](../README.md)**
+**[@harmony-js/contract](../README.md)**
 
-[AbiCoder](abicoder.md) /
+[Globals](../README.md) › [AbiCoder](abicoder.md)
 
 # Class: AbiCoder
 
@@ -12,7 +12,7 @@
 
 ▸ **AbiCoder**(): *[AbiCoderClass](abicoderclass.md)*
 
-*Defined in [abi/index.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/index.ts#L4)*
+*Defined in [abi/index.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/index.ts#L4)*
 
 **Returns:** *[AbiCoderClass](abicoderclass.md)*
 
@@ -37,7 +37,7 @@
 
 \+ **new AbiCoder**(`coerceFunc?`: [CoerceFunc](../README.md#coercefunc)): *[AbiCoder](abicoder.md)*
 
-*Defined in [abi/abiCoder.ts:1506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/abiCoder.ts#L1506)*
+*Defined in [abi/abiCoder.ts:1506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L1506)*
 
 **Parameters:**
 
@@ -53,22 +53,22 @@ Name | Type |
 
 • **coerceFunc**: *[CoerceFunc](../README.md#coercefunc)*
 
-*Defined in [abi/abiCoder.ts:1506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/abiCoder.ts#L1506)*
+*Defined in [abi/abiCoder.ts:1506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L1506)*
 
 ## Methods
 
 ###  decode
 
-▸ **decode**(`types`: `Array<string | ParamType>`, `data`: `Arrayish`): *any*
+▸ **decode**(`types`: Array‹string | [ParamType](../interfaces/paramtype.md)›, `data`: Arrayish): *any*
 
-*Defined in [abi/abiCoder.ts:1546](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/abiCoder.ts#L1546)*
+*Defined in [abi/abiCoder.ts:1546](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L1546)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`types` | `Array<string \| ParamType>` |
-`data` | `Arrayish` |
+`types` | Array‹string \| [ParamType](../interfaces/paramtype.md)› |
+`data` | Arrayish |
 
 **Returns:** *any*
 
@@ -76,15 +76,15 @@ ___
 
 ###  encode
 
-▸ **encode**(`types`: `Array<string | ParamType>`, `values`: any[]): *string*
+▸ **encode**(`types`: Array‹string | [ParamType](../interfaces/paramtype.md)›, `values`: any[]): *string*
 
-*Defined in [abi/abiCoder.ts:1516](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/abiCoder.ts#L1516)*
+*Defined in [abi/abiCoder.ts:1516](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/abiCoder.ts#L1516)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`types` | `Array<string \| ParamType>` |
+`types` | Array‹string \| [ParamType](../interfaces/paramtype.md)› |
 `values` | any[] |
 
 **Returns:** *string*

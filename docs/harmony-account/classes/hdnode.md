@@ -1,6 +1,6 @@
-> **[@harmony-js/account](../README.md)**
+**[@harmony-js/account](../README.md)**
 
-[Globals](../globals.md) / [HDNode](hdnode.md) /
+[Globals](../globals.md) › [HDNode](hdnode.md)
 
 # Class: HDNode
 
@@ -46,20 +46,20 @@
 
 ###  constructor
 
-\+ **new HDNode**(`provider`: string | `HttpProvider` | `WSProvider`, `menmonic?`: undefined | string, `index`: number, `addressCount`: number, `chainType`: `ChainType`, `chainId`: `ChainID`, `gasLimit`: string, `gasPrice`: string): *[HDNode](hdnode.md)*
+\+ **new HDNode**(`provider`: string | HttpProvider | WSProvider, `menmonic?`: undefined | string, `index`: number, `addressCount`: number, `chainType`: ChainType, `chainId`: ChainID, `gasLimit`: string, `gasPrice`: string): *[HDNode](hdnode.md)*
 
-*Defined in [hdnode.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L62)*
+*Defined in [hdnode.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L62)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`provider` | string \| `HttpProvider` \| `WSProvider` | "http://localhost:9500" |
+`provider` | string \| HttpProvider \| WSProvider | "http://localhost:9500" |
 `menmonic?` | undefined \| string | - |
 `index` | number | 0 |
 `addressCount` | number | 1 |
-`chainType` | `ChainType` |  ChainType.Harmony |
-`chainId` | `ChainID` |  ChainID.Default |
+`chainType` | ChainType |  ChainType.Harmony |
+`chainId` | ChainID |  ChainID.Default |
 `gasLimit` | string | "1000000" |
 `gasPrice` | string | "2000000000" |
 
@@ -71,7 +71,7 @@ Name | Type | Default |
 
 • **addressCount**: *number*
 
-*Defined in [hdnode.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L58)*
+*Defined in [hdnode.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L58)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **addresses**: *string[]*
 
-*Defined in [hdnode.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L59)*
+*Defined in [hdnode.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L59)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **gasLimit**: *string*
 
-*Defined in [hdnode.ts:61](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L61)*
+*Defined in [hdnode.ts:61](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L61)*
 
 ___
 
@@ -95,15 +95,15 @@ ___
 
 • **gasPrice**: *string*
 
-*Defined in [hdnode.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L62)*
+*Defined in [hdnode.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L62)*
 
 ___
 
 ### `Private` hdwallet
 
-• **hdwallet**: *`hdkey` | undefined*
+• **hdwallet**: *hdkey | undefined*
 
-*Defined in [hdnode.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L55)*
+*Defined in [hdnode.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L55)*
 
 ___
 
@@ -111,15 +111,15 @@ ___
 
 • **index**: *number*
 
-*Defined in [hdnode.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L57)*
+*Defined in [hdnode.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L57)*
 
 ___
 
 ### `Private` messenger
 
-• **messenger**: *`Messenger`*
+• **messenger**: *Messenger*
 
-*Defined in [hdnode.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L54)*
+*Defined in [hdnode.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L54)*
 
 ___
 
@@ -127,15 +127,15 @@ ___
 
 • **path**: *string*
 
-*Defined in [hdnode.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L56)*
+*Defined in [hdnode.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L56)*
 
 ___
 
 ###  provider
 
-• **provider**: *`HttpProvider` | `WSProvider`*
+• **provider**: *HttpProvider | WSProvider*
 
-*Defined in [hdnode.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L53)*
+*Defined in [hdnode.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L53)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • **wallets**: *[WalletsInterfaces](../interfaces/walletsinterfaces.md)*
 
-*Defined in [hdnode.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L60)*
+*Defined in [hdnode.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L60)*
 
 ## Methods
 
@@ -151,7 +151,7 @@ ___
 
 ▸ **addByPrivateKey**(`privateKey`: string): *string*
 
-*Defined in [hdnode.ts:223](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L223)*
+*Defined in [hdnode.ts:223](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L223)*
 
 **Parameters:**
 
@@ -165,15 +165,15 @@ ___
 
 ###  getAccounts
 
-▸ **getAccounts**(`cb?`: `Function`): *string[]*
+▸ **getAccounts**(`cb?`: Function): *string[]*
 
-*Defined in [hdnode.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L131)*
+*Defined in [hdnode.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L131)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`cb?` | `Function` |
+`cb?` | Function |
 
 **Returns:** *string[]*
 
@@ -183,7 +183,7 @@ ___
 
 ▸ **getAddress**(`idx?`: undefined | number): *string*
 
-*Defined in [hdnode.ts:213](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L213)*
+*Defined in [hdnode.ts:213](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L213)*
 
 **Parameters:**
 
@@ -199,7 +199,7 @@ ___
 
 ▸ **getAddresses**(): *string[]*
 
-*Defined in [hdnode.ts:220](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L220)*
+*Defined in [hdnode.ts:220](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L220)*
 
 **Returns:** *string[]*
 
@@ -209,7 +209,7 @@ ___
 
 ▸ **getHdWallet**(`mnemonic`: string): *void*
 
-*Defined in [hdnode.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L111)*
+*Defined in [hdnode.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L111)*
 
 **Parameters:**
 
@@ -223,16 +223,16 @@ ___
 
 ###  getPrivateKey
 
-▸ **getPrivateKey**(`address`: string, `cb?`: `Function`): *any*
+▸ **getPrivateKey**(`address`: string, `cb?`: Function): *any*
 
-*Defined in [hdnode.ts:138](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L138)*
+*Defined in [hdnode.ts:138](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L138)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `address` | string |
-`cb?` | `Function` |
+`cb?` | Function |
 
 **Returns:** *any*
 
@@ -242,7 +242,7 @@ ___
 
 ▸ **normalizePrivateKeys**(`mnemonic`: string | string[]): *false | string[]*
 
-*Defined in [hdnode.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L87)*
+*Defined in [hdnode.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L87)*
 
 **Parameters:**
 
@@ -256,17 +256,17 @@ ___
 
 ###  setProvider
 
-▸ **setProvider**(`provider`: string | `HttpProvider` | `WSProvider`): *`HttpProvider` | `WSProvider`*
+▸ **setProvider**(`provider`: string | HttpProvider | WSProvider): *HttpProvider | WSProvider*
 
-*Defined in [hdnode.ts:97](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L97)*
+*Defined in [hdnode.ts:97](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L97)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`provider` | string \| `HttpProvider` \| `WSProvider` |
+`provider` | string \| HttpProvider \| WSProvider |
 
-**Returns:** *`HttpProvider` | `WSProvider`*
+**Returns:** *HttpProvider | WSProvider*
 
 ___
 
@@ -274,7 +274,7 @@ ___
 
 ▸ **setSigner**(`address`: string): *void*
 
-*Defined in [hdnode.ts:231](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L231)*
+*Defined in [hdnode.ts:231](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L231)*
 
 **Parameters:**
 
@@ -288,9 +288,9 @@ ___
 
 ###  signTransaction
 
-▸ **signTransaction**(`txParams`: any | [Web3TxPrams](../interfaces/web3txprams.md)): *`Promise<string>`*
+▸ **signTransaction**(`txParams`: any | [Web3TxPrams](../interfaces/web3txprams.md)): *Promise‹string›*
 
-*Defined in [hdnode.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L153)*
+*Defined in [hdnode.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L153)*
 
 **Parameters:**
 
@@ -298,7 +298,7 @@ Name | Type |
 ------ | ------ |
 `txParams` | any \| [Web3TxPrams](../interfaces/web3txprams.md) |
 
-**Returns:** *`Promise<string>`*
+**Returns:** *Promise‹string›*
 
 ___
 
@@ -306,7 +306,7 @@ ___
 
 ▸ **generateMnemonic**(): *string*
 
-*Defined in [hdnode.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L50)*
+*Defined in [hdnode.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L50)*
 
 **Returns:** *string*
 
@@ -316,7 +316,7 @@ ___
 
 ▸ **isValidMnemonic**(`phrase`: string): *boolean*
 
-*Defined in [hdnode.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-account/src/hdnode.ts#L44)*
+*Defined in [hdnode.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-account/src/hdnode.ts#L44)*
 
 **Parameters:**
 

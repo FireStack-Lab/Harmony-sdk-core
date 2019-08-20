@@ -1,14 +1,14 @@
-> **[@harmony-js/core](../README.md)**
+**[@harmony-js/core](../README.md)**
 
-[HarmonySetting](harmonysetting.md) /
+[Globals](../README.md) › [HarmonySetting](harmonysetting.md)
 
 # Interface: HarmonySetting <**T, I**>
 
 ## Type parameters
 
-▪ **T**: *`ChainType`*
+▪ **T**: *ChainType*
 
-▪ **I**: *`ChainID`*
+▪ **I**: *ChainID*
 
 ## Hierarchy
 
@@ -25,14 +25,14 @@
 
 ###  id
 
-• **id**: *`I`*
+• **id**: *I*
 
-*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L24)*
 
 ___
 
 ###  type
 
-• **type**: *`T`*
+• **type**: *T*
 
-*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L23)*

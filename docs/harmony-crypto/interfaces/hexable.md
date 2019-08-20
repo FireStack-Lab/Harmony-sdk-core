@@ -1,6 +1,6 @@
-> **[@harmony-js/crypto](../README.md)**
+**[@harmony-js/crypto](../README.md)**
 
-[Hexable](hexable.md) /
+[Globals](../README.md) › [Hexable](hexable.md)
 
 # Interface: Hexable
 
@@ -20,6 +20,6 @@
 
 ▸ **toHexString**(): *string*
 
-*Defined in [bytes.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-crypto/src/bytes.ts#L9)*
+*Defined in [bytes.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-crypto/src/bytes.ts#L9)*
 
 **Returns:** *string*

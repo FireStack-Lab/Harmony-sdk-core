@@ -1,12 +1,12 @@
-> **[@harmony-js/contract](../README.md)**
+**[@harmony-js/contract](../README.md)**
 
-[EventMethod](eventmethod.md) /
+[Globals](../README.md) › [EventMethod](eventmethod.md)
 
 # Class: EventMethod
 
 ## Hierarchy
 
-* `LogSub`
+* LogSub
 
   * **EventMethod**
 
@@ -77,7 +77,7 @@
 
 *Overrides void*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L10)*
 
 **Parameters:**
 
@@ -96,7 +96,7 @@ Name | Type |
 
 • **abiItem**: *[AbiItemModel](../interfaces/abiitemmodel.md)*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L10)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 ###  connection
 
-• **connection**: *`W3CWebsocket` | `WebSocket`*
+• **connection**: *W3CWebsocket | WebSocket*
 
 *Inherited from void*
 
@@ -124,13 +124,13 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L9)*
+*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L9)*
 
 ___
 
 ###  emitter
 
-• **emitter**: *`Emitter`*
+• **emitter**: *Emitter*
 
 *Inherited from void*
 
@@ -150,7 +150,7 @@ ___
 
 ###  jsonRpc
 
-• **jsonRpc**: *`JsonRpc`*
+• **jsonRpc**: *JsonRpc*
 
 *Inherited from void*
 
@@ -160,7 +160,7 @@ ___
 
 ###  messenger
 
-• **messenger**: *`Messenger`*
+• **messenger**: *Messenger*
 
 *Inherited from void*
 
@@ -172,7 +172,7 @@ ___
 
 • **methodKey**: *string*
 
-*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L8)*
+*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L8)*
 
 ___
 
@@ -190,13 +190,13 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
   * **use**(): *function*
 
-    * (`fn`: `Map<string | RegExp, any[]>`, `match?`: string | `RegExp`): *void*
+    * (`fn`: Map‹string | RegExp, any[]›, `match?`: string | RegExp): *void*
 
 * **response**(): *object*
 
   * **use**(): *function*
 
-    * (`fn`: `Map<string | RegExp, any[]>`, `match?`: string | `RegExp`): *void*
+    * (`fn`: Map‹string | RegExp, any[]›, `match?`: string | RegExp): *void*
 
 ___
 
@@ -226,13 +226,13 @@ ___
 
 • **params**: *any*
 
-*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L7)*
+*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L7)*
 
 ___
 
 ### `Protected` reqMiddleware
 
-• **reqMiddleware**: *`ReqMiddleware`*
+• **reqMiddleware**: *ReqMiddleware*
 
 *Inherited from void*
 
@@ -242,7 +242,7 @@ ___
 
 ### `Protected` resMiddleware
 
-• **resMiddleware**: *`ResMiddleware`*
+• **resMiddleware**: *ResMiddleware*
 
 *Inherited from void*
 
@@ -284,7 +284,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 ###  addEventListener
 
-▸ **addEventListener**(`type`: string, `handler`: `mitt.Handler`): *void*
+▸ **addEventListener**(`type`: string, `handler`: mitt.Handler): *void*
 
 *Inherited from void*
 
@@ -295,7 +295,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -303,7 +303,7 @@ ___
 
 ###  clearSubscriptions
 
-▸ **clearSubscriptions**(`unsubscribeMethod`: string): *`Promise<boolean>`*
+▸ **clearSubscriptions**(`unsubscribeMethod`: string): *Promise‹boolean›*
 
 *Inherited from void*
 
@@ -315,13 +315,13 @@ Name | Type |
 ------ | ------ |
 `unsubscribeMethod` | string |
 
-**Returns:** *`Promise<boolean>`*
+**Returns:** *Promise‹boolean›*
 
 ___
 
 ###  constructPayload
 
-▸ **constructPayload**(`method`: string, `param`: any, `options?`: any): *`RPCRequestPayload<any>`*
+▸ **constructPayload**(`method`: string, `param`: any, `options?`: any): *RPCRequestPayload‹any›*
 
 *Inherited from void*
 
@@ -335,13 +335,13 @@ Name | Type |
 `param` | any |
 `options?` | any |
 
-**Returns:** *`RPCRequestPayload<any>`*
+**Returns:** *RPCRequestPayload‹any›*
 
 ___
 
 ###  createWebsocketProvider
 
-▸ **createWebsocketProvider**(`url`: string, `options?`: any): *`W3CWebsocket` | `WebSocket`*
+▸ **createWebsocketProvider**(`url`: string, `options?`: any): *W3CWebsocket | WebSocket*
 
 *Inherited from void*
 
@@ -354,13 +354,13 @@ Name | Type |
 `url` | string |
 `options?` | any |
 
-**Returns:** *`W3CWebsocket` | `WebSocket`*
+**Returns:** *W3CWebsocket | WebSocket*
 
 ___
 
 ### `Protected` getMiddleware
 
-▸ **getMiddleware**(`method`: `RPCMethod` | string): *[`ReqMiddleware`[], `ResMiddleware`[]]*
+▸ **getMiddleware**(`method`: RPCMethod | string): *[ReqMiddleware[], ResMiddleware[]]*
 
 *Inherited from void*
 
@@ -370,9 +370,9 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 Name | Type |
 ------ | ------ |
-`method` | `RPCMethod` \| string |
+`method` | RPCMethod \| string |
 
-**Returns:** *[`ReqMiddleware`[], `ResMiddleware`[]]*
+**Returns:** *[ReqMiddleware[], ResMiddleware[]]*
 
 ___
 
@@ -426,7 +426,7 @@ ___
 
 ###  on
 
-▸ **on**(`type`: string, `handler`: `mitt.Handler`): *this*
+▸ **on**(`type`: string, `handler`: mitt.Handler): *this*
 
 *Inherited from void*
 
@@ -437,7 +437,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 **Returns:** *this*
 
@@ -465,13 +465,13 @@ ___
 
 ###  onConnect
 
-▸ **onConnect**(): *`Promise<void>`*
+▸ **onConnect**(): *Promise‹void›*
 
 *Inherited from void*
 
 Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/providers/ws.d.ts:26
 
-**Returns:** *`Promise<void>`*
+**Returns:** *Promise‹void›*
 
 ___
 
@@ -515,7 +515,7 @@ ___
 
 ###  onMessage
 
-▸ **onMessage**(`msg`: `MessageEvent`): *void*
+▸ **onMessage**(`msg`: MessageEvent): *void*
 
 *Inherited from void*
 
@@ -525,7 +525,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 Name | Type |
 ------ | ------ |
-`msg` | `MessageEvent` |
+`msg` | MessageEvent |
 
 **Returns:** *void*
 
@@ -537,7 +537,7 @@ ___
 
 *Overrides void*
 
-*Defined in [events/event.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/events/event.ts#L29)*
+*Defined in [events/event.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/events/event.ts#L29)*
 
 **Parameters:**
 
@@ -569,7 +569,7 @@ ___
 
 ###  once
 
-▸ **once**(`type`: string, `handler`: `mitt.Handler`): *void*
+▸ **once**(`type`: string, `handler`: mitt.Handler): *void*
 
 *Inherited from void*
 
@@ -580,7 +580,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 Name | Type |
 ------ | ------ |
 `type` | string |
-`handler` | `mitt.Handler` |
+`handler` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -588,7 +588,7 @@ ___
 
 ### `Protected` pushMiddleware
 
-▸ **pushMiddleware**(`fn`: any, `type`: `MiddlewareType`, `match`: string | `RPCMethod` | `RegExp`): *void*
+▸ **pushMiddleware**(`fn`: any, `type`: MiddlewareType, `match`: string | RPCMethod | RegExp): *void*
 
 *Inherited from void*
 
@@ -599,8 +599,8 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 Name | Type |
 ------ | ------ |
 `fn` | any |
-`type` | `MiddlewareType` |
-`match` | string \| `RPCMethod` \| `RegExp` |
+`type` | MiddlewareType |
+`match` | string \| RPCMethod \| RegExp |
 
 **Returns:** *void*
 
@@ -644,7 +644,7 @@ ___
 
 ###  removeEventListener
 
-▸ **removeEventListener**(`type?`: undefined | string, `handler?`: `mitt.Handler`): *void*
+▸ **removeEventListener**(`type?`: undefined | string, `handler?`: mitt.Handler): *void*
 
 *Inherited from void*
 
@@ -655,7 +655,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 Name | Type |
 ------ | ------ |
 `type?` | undefined \| string |
-`handler?` | `mitt.Handler` |
+`handler?` | mitt.Handler |
 
 **Returns:** *void*
 
@@ -687,7 +687,7 @@ ___
 
 ###  send
 
-▸ **send**(`payload`: `RPCRequestPayload<object>`): *`Promise<any>`*
+▸ **send**(`payload`: RPCRequestPayload‹object›): *Promise‹any›*
 
 *Inherited from void*
 
@@ -697,27 +697,27 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 Name | Type |
 ------ | ------ |
-`payload` | `RPCRequestPayload<object>` |
+`payload` | RPCRequestPayload‹object› |
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
 ###  start
 
-▸ **start**(): *`Promise<this>`*
+▸ **start**(): *Promise‹this›*
 
 *Inherited from void*
 
 Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:11
 
-**Returns:** *`Promise<this>`*
+**Returns:** *Promise‹this›*
 
 ___
 
 ###  subscribe
 
-▸ **subscribe**(): *`Promise<this>`*
+▸ **subscribe**(): *Promise‹this›*
 
 *Inherited from void*
 
@@ -725,13 +725,13 @@ ___
 
 Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/LogSub.d.ts:5
 
-**Returns:** *`Promise<this>`*
+**Returns:** *Promise‹this›*
 
 ___
 
 ###  unsubscribe
 
-▸ **unsubscribe**(): *`Promise<any>`*
+▸ **unsubscribe**(): *Promise‹any›*
 
 *Inherited from void*
 
@@ -739,13 +739,13 @@ ___
 
 Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:12
 
-**Returns:** *`Promise<any>`*
+**Returns:** *Promise‹any›*
 
 ___
 
 ###  validate
 
-▸ **validate**(`response`: any, `payload?`: any): *true | `Error`*
+▸ **validate**(`response`: any, `payload?`: any): *true | Error*
 
 *Inherited from void*
 
@@ -758,4 +758,4 @@ Name | Type |
 `response` | any |
 `payload?` | any |
 
-**Returns:** *true | `Error`*
+**Returns:** *true | Error*

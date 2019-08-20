@@ -1,6 +1,6 @@
-> **[@harmony-js/contract](../README.md)**
+**[@harmony-js/contract](../README.md)**
 
-[AbiCoderClass](abicoderclass.md) /
+[Globals](../README.md) › [AbiCoderClass](abicoderclass.md)
 
 # Class: AbiCoderClass
 
@@ -34,15 +34,15 @@
 
 ###  constructor
 
-\+ **new AbiCoderClass**(`coder`: `ABICoder`): *[AbiCoderClass](abicoderclass.md)*
+\+ **new AbiCoderClass**(`coder`: ABICoder): *[AbiCoderClass](abicoderclass.md)*
 
-*Defined in [abi/api.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L7)*
+*Defined in [abi/api.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L7)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`coder` | `ABICoder` |
+`coder` | ABICoder |
 
 **Returns:** *[AbiCoderClass](abicoderclass.md)*
 
@@ -50,9 +50,9 @@ Name | Type |
 
 ###  coder
 
-• **coder**: *`ABICoder`*
+• **coder**: *ABICoder*
 
-*Defined in [abi/api.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L7)*
+*Defined in [abi/api.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L7)*
 
 ## Methods
 
@@ -60,7 +60,7 @@ Name | Type |
 
 ▸ **decodeLog**(`inputs`: any, `data`: string, `topics`: any): *any*
 
-*Defined in [abi/api.ts:85](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L85)*
+*Defined in [abi/api.ts:85](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L85)*
 
 **Parameters:**
 
@@ -76,16 +76,16 @@ ___
 
 ###  decodeParameter
 
-▸ **decodeParameter**(`type`: [ParamType](../interfaces/paramtype.md), `bytes`: `Arrayish`): *any*
+▸ **decodeParameter**(`type`: [ParamType](../interfaces/paramtype.md), `bytes`: Arrayish): *any*
 
-*Defined in [abi/api.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L37)*
+*Defined in [abi/api.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L37)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `type` | [ParamType](../interfaces/paramtype.md) |
-`bytes` | `Arrayish` |
+`bytes` | Arrayish |
 
 **Returns:** *any*
 
@@ -93,16 +93,16 @@ ___
 
 ###  decodeParameters
 
-▸ **decodeParameters**(`outputs`: [ParamType](../interfaces/paramtype.md)[], `bytes`: `Arrayish`): *any*
+▸ **decodeParameters**(`outputs`: [ParamType](../interfaces/paramtype.md)[], `bytes`: Arrayish): *any*
 
-*Defined in [abi/api.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L40)*
+*Defined in [abi/api.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L40)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `outputs` | [ParamType](../interfaces/paramtype.md)[] |
-`bytes` | `Arrayish` |
+`bytes` | Arrayish |
 
 **Returns:** *any*
 
@@ -112,7 +112,7 @@ ___
 
 ▸ **encodeEventSignature**(`functionName`: any): *string*
 
-*Defined in [abi/api.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L18)*
+*Defined in [abi/api.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L18)*
 
 **Parameters:**
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **encodeFunctionCall**(`jsonInterface`: any, `params`: any[]): *string*
 
-*Defined in [abi/api.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L31)*
+*Defined in [abi/api.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L31)*
 
 **Parameters:**
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **encodeFunctionSignature**(`functionName`: any): *string*
 
-*Defined in [abi/api.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L11)*
+*Defined in [abi/api.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L11)*
 
 **Parameters:**
 
@@ -161,7 +161,7 @@ ___
 
 ▸ **encodeParameter**(`types`: string | [ParamType](../interfaces/paramtype.md), `param`: any): *string*
 
-*Defined in [abi/api.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L25)*
+*Defined in [abi/api.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L25)*
 
 **Parameters:**
 
@@ -176,15 +176,15 @@ ___
 
 ###  encodeParameters
 
-▸ **encodeParameters**(`types`: `Array<string | ParamType>`, `params`: any[]): *string*
+▸ **encodeParameters**(`types`: Array‹string | [ParamType](../interfaces/paramtype.md)›, `params`: any[]): *string*
 
-*Defined in [abi/api.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L28)*
+*Defined in [abi/api.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L28)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`types` | `Array<string \| ParamType>` |
+`types` | Array‹string \| [ParamType](../interfaces/paramtype.md)› |
 `params` | any[] |
 
 **Returns:** *string*
@@ -195,7 +195,7 @@ ___
 
 ▸ **isStaticType**(`type`: any): *boolean*
 
-*Defined in [abi/api.ts:135](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/abi/api.ts#L135)*
+*Defined in [abi/api.ts:135](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/abi/api.ts#L135)*
 
 **Parameters:**
 

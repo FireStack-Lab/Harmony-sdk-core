@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[RPCResponseBody](rpcresponsebody.md) /
+[Globals](../README.md) › [RPCResponseBody](rpcresponsebody.md)
 
 # Interface: RPCResponseBody <**R, E**>
 
@@ -29,9 +29,9 @@
 
 ###  error
 
-• **error**: *`E`*
+• **error**: *E*
 
-*Defined in [types.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L47)*
+*Defined in [types.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L47)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 *Inherited from [RPCResponseBase](rpcresponsebase.md).[id](rpcresponsebase.md#id)*
 
-*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L42)*
 
 ___
 
@@ -51,12 +51,12 @@ ___
 
 *Inherited from [RPCResponseBase](rpcresponsebase.md).[jsonrpc](rpcresponsebase.md#jsonrpc)*
 
-*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L41)*
 
 ___
 
 ###  result
 
-• **result**: *`R`*
+• **result**: *R*
 
-*Defined in [types.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/types.ts#L46)*
+*Defined in [types.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/types.ts#L46)*

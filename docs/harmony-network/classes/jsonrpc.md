@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[JsonRpc](jsonrpc.md) /
+[Globals](../README.md) › [JsonRpc](jsonrpc.md)
 
 # Class: JsonRpc
 
@@ -34,7 +34,7 @@
 
 \+ **new JsonRpc**(): *[JsonRpc](jsonrpc.md)*
 
-*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
+*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
 
 **Returns:** *[JsonRpc](jsonrpc.md)*
 
@@ -44,15 +44,15 @@
 
 • **messageId**: *number*
 
-*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
+*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
 
 ## Methods
 
 ###  toPayload
 
-▸ **toPayload**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params`: string | undefined | any[]): *[RPCRequestPayload](../interfaces/rpcrequestpayload.md)‹*any*›*
+▸ **toPayload**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params`: string | undefined | any[]): *[RPCRequestPayload](../interfaces/rpcrequestpayload.md)‹any›*
 
-*Defined in [rpcMethod/builder.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/rpcMethod/builder.ts#L27)*
+*Defined in [rpcMethod/builder.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/rpcMethod/builder.ts#L27)*
 
 **Parameters:**
 
@@ -61,6 +61,6 @@ Name | Type | Description |
 `method` | [RPCMethod](../enums/rpcmethod.md) \| string | RPC method |
 `params` | string \| undefined \| any[] | params that send to RPC |
 
-**Returns:** *[RPCRequestPayload](../interfaces/rpcrequestpayload.md)‹*any*›*
+**Returns:** *[RPCRequestPayload](../interfaces/rpcrequestpayload.md)‹any›*
 
 payload object

@@ -1,6 +1,6 @@
-> **[@harmony-js/core](../README.md)**
+**[@harmony-js/core](../README.md)**
 
-[HarmonyModule](harmonymodule.md) /
+[Globals](../README.md) › [HarmonyModule](harmonymodule.md)
 
 # Interface: HarmonyModule
 
@@ -24,9 +24,9 @@
 
 ###  Account
 
-• **Account**: *`Account`*
+• **Account**: *Account*
 
-*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L14)*
 
 ___
 
@@ -34,44 +34,44 @@ ___
 
 • **Blockchain**: *[Blockchain](../classes/blockchain.md)*
 
-*Defined in [types.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L10)*
 
 ___
 
 ###  HttpProvider
 
-• **HttpProvider**: *`HttpProvider`*
+• **HttpProvider**: *HttpProvider*
 
-*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L8)*
 
 ___
 
 ###  Messenger
 
-• **Messenger**: *`Messenger`*
+• **Messenger**: *Messenger*
 
-*Defined in [types.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L9)*
+*Defined in [types.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L9)*
 
 ___
 
 ###  Transaction
 
-• **Transaction**: *`Transaction`*
+• **Transaction**: *Transaction*
 
-*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L13)*
 
 ___
 
 ###  TransactionFactory
 
-• **TransactionFactory**: *`TransactionFactory`*
+• **TransactionFactory**: *TransactionFactory*
 
-*Defined in [types.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L11)*
 
 ___
 
 ###  Wallet
 
-• **Wallet**: *`Wallet`*
+• **Wallet**: *Wallet*
 
-*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-core/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-core/src/types.ts#L12)*

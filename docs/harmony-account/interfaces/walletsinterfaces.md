@@ -1,6 +1,6 @@
-> **[@harmony-js/account](../README.md)**
+**[@harmony-js/account](../README.md)**
 
-[Globals](../globals.md) / [WalletsInterfaces](walletsinterfaces.md) /
+[Globals](../globals.md) › [WalletsInterfaces](walletsinterfaces.md)
 
 # Interface: WalletsInterfaces
 

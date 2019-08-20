@@ -1,6 +1,6 @@
-> **[@harmony-js/utils](../README.md)**
+**[@harmony-js/utils](../README.md)**
 
-[ChainType](chaintype.md) /
+[Globals](../README.md) › [ChainType](chaintype.md)
 
 # Enumeration: ChainType
 
@@ -17,7 +17,7 @@
 
 • **Ethereum**: = "eth"
 
-*Defined in [chain.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-utils/src/chain.ts#L3)*
+*Defined in [chain.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-utils/src/chain.ts#L3)*
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • **Harmony**: = "hmy"
 
-*Defined in [chain.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-utils/src/chain.ts#L2)*
+*Defined in [chain.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-utils/src/chain.ts#L2)*

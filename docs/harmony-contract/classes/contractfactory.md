@@ -1,6 +1,6 @@
-> **[@harmony-js/contract](../README.md)**
+**[@harmony-js/contract](../README.md)**
 
-[ContractFactory](contractfactory.md) /
+[Globals](../README.md) › [ContractFactory](contractfactory.md)
 
 # Class: ContractFactory
 
@@ -26,15 +26,15 @@
 
 ###  constructor
 
-\+ **new ContractFactory**(`wallet`: `Wallet`): *[ContractFactory](contractfactory.md)*
+\+ **new ContractFactory**(`wallet`: Wallet): *[ContractFactory](contractfactory.md)*
 
-*Defined in [contractFactory.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/contractFactory.ts#L6)*
+*Defined in [contractFactory.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/contractFactory.ts#L6)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`wallet` | `Wallet` |
+`wallet` | Wallet |
 
 **Returns:** *[ContractFactory](contractfactory.md)*
 
@@ -42,9 +42,9 @@ Name | Type |
 
 ###  wallet
 
-• **wallet**: *`Wallet`*
+• **wallet**: *Wallet*
 
-*Defined in [contractFactory.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/contractFactory.ts#L6)*
+*Defined in [contractFactory.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/contractFactory.ts#L6)*
 
 ## Methods
 
@@ -52,7 +52,7 @@ Name | Type |
 
 ▸ **createContract**(`abi`: any[], `address?`: undefined | string, `options?`: [ContractOptions](../interfaces/contractoptions.md)): *[Contract](contract.md)*
 
-*Defined in [contractFactory.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-contract/src/contractFactory.ts#L11)*
+*Defined in [contractFactory.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-contract/src/contractFactory.ts#L11)*
 
 **Parameters:**
 

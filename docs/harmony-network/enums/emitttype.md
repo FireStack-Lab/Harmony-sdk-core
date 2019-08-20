@@ -1,6 +1,6 @@
-> **[@harmony-js/network](../README.md)**
+**[@harmony-js/network](../README.md)**
 
-[EmittType](emitttype.md) /
+[Globals](../README.md) › [EmittType](emitttype.md)
 
 # Enumeration: EmittType
 
@@ -17,7 +17,7 @@
 
 • **INSTANCE**: = "instance"
 
-*Defined in [providers/baseSocket.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/baseSocket.ts#L23)*
+*Defined in [providers/baseSocket.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/baseSocket.ts#L23)*
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • **PUBSUB**: = "pubsub"
 
-*Defined in [providers/baseSocket.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/c727071/packages/harmony-network/src/providers/baseSocket.ts#L24)*
+*Defined in [providers/baseSocket.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/17ca408/packages/harmony-network/src/providers/baseSocket.ts#L24)*
