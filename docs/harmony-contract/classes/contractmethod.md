@@ -44,7 +44,7 @@
 
 \+ **new ContractMethod**(`methodKey`: string, `params`: any, `abiItem`: [AbiItemModel](../interfaces/abiitemmodel.md), `contract`: [Contract](contract.md)): *[ContractMethod](contractmethod.md)*
 
-*Defined in [methods/method.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L22)*
+*Defined in [methods/method.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L22)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ Name | Type |
 
 • **abiItem**: *[AbiItemModel](../interfaces/abiitemmodel.md)*
 
-*Defined in [methods/method.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L18)*
+*Defined in [methods/method.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L18)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • **callPayload**? : *any*
 
-*Defined in [methods/method.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L20)*
+*Defined in [methods/method.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L20)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **callResponse**? : *any*
 
-*Defined in [methods/method.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L19)*
+*Defined in [methods/method.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L19)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [methods/method.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L14)*
+*Defined in [methods/method.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L14)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • **methodKey**: *string*
 
-*Defined in [methods/method.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L16)*
+*Defined in [methods/method.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L16)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • **params**: *any*
 
-*Defined in [methods/method.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L15)*
+*Defined in [methods/method.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L15)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • **transaction**: *Transaction*
 
-*Defined in [methods/method.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L22)*
+*Defined in [methods/method.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L22)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 • **wallet**: *Wallet | any*
 
-*Defined in [methods/method.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L17)*
+*Defined in [methods/method.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L17)*
 
 ## Methods
 
@@ -127,7 +127,7 @@ ___
 
 ▸ **afterCall**(`response`: any): *any*
 
-*Defined in [methods/method.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L258)*
+*Defined in [methods/method.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L258)*
 
 **Parameters:**
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **call**(`options`: any, `blockNumber`: any): *Promise‹any›*
 
-*Defined in [methods/method.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L56)*
+*Defined in [methods/method.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L56)*
 
 **Parameters:**
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **confirm**(`id`: string): *Promise‹void›*
 
-*Defined in [methods/method.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L214)*
+*Defined in [methods/method.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L214)*
 
 **Parameters:**
 
@@ -176,7 +176,7 @@ ___
 
 ▸ **createTransaction**(): *Transaction*
 
-*Defined in [methods/method.ts:232](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L232)*
+*Defined in [methods/method.ts:232](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L232)*
 
 **Returns:** *Transaction*
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **debug**(): *object*
 
-*Defined in [methods/method.ts:172](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L172)*
+*Defined in [methods/method.ts:172](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L172)*
 
 **Returns:** *object*
 
@@ -200,7 +200,7 @@ ___
 
 ▸ **encodeABI**(): *string*
 
-*Defined in [methods/method.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L168)*
+*Defined in [methods/method.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L168)*
 
 **Returns:** *string*
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **estimateGas**(): *Promise‹any›*
 
-*Defined in [methods/method.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L145)*
+*Defined in [methods/method.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L145)*
 
 **Returns:** *Promise‹any›*
 
@@ -220,7 +220,7 @@ ___
 
 ▸ **send**(`params`: any): *Emitter*
 
-*Defined in [methods/method.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L33)*
+*Defined in [methods/method.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L33)*
 
 **Parameters:**
 
@@ -236,7 +236,7 @@ ___
 
 ▸ **sendTransaction**(`signed`: Transaction): *Promise‹[Transaction, string]›*
 
-*Defined in [methods/method.ts:205](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L205)*
+*Defined in [methods/method.ts:205](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L205)*
 
 **Parameters:**
 
@@ -252,7 +252,7 @@ ___
 
 ▸ **signTransaction**(`updateNonce`: boolean): *Promise‹any›*
 
-*Defined in [methods/method.ts:179](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/methods/method.ts#L179)*
+*Defined in [methods/method.ts:179](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/methods/method.ts#L179)*
 
 **Parameters:**
 

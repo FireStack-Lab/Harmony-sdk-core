@@ -130,7 +130,7 @@
 
 Ƭ **Arrayish**: *string | ArrayLike‹number›*
 
-*Defined in [bytes.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L6)*
+*Defined in [bytes.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L6)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 Ƭ **KDF**: *"pbkdf2" | "scrypt"*
 
-*Defined in [types.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/types.ts#L1)*
+*Defined in [types.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/types.ts#L1)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 Ƭ **KDFParams**: *[PBKDF2Params](interfaces/pbkdf2params.md) | [ScryptParams](interfaces/scryptparams.md)*
 
-*Defined in [types.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/types.ts#L17)*
+*Defined in [types.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/types.ts#L17)*
 
 ## Variables
 
@@ -154,7 +154,7 @@ ___
 
 • **CALL_EXCEPTION**: *"CALL_EXCEPTION"* = "CALL_EXCEPTION"
 
-*Defined in [errors.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L21)*
+*Defined in [errors.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L21)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 • **CHARSET**: *"qpzry9x8gf2tvdw0s3jn54khce6mua7l"* = "qpzry9x8gf2tvdw0s3jn54khce6mua7l"
 
-*Defined in [bech32.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L24)*
+*Defined in [bech32.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L24)*
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 • **DEFAULT_ALGORITHM**: *"aes-128-ctr"* = "aes-128-ctr"
 
-*Defined in [keystore.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L19)*
+*Defined in [keystore.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L19)*
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 • **GENERATOR**: *number[]* =  [0x3b6a57b2, 0x26508e6d, 0x1ea119fa, 0x3d4233dd, 0x2a1462b3]
 
-*Defined in [bech32.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L25)*
+*Defined in [bech32.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L25)*
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 • **HRP**: *"one"* = "one"
 
-*Defined in [bech32.ts:125](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L125)*
+*Defined in [bech32.ts:125](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L125)*
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 • **HexCharacters**: *string* = "0123456789abcdef"
 
-*Defined in [bytes.ts:197](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L197)*
+*Defined in [bytes.ts:197](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L197)*
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 • **INSUFFICIENT_FUNDS**: *"INSUFFICIENT_FUNDS"* = "INSUFFICIENT_FUNDS"
 
-*Defined in [errors.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L45)*
+*Defined in [errors.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L45)*
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 • **INVALID_ARGUMENT**: *"INVALID_ARGUMENT"* = "INVALID_ARGUMENT"
 
-*Defined in [errors.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L26)*
+*Defined in [errors.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L26)*
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 • **LogLevel**: *number* =  LogLevels.default
 
-*Defined in [errors.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L181)*
+*Defined in [errors.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L181)*
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 • **MISSING_ARGUMENT**: *"MISSING_ARGUMENT"* = "MISSING_ARGUMENT"
 
-*Defined in [errors.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L31)*
+*Defined in [errors.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L31)*
 
 ___
 
@@ -234,7 +234,7 @@ ___
 
 • **MISSING_NEW**: *"MISSING_NEW"* = "MISSING_NEW"
 
-*Defined in [errors.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L11)*
+*Defined in [errors.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L11)*
 
 ___
 
@@ -242,7 +242,7 @@ ___
 
 • **NONCE_EXPIRED**: *"NONCE_EXPIRED"* = "NONCE_EXPIRED"
 
-*Defined in [errors.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L49)*
+*Defined in [errors.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L49)*
 
 ___
 
@@ -250,7 +250,7 @@ ___
 
 • **NOT_IMPLEMENTED**: *"NOT_IMPLEMENTED"* = "NOT_IMPLEMENTED"
 
-*Defined in [errors.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L7)*
+*Defined in [errors.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L7)*
 
 ___
 
@@ -258,7 +258,7 @@ ___
 
 • **NUMERIC_FAULT**: *"NUMERIC_FAULT"* = "NUMERIC_FAULT"
 
-*Defined in [errors.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L41)*
+*Defined in [errors.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L41)*
 
 ___
 
@@ -266,7 +266,7 @@ ___
 
 • **REPLACEMENT_UNDERPRICED**: *"REPLACEMENT_UNDERPRICED"* = "REPLACEMENT_UNDERPRICED"
 
-*Defined in [errors.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L53)*
+*Defined in [errors.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L53)*
 
 ___
 
@@ -274,7 +274,7 @@ ___
 
 • **UNEXPECTED_ARGUMENT**: *"UNEXPECTED_ARGUMENT"* = "UNEXPECTED_ARGUMENT"
 
-*Defined in [errors.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L36)*
+*Defined in [errors.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L36)*
 
 ___
 
@@ -282,7 +282,7 @@ ___
 
 • **UNKNOWN_ERROR**: *"UNKNOWN_ERROR"* = "UNKNOWN_ERROR"
 
-*Defined in [errors.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L4)*
+*Defined in [errors.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L4)*
 
 ___
 
@@ -290,7 +290,7 @@ ___
 
 • **UNSUPPORTED_OPERATION**: *"UNSUPPORTED_OPERATION"* = "UNSUPPORTED_OPERATION"
 
-*Defined in [errors.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L57)*
+*Defined in [errors.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L57)*
 
 ___
 
@@ -298,7 +298,7 @@ ___
 
 • **_censorErrors**: *boolean* = false
 
-*Defined in [errors.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L62)*
+*Defined in [errors.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L62)*
 
 ___
 
@@ -306,7 +306,7 @@ ___
 
 • **_permanentCensorErrors**: *boolean* = false
 
-*Defined in [errors.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L60)*
+*Defined in [errors.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L60)*
 
 ___
 
@@ -314,7 +314,7 @@ ___
 
 • **secp256k1**: *EC* =  elliptic.ec('secp256k1')
 
-*Defined in [keyTool.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L10)*
+*Defined in [keyTool.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L10)*
 
 ___
 
@@ -322,7 +322,7 @@ ___
 
 • **tHRP**: *"tone"* = "tone"
 
-*Defined in [bech32.ts:126](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L126)*
+*Defined in [bech32.ts:126](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L126)*
 
 ## Functions
 
@@ -330,7 +330,7 @@ ___
 
 ▸ **_decode**(`data`: Uint8Array, `offset`: number): *object*
 
-*Defined in [rlp.ts:92](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L92)*
+*Defined in [rlp.ts:92](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L92)*
 
 **Parameters:**
 
@@ -351,7 +351,7 @@ ___
 
 ▸ **_decodeChildren**(`data`: Uint8Array, `offset`: number, `childOffset`: number, `length`: number): *[Decoded](interfaces/decoded.md)*
 
-*Defined in [rlp.ts:69](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L69)*
+*Defined in [rlp.ts:69](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L69)*
 
 **Parameters:**
 
@@ -370,7 +370,7 @@ ___
 
 ▸ **_encode**(`object`: any[] | string): *number[]*
 
-*Defined in [rlp.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L26)*
+*Defined in [rlp.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L26)*
 
 **Parameters:**
 
@@ -386,7 +386,7 @@ ___
 
 ▸ **addSlice**(`array`: Uint8Array): *Uint8Array*
 
-*Defined in [bytes.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L27)*
+*Defined in [bytes.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L27)*
 
 **Parameters:**
 
@@ -402,7 +402,7 @@ ___
 
 ▸ **arrayify**(`value`: [Arrayish](README.md#arrayish) | [Hexable](interfaces/hexable.md)): *Uint8Array | null*
 
-*Defined in [bytes.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L65)*
+*Defined in [bytes.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L65)*
 
 **Parameters:**
 
@@ -418,7 +418,7 @@ ___
 
 ▸ **arrayifyInteger**(`value`: number): *number[]*
 
-*Defined in [rlp.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L5)*
+*Defined in [rlp.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L5)*
 
 **Parameters:**
 
@@ -434,7 +434,7 @@ ___
 
 ▸ **bech32Decode**(`bechString`: string): *null | object*
 
-*Defined in [bech32.ts:84](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L84)*
+*Defined in [bech32.ts:84](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L84)*
 
 **Parameters:**
 
@@ -450,7 +450,7 @@ ___
 
 ▸ **bech32Encode**(`hrp`: string, `data`: Buffer): *string*
 
-*Defined in [bech32.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L74)*
+*Defined in [bech32.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L74)*
 
 **Parameters:**
 
@@ -467,7 +467,7 @@ ___
 
 ▸ **bytesPadLeft**(`value`: string, `byteLength`: number): *string*
 
-*Defined in [bytes.ts:339](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L339)*
+*Defined in [bytes.ts:339](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L339)*
 
 **Parameters:**
 
@@ -484,7 +484,7 @@ ___
 
 ▸ **bytesPadRight**(`value`: string, `byteLength`: number): *string*
 
-*Defined in [bytes.ts:357](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L357)*
+*Defined in [bytes.ts:357](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L357)*
 
 **Parameters:**
 
@@ -501,7 +501,7 @@ ___
 
 ▸ **checkArgumentCount**(`count`: number, `expectedCount`: number, `suffix?`: undefined | string): *void*
 
-*Defined in [errors.ts:114](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L114)*
+*Defined in [errors.ts:114](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L114)*
 
 **Parameters:**
 
@@ -519,7 +519,7 @@ ___
 
 ▸ **checkNew**(`self`: any, `kind`: any): *void*
 
-*Defined in [errors.ts:108](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L108)*
+*Defined in [errors.ts:108](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L108)*
 
 **Parameters:**
 
@@ -536,7 +536,7 @@ ___
 
 ▸ **checkNormalize**(): *void*
 
-*Defined in [errors.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L147)*
+*Defined in [errors.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L147)*
 
 **Returns:** *void*
 
@@ -546,7 +546,7 @@ ___
 
 ▸ **concat**(`objects`: [Arrayish](README.md#arrayish)[]): *Uint8Array*
 
-*Defined in [bytes.ts:121](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L121)*
+*Defined in [bytes.ts:121](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L121)*
 
 **Parameters:**
 
@@ -562,7 +562,7 @@ ___
 
 ▸ **convertBits**(`data`: Buffer, `fromWidth`: number, `toWidth`: number, `pad`: boolean): *null | Buffer*
 
-*Defined in [bech32.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L143)*
+*Defined in [bech32.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L143)*
 
 convertBits
 
@@ -589,7 +589,7 @@ ___
 
 ▸ **createChecksum**(`hrp`: string, `data`: Buffer): *Buffer*
 
-*Defined in [bech32.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L59)*
+*Defined in [bech32.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L59)*
 
 **Parameters:**
 
@@ -606,7 +606,7 @@ ___
 
 ▸ **decode**(`data`: [Arrayish](README.md#arrayish)): *any*
 
-*Defined in [rlp.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L152)*
+*Defined in [rlp.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L152)*
 
 **Parameters:**
 
@@ -622,7 +622,7 @@ ___
 
 ▸ **decrypt**(`keystore`: [Keystore](interfaces/keystore.md), `password`: string): *Promise‹string›*
 
-*Defined in [keystore.ts:135](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L135)*
+*Defined in [keystore.ts:135](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L135)*
 
 **Parameters:**
 
@@ -641,7 +641,7 @@ ___
 
 ▸ **decryptPhrase**(`keystore`: [Keystore](interfaces/keystore.md), `password`: string): *Promise‹string›*
 
-*Defined in [keystore.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L221)*
+*Defined in [keystore.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L221)*
 
 **Parameters:**
 
@@ -658,7 +658,7 @@ ___
 
 ▸ **encode**(`object`: any): *string*
 
-*Defined in [rlp.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L60)*
+*Defined in [rlp.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L60)*
 
 **Parameters:**
 
@@ -674,7 +674,7 @@ ___
 
 ▸ **encrypt**(`privateKey`: string, `password`: string, `options?`: [EncryptOptions](interfaces/encryptoptions.md)): *Promise‹string›*
 
-*Defined in [keystore.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L63)*
+*Defined in [keystore.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L63)*
 
 This method will map the current Account object to V3Keystore object.
 
@@ -694,7 +694,7 @@ ___
 
 ▸ **encryptPhrase**(`phrase`: string, `password`: string, `options?`: [EncryptOptions](interfaces/encryptoptions.md)): *Promise‹string›*
 
-*Defined in [keystore.ts:167](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L167)*
+*Defined in [keystore.ts:167](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L167)*
 
 **Parameters:**
 
@@ -712,7 +712,7 @@ ___
 
 ▸ **fromBech32**(`address`: string, `useHRP`: string): *string*
 
-*Defined in [bech32.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L214)*
+*Defined in [bech32.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L214)*
 
 fromBech32Address
 
@@ -733,7 +733,7 @@ ___
 
 ▸ **generatePrivateKey**(): *string*
 
-*Defined in [keyTool.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L17)*
+*Defined in [keyTool.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L17)*
 
 **Returns:** *string*
 
@@ -743,7 +743,7 @@ ___
 
 ▸ **getAddress**(`address`: string): *[HarmonyAddress](classes/harmonyaddress.md)*
 
-*Defined in [address.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/address.ts#L78)*
+*Defined in [address.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/address.ts#L78)*
 
 **Parameters:**
 
@@ -759,7 +759,7 @@ ___
 
 ▸ **getAddressFromPrivateKey**(`privateKey`: string): *string*
 
-*Defined in [keyTool.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L45)*
+*Defined in [keyTool.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L45)*
 
 **Parameters:**
 
@@ -777,7 +777,7 @@ ___
 
 ▸ **getAddressFromPublicKey**(`publicKey`: string): *string*
 
-*Defined in [keyTool.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L66)*
+*Defined in [keyTool.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L66)*
 
 **Parameters:**
 
@@ -795,7 +795,7 @@ ___
 
 ▸ **getContractAddress**(`from`: string, `nonce`: number): *string*
 
-*Defined in [keyTool.ts:130](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L130)*
+*Defined in [keyTool.ts:130](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L130)*
 
 **Parameters:**
 
@@ -812,7 +812,7 @@ ___
 
 ▸ **getDerivedKey**(`key`: Buffer, `kdf`: [KDF](README.md#kdf), `params`: [KDFParams](README.md#kdfparams)): *Promise‹Buffer›*
 
-*Defined in [keystore.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keystore.ts#L32)*
+*Defined in [keystore.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keystore.ts#L32)*
 
 getDerivedKey
 
@@ -834,7 +834,7 @@ ___
 
 ▸ **getPubkeyFromPrivateKey**(`privateKey`: string): *string*
 
-*Defined in [keyTool.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L36)*
+*Defined in [keyTool.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L36)*
 
 **Parameters:**
 
@@ -850,7 +850,7 @@ ___
 
 ▸ **getPublic**(`privateKey`: string, `compress?`: undefined | false | true): *string*
 
-*Defined in [keyTool.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L52)*
+*Defined in [keyTool.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L52)*
 
 **Parameters:**
 
@@ -867,7 +867,7 @@ ___
 
 ▸ **hexDataLength**(`data`: string): *null | number*
 
-*Defined in [bytes.ts:279](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L279)*
+*Defined in [bytes.ts:279](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L279)*
 
 **Parameters:**
 
@@ -883,7 +883,7 @@ ___
 
 ▸ **hexDataSlice**(`data`: string, `offset`: number, `endOffset?`: undefined | number): *string*
 
-*Defined in [bytes.ts:286](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L286)*
+*Defined in [bytes.ts:286](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L286)*
 
 **Parameters:**
 
@@ -901,7 +901,7 @@ ___
 
 ▸ **hexStripZeros**(`value`: string): *string*
 
-*Defined in [bytes.ts:312](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L312)*
+*Defined in [bytes.ts:312](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L312)*
 
 **Parameters:**
 
@@ -917,7 +917,7 @@ ___
 
 ▸ **hexToByteArray**(`hex`: string): *Uint8Array*
 
-*Defined in [bytes.ts:452](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L452)*
+*Defined in [bytes.ts:452](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L452)*
 
 hexToByteArray
 
@@ -937,7 +937,7 @@ ___
 
 ▸ **hexToIntArray**(`hex`: string): *number[]*
 
-*Defined in [bytes.ts:468](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L468)*
+*Defined in [bytes.ts:468](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L468)*
 
 hexToIntArray
 
@@ -955,7 +955,7 @@ ___
 
 ▸ **hexZeroPad**(`value`: string, `length`: number): *string*
 
-*Defined in [bytes.ts:325](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L325)*
+*Defined in [bytes.ts:325](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L325)*
 
 **Parameters:**
 
@@ -972,7 +972,7 @@ ___
 
 ▸ **hexlify**(`value`: [Arrayish](README.md#arrayish) | [Hexable](interfaces/hexable.md) | number): *string*
 
-*Defined in [bytes.ts:199](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L199)*
+*Defined in [bytes.ts:199](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L199)*
 
 **Parameters:**
 
@@ -988,7 +988,7 @@ ___
 
 ▸ **hrpExpand**(`hrp`: string): *Buffer*
 
-*Defined in [bech32.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L42)*
+*Defined in [bech32.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L42)*
 
 **Parameters:**
 
@@ -1004,7 +1004,7 @@ ___
 
 ▸ **info**(...`args`: [any, Array]): *void*
 
-*Defined in [errors.ts:203](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L203)*
+*Defined in [errors.ts:203](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L203)*
 
 **Parameters:**
 
@@ -1020,7 +1020,7 @@ ___
 
 ▸ **isArrayish**(`value`: any): *boolean*
 
-*Defined in [bytes.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L43)*
+*Defined in [bytes.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L43)*
 
 **Parameters:**
 
@@ -1036,7 +1036,7 @@ ___
 
 ▸ **isHex**(`str`: string): *boolean*
 
-*Defined in [bytes.ts:492](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L492)*
+*Defined in [bytes.ts:492](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L492)*
 
 isHex
 
@@ -1054,7 +1054,7 @@ ___
 
 ▸ **isHexString**(`value`: any, `length?`: undefined | number): *boolean*
 
-*Defined in [bytes.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L187)*
+*Defined in [bytes.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L187)*
 
 **Parameters:**
 
@@ -1071,7 +1071,7 @@ ___
 
 ▸ **isHexable**(`value`: any): *boolean*
 
-*Defined in [bytes.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L23)*
+*Defined in [bytes.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L23)*
 
 **Parameters:**
 
@@ -1087,7 +1087,7 @@ ___
 
 ▸ **isSignature**(`value`: any): *boolean*
 
-*Defined in [bytes.ts:376](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L376)*
+*Defined in [bytes.ts:376](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L376)*
 
 **Parameters:**
 
@@ -1103,7 +1103,7 @@ ___
 
 ▸ **isValidChecksumAddress**(`address`: string): *boolean*
 
-*Defined in [keyTool.ts:183](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L183)*
+*Defined in [keyTool.ts:183](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L183)*
 
 isValidChecksumAddress
 
@@ -1123,7 +1123,7 @@ ___
 
 ▸ **joinSignature**(`signature`: [Signature](interfaces/signature.md)): *string*
 
-*Defined in [bytes.ts:432](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L432)*
+*Defined in [bytes.ts:432](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L432)*
 
 **Parameters:**
 
@@ -1139,7 +1139,7 @@ ___
 
 ▸ **keccak256**(`data`: [Arrayish](README.md#arrayish)): *string*
 
-*Defined in [keccak256.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keccak256.ts#L6)*
+*Defined in [keccak256.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keccak256.ts#L6)*
 
 **Parameters:**
 
@@ -1155,7 +1155,7 @@ ___
 
 ▸ **log**(`logLevel`: string, `args`: [any, Array]): *void*
 
-*Defined in [errors.ts:192](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L192)*
+*Defined in [errors.ts:192](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L192)*
 
 **Parameters:**
 
@@ -1172,7 +1172,7 @@ ___
 
 ▸ **padZeros**(`value`: [Arrayish](README.md#arrayish), `length`: number): *Uint8Array*
 
-*Defined in [bytes.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L173)*
+*Defined in [bytes.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L173)*
 
 **Parameters:**
 
@@ -1189,7 +1189,7 @@ ___
 
 ▸ **polymod**(`values`: Buffer): *number*
 
-*Defined in [bech32.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L27)*
+*Defined in [bech32.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L27)*
 
 **Parameters:**
 
@@ -1205,7 +1205,7 @@ ___
 
 ▸ **randomBytes**(`bytes`: number): *string*
 
-*Defined in [random.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/random.ts#L8)*
+*Defined in [random.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/random.ts#L8)*
 
 **Parameters:**
 
@@ -1223,7 +1223,7 @@ ___
 
 ▸ **recoverAddress**(`digest`: bytes.Arrayish | string, `signature`: [Signature](interfaces/signature.md) | string): *string*
 
-*Defined in [keyTool.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L166)*
+*Defined in [keyTool.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L166)*
 
 **Parameters:**
 
@@ -1240,7 +1240,7 @@ ___
 
 ▸ **recoverPublicKey**(`digest`: bytes.Arrayish | string, `signature`: [Signature](interfaces/signature.md) | string): *string*
 
-*Defined in [keyTool.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L147)*
+*Defined in [keyTool.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L147)*
 
 **Parameters:**
 
@@ -1257,7 +1257,7 @@ ___
 
 ▸ **setCensorship**(`censorship`: boolean, `permanent?`: undefined | false | true): *void*
 
-*Defined in [errors.ts:136](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L136)*
+*Defined in [errors.ts:136](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L136)*
 
 **Parameters:**
 
@@ -1274,7 +1274,7 @@ ___
 
 ▸ **setLogLevel**(`logLevel`: string): *void*
 
-*Defined in [errors.ts:183](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L183)*
+*Defined in [errors.ts:183](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L183)*
 
 **Parameters:**
 
@@ -1290,7 +1290,7 @@ ___
 
 ▸ **sha3_256**(`data`: [Arrayish](README.md#arrayish)): *string*
 
-*Defined in [keccak256.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keccak256.ts#L14)*
+*Defined in [keccak256.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keccak256.ts#L14)*
 
 **Parameters:**
 
@@ -1306,7 +1306,7 @@ ___
 
 ▸ **sign**(`digest`: bytes.Arrayish | string, `privateKey`: string): *[Signature](interfaces/signature.md)*
 
-*Defined in [keyTool.ts:108](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L108)*
+*Defined in [keyTool.ts:108](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L108)*
 
 **Parameters:**
 
@@ -1323,7 +1323,7 @@ ___
 
 ▸ **splitSignature**(`signature`: [Arrayish](README.md#arrayish) | [Signature](interfaces/signature.md)): *[Signature](interfaces/signature.md)*
 
-*Defined in [bytes.ts:380](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L380)*
+*Defined in [bytes.ts:380](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L380)*
 
 **Parameters:**
 
@@ -1339,7 +1339,7 @@ ___
 
 ▸ **stripZeros**(`value`: [Arrayish](README.md#arrayish)): *Uint8Array*
 
-*Defined in [bytes.ts:148](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bytes.ts#L148)*
+*Defined in [bytes.ts:148](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bytes.ts#L148)*
 
 **Parameters:**
 
@@ -1355,7 +1355,7 @@ ___
 
 ▸ **throwError**(`message`: string, `code`: string | null | undefined, `params`: any): *never*
 
-*Defined in [errors.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L65)*
+*Defined in [errors.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L65)*
 
 **Parameters:**
 
@@ -1373,7 +1373,7 @@ ___
 
 ▸ **toBech32**(`address`: string, `useHRP`: string): *string*
 
-*Defined in [bech32.ts:190](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L190)*
+*Defined in [bech32.ts:190](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L190)*
 
 toBech32Address
 
@@ -1400,7 +1400,7 @@ ___
 
 ▸ **toChecksumAddress**(`address`: string): *string*
 
-*Defined in [keyTool.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L78)*
+*Defined in [keyTool.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L78)*
 
 **Parameters:**
 
@@ -1418,7 +1418,7 @@ ___
 
 ▸ **unarrayifyInteger**(`data`: Uint8Array, `offset`: number, `length`: number): *number*
 
-*Defined in [rlp.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/rlp.ts#L14)*
+*Defined in [rlp.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/rlp.ts#L14)*
 
 **Parameters:**
 
@@ -1436,7 +1436,7 @@ ___
 
 ▸ **validatePrivateKey**(`privateKey`: string): *boolean*
 
-*Defined in [keyTool.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L187)*
+*Defined in [keyTool.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L187)*
 
 **Parameters:**
 
@@ -1452,7 +1452,7 @@ ___
 
 ▸ **verifyChecksum**(`hrp`: string, `data`: Buffer): *boolean*
 
-*Defined in [bech32.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/bech32.ts#L55)*
+*Defined in [bech32.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/bech32.ts#L55)*
 
 **Parameters:**
 
@@ -1469,7 +1469,7 @@ ___
 
 ▸ **verifySignature**(`digest`: bytes.Arrayish, `signature`: [Signature](interfaces/signature.md), `publicKey`: string): *boolean*
 
-*Defined in [keyTool.ts:139](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/keyTool.ts#L139)*
+*Defined in [keyTool.ts:139](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/keyTool.ts#L139)*
 
 **Parameters:**
 
@@ -1487,7 +1487,7 @@ ___
 
 ▸ **warn**(...`args`: [any, Array]): *void*
 
-*Defined in [errors.ts:199](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L199)*
+*Defined in [errors.ts:199](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L199)*
 
 **Parameters:**
 
@@ -1503,40 +1503,40 @@ Name | Type |
 
 ### ▪ **LogLevels**: *object*
 
-*Defined in [errors.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L173)*
+*Defined in [errors.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L173)*
 
 ###  debug
 
 • **debug**: *number* = 1
 
-*Defined in [errors.ts:174](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L174)*
+*Defined in [errors.ts:174](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L174)*
 
 ###  default
 
 • **default**: *number* = 2
 
-*Defined in [errors.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L175)*
+*Defined in [errors.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L175)*
 
 ###  error
 
 • **error**: *number* = 4
 
-*Defined in [errors.ts:178](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L178)*
+*Defined in [errors.ts:178](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L178)*
 
 ###  info
 
 • **info**: *number* = 2
 
-*Defined in [errors.ts:176](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L176)*
+*Defined in [errors.ts:176](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L176)*
 
 ###  off
 
 • **off**: *number* = 5
 
-*Defined in [errors.ts:179](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L179)*
+*Defined in [errors.ts:179](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L179)*
 
 ###  warn
 
 • **warn**: *number* = 3
 
-*Defined in [errors.ts:177](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/errors.ts#L177)*
+*Defined in [errors.ts:177](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/errors.ts#L177)*

@@ -26,21 +26,9 @@
 * [HarmonyModule](interfaces/harmonymodule.md)
 * [HarmonySetting](interfaces/harmonysetting.md)
 
-### Variables
-
-* [Extendsion](README.md#const-extendsion)
-
 ### Functions
 
 * [createWeb3](README.md#createweb3)
-
-## Variables
-
-### `Const` Extendsion
-
-• **Extendsion**: *[ExtensionInterface](interfaces/extensioninterface.md)* =  (<any>window).harmony
-
-*Defined in [harmonyExtension.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-core/src/harmonyExtension.ts#L38)*
 
 ## Functions
 
@@ -48,7 +36,7 @@
 
 ▸ **createWeb3**(`_web3`: any): *void*
 
-*Defined in [util.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-core/src/util.ts#L11)*
+*Defined in [util.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/util.ts#L11)*
 
 **Parameters:**
 

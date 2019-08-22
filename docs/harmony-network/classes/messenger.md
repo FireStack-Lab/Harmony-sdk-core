@@ -59,7 +59,7 @@
 
 *Overrides void*
 
-*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L28)*
+*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L28)*
 
 **Parameters:**
 
@@ -78,7 +78,7 @@ Name | Type | Default |
 
 • **JsonRpc**: *[JsonRpc](jsonrpc.md)*
 
-*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L28)*
+*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L28)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **Network_ID**: *string* = "Default"
 
-*Defined in [messenger/messenger.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L27)*
+*Defined in [messenger/messenger.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L27)*
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 • **config**? : *undefined | object*
 
-*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L25)*
+*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L25)*
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 • **provider**: *[HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)*
 
-*Defined in [messenger/messenger.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L24)*
+*Defined in [messenger/messenger.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L24)*
 
 ## Methods
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **providerCheck**(): *void*
 
-*Defined in [messenger/messenger.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L119)*
+*Defined in [messenger/messenger.ts:119](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L119)*
 
 **`function`** providerCheck
 
@@ -168,7 +168,7 @@ ___
 
 ▸ **send**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L74)*
+*Defined in [messenger/messenger.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L74)*
 
 **Parameters:**
 
@@ -224,7 +224,7 @@ ___
 
 ▸ **setNetworkID**(`id`: string): *void*
 
-*Defined in [messenger/messenger.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L153)*
+*Defined in [messenger/messenger.ts:153](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L153)*
 
 **`function`** setNetworkID
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **setProvider**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *void*
 
-*Defined in [messenger/messenger.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L109)*
+*Defined in [messenger/messenger.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L109)*
 
 **`function`** setProvider
 
@@ -268,7 +268,7 @@ ___
 
 ▸ **setRPCPrefix**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `prefix`: string): *string*
 
-*Defined in [messenger/messenger.ts:157](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L157)*
+*Defined in [messenger/messenger.ts:157](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L157)*
 
 **Parameters:**
 
@@ -285,7 +285,7 @@ ___
 
 ▸ **setReqMiddleware**(`middleware`: any, `method`: string): *void*
 
-*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L132)*
+*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L132)*
 
 **`function`** setReqMiddleware
 
@@ -308,7 +308,7 @@ ___
 
 ▸ **setResMiddleware**(`middleware`: any, `method`: string): *void*
 
-*Defined in [messenger/messenger.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L143)*
+*Defined in [messenger/messenger.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L143)*
 
 **`function`** setResMiddleware
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **subscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `returnType`: [SubscribeReturns](../enums/subscribereturns.md), `rpcPrefix`: string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L166)*
+*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L166)*
 
 **Parameters:**
 
@@ -350,7 +350,7 @@ ___
 
 ▸ **unsubscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/messenger/messenger.ts#L211)*
+*Defined in [messenger/messenger.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/messenger/messenger.ts#L211)*
 
 **Parameters:**
 

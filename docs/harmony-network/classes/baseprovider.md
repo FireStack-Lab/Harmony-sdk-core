@@ -39,7 +39,7 @@
 
 \+ **new BaseProvider**(`url`: string, `reqMiddleware`: [ReqMiddleware](../README.md#reqmiddleware), `resMiddleware`: [ResMiddleware](../README.md#resmiddleware)): *[BaseProvider](baseprovider.md)*
 
-*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L19)*
+*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L19)*
 
 **Parameters:**
 
@@ -57,7 +57,7 @@ Name | Type | Default |
 
 • **reqMiddleware**: *[ReqMiddleware](../README.md#reqmiddleware)* =  new Map().set('*', [])
 
-*Defined in [providers/baseProvider.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L18)*
+*Defined in [providers/baseProvider.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L18)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **resMiddleware**: *[ResMiddleware](../README.md#resmiddleware)* =  new Map().set('*', [])
 
-*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L19)*
+*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L19)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **url**: *string*
 
-*Defined in [providers/baseProvider.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L17)*
+*Defined in [providers/baseProvider.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L17)*
 
 ## Methods
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **getMiddleware**(`method`: [RPCMethod](../enums/rpcmethod.md) | string): *[[ReqMiddleware](../README.md#reqmiddleware)[], [ResMiddleware](../README.md#resmiddleware)[]]*
 
-*Defined in [providers/baseProvider.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L47)*
+*Defined in [providers/baseProvider.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L47)*
 
 **Parameters:**
 
@@ -97,7 +97,7 @@ ___
 
 ▸ **pushMiddleware**(`fn`: any, `type`: [MiddlewareType](../enums/middlewaretype.md), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*
 
-*Defined in [providers/baseProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L31)*
+*Defined in [providers/baseProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L31)*
 
 **Parameters:**
 
@@ -115,16 +115,16 @@ Name | Type |
 
 ### ▪ **middlewares**: *object*
 
-*Defined in [providers/baseProvider.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L5)*
+*Defined in [providers/baseProvider.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L5)*
 
 ▪ **request**: *object*
 
-*Defined in [providers/baseProvider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L6)*
+*Defined in [providers/baseProvider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L6)*
 
 * **use**(`fn`: [ReqMiddleware](../README.md#reqmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*
 
 ▪ **response**: *object*
 
-*Defined in [providers/baseProvider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseProvider.ts#L11)*
+*Defined in [providers/baseProvider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseProvider.ts#L11)*
 
 * **use**(`fn`: [ResMiddleware](../README.md#resmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*

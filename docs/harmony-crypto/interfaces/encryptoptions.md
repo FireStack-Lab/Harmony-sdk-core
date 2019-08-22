@@ -22,7 +22,7 @@
 
 • **kdf**? : *[KDF](../README.md#kdf)*
 
-*Defined in [types.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/types.ts#L20)*
+*Defined in [types.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/types.ts#L20)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **level**? : *undefined | number*
 
-*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/types.ts#L21)*
+*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/types.ts#L21)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **uuid**? : *number[]*
 
-*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-crypto/src/types.ts#L22)*
+*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-crypto/src/types.ts#L22)*

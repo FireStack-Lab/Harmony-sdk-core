@@ -31,7 +31,7 @@
 
 \+ **new Provider**(`url`: string | [WSProvider](wsprovider.md) | [HttpProvider](httpprovider.md)): *[Provider](provider.md)*
 
-*Defined in [providers/provider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L20)*
+*Defined in [providers/provider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L20)*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ Name | Type |
 
 • **provider**: *[WSProvider](wsprovider.md) | [HttpProvider](httpprovider.md)*
 
-*Defined in [providers/provider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L19)*
+*Defined in [providers/provider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L19)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **providerType**: *[ProviderType](../enums/providertype.md)*
 
-*Defined in [providers/provider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L20)*
+*Defined in [providers/provider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L20)*
 
 ## Methods
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **getType**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *[http](../enums/providertype.md#http) | [ws](../enums/providertype.md#ws)*
 
-*Defined in [providers/provider.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L46)*
+*Defined in [providers/provider.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L46)*
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **onInitSetProvider**(`providerUrl`: string | [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *[HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)*
 
-*Defined in [providers/provider.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L25)*
+*Defined in [providers/provider.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L25)*
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ ___
 
 ▸ **getProvider**(`provider`: string | [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *[Provider](provider.md)*
 
-*Defined in [providers/provider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/provider.ts#L11)*
+*Defined in [providers/provider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/provider.ts#L11)*
 
 **Parameters:**
 

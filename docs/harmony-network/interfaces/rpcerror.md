@@ -22,7 +22,7 @@
 
 • **code**: *[RPCErrorCode](../enums/rpcerrorcode.md)*
 
-*Defined in [types.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/types.ts#L51)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **data**: *any*
 
-*Defined in [types.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/types.ts#L53)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **message**: *string*
 
-*Defined in [types.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/types.ts#L52)*

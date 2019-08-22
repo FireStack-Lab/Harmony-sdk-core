@@ -53,7 +53,7 @@
 
 \+ **new Coder**(`coerceFunc`: [CoerceFunc](../README.md#coercefunc), `name`: string, `type`: string, `localName`: string | undefined, `dynamic`: boolean): *[Coder](coder.md)*
 
-*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
+*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ Name | Type |
 
 • **coerceFunc**: *[CoerceFunc](../README.md#coercefunc)*
 
-*Defined in [abi/abiCoder.ts:486](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L486)*
+*Defined in [abi/abiCoder.ts:486](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L486)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • **dynamic**: *boolean*
 
-*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
+*Defined in [abi/abiCoder.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L490)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 • **localName**? : *undefined | string*
 
-*Defined in [abi/abiCoder.ts:489](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L489)*
+*Defined in [abi/abiCoder.ts:489](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L489)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [abi/abiCoder.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L487)*
+*Defined in [abi/abiCoder.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L487)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [abi/abiCoder.ts:488](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L488)*
+*Defined in [abi/abiCoder.ts:488](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L488)*
 
 ## Methods
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **decode**(`data`: Uint8Array, `offset`: number): *[DecodedResult](../interfaces/decodedresult.md)*
 
-*Defined in [abi/abiCoder.ts:506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L506)*
+*Defined in [abi/abiCoder.ts:506](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L506)*
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **encode**(`value`: any): *Uint8Array*
 
-*Defined in [abi/abiCoder.ts:505](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-contract/src/abi/abiCoder.ts#L505)*
+*Defined in [abi/abiCoder.ts:505](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/abi/abiCoder.ts#L505)*
 
 **Parameters:**
 

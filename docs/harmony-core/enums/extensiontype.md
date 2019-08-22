@@ -16,4 +16,4 @@
 
 • **MathWallet**: = "MathWallet"
 
-*Defined in [harmonyExtension.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-core/src/harmonyExtension.ts#L11)*
+*Defined in [harmonyExtension.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L11)*

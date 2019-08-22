@@ -34,7 +34,7 @@
 
 \+ **new JsonRpc**(): *[JsonRpc](jsonrpc.md)*
 
-*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
+*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
 
 **Returns:** *[JsonRpc](jsonrpc.md)*
 
@@ -44,7 +44,7 @@
 
 • **messageId**: *number*
 
-*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
+*Defined in [rpcMethod/builder.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/builder.ts#L9)*
 
 ## Methods
 
@@ -52,7 +52,7 @@
 
 ▸ **toPayload**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params`: string | undefined | any[]): *[RPCRequestPayload](../interfaces/rpcrequestpayload.md)‹any›*
 
-*Defined in [rpcMethod/builder.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/rpcMethod/builder.ts#L27)*
+*Defined in [rpcMethod/builder.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/builder.ts#L27)*
 
 **Parameters:**
 

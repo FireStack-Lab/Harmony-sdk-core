@@ -17,7 +17,7 @@
 
 • **INSTANCE**: = "instance"
 
-*Defined in [providers/baseSocket.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseSocket.ts#L23)*
+*Defined in [providers/baseSocket.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseSocket.ts#L23)*
 
 ___
 
@@ -25,4 +25,4 @@ ___
 
 • **PUBSUB**: = "pubsub"
 
-*Defined in [providers/baseSocket.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-network/src/providers/baseSocket.ts#L24)*
+*Defined in [providers/baseSocket.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/baseSocket.ts#L24)*
