@@ -38,7 +38,7 @@
 
 • **anonymous**: *boolean*
 
-*Defined in [models/types.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L17)*
+*Defined in [models/types.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L17)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **constant**? : *undefined | false | true*
 
-*Defined in [models/types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L22)*
+*Defined in [models/types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L22)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **contractMethodParameters**: *any[]*
 
-*Defined in [models/types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L24)*
+*Defined in [models/types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L24)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **funcName**: *string*
 
-*Defined in [models/types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L23)*
+*Defined in [models/types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L23)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **inputs**: *[AbiInput](abiinput.md)[]*
 
-*Defined in [models/types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L18)*
+*Defined in [models/types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L18)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [models/types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L14)*
+*Defined in [models/types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L14)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **outputs**: *[AbiOutput](abioutput.md)[]*
 
-*Defined in [models/types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L19)*
+*Defined in [models/types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L19)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • **payable**: *boolean*
 
-*Defined in [models/types.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L16)*
+*Defined in [models/types.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L16)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 • **signature**: *string*
 
-*Defined in [models/types.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L15)*
+*Defined in [models/types.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L15)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 • **stateMutability**? : *undefined | string*
 
-*Defined in [models/types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L21)*
+*Defined in [models/types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L21)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [models/types.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L20)*
+*Defined in [models/types.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L20)*
 
 ## Methods
 
@@ -126,7 +126,7 @@ ___
 
 ▸ **getIndexedInputs**(): *[AbiInput](abiinput.md)[]*
 
-*Defined in [models/types.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L27)*
+*Defined in [models/types.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L27)*
 
 **Returns:** *[AbiInput](abiinput.md)[]*
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **getInputLength**(): *number*
 
-*Defined in [models/types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L25)*
+*Defined in [models/types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L25)*
 
 **Returns:** *number*
 
@@ -146,7 +146,7 @@ ___
 
 ▸ **getInputs**(): *[AbiInput](abiinput.md)[]*
 
-*Defined in [models/types.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L26)*
+*Defined in [models/types.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L26)*
 
 **Returns:** *[AbiInput](abiinput.md)[]*
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **getOutputs**(): *[AbiOutput](abioutput.md)[]*
 
-*Defined in [models/types.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L28)*
+*Defined in [models/types.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L28)*
 
 **Returns:** *[AbiOutput](abioutput.md)[]*
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **isOfType**(`value`: string): *boolean*
 
-*Defined in [models/types.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L29)*
+*Defined in [models/types.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L29)*
 
 **Parameters:**
 

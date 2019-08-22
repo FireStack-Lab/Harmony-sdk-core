@@ -22,7 +22,7 @@
 
 • **components**? : *[AbiOutput](abioutput.md)[]*
 
-*Defined in [models/types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L42)*
+*Defined in [models/types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L42)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [models/types.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L40)*
+*Defined in [models/types.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L40)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [models/types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-contract/src/models/types.ts#L41)*
+*Defined in [models/types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/types.ts#L41)*

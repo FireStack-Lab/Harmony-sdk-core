@@ -38,7 +38,7 @@
 
 \+ **new HarmonyExtension**(`wallet`: [ExtensionInterface](../interfaces/extensioninterface.md)): *[HarmonyExtension](harmonyextension.md)*
 
-*Defined in [harmonyExtension.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L47)*
+*Defined in [harmonyExtension.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L47)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ Name | Type |
 
 • **blockchain**: *[Blockchain](blockchain.md)*
 
-*Defined in [harmonyExtension.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L43)*
+*Defined in [harmonyExtension.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L43)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **contracts**: *ContractFactory*
 
-*Defined in [harmonyExtension.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L45)*
+*Defined in [harmonyExtension.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L45)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **crypto**: *any*
 
-*Defined in [harmonyExtension.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L46)*
+*Defined in [harmonyExtension.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L46)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **extensionType**: *[ExtensionType](../enums/extensiontype.md) | null*
 
-*Defined in [harmonyExtension.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L39)*
+*Defined in [harmonyExtension.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L39)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **messenger**: *Messenger*
 
-*Defined in [harmonyExtension.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L42)*
+*Defined in [harmonyExtension.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L42)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • **provider**: *HttpProvider | WSProvider*
 
-*Defined in [harmonyExtension.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L41)*
+*Defined in [harmonyExtension.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L41)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 • **transactions**: *TransactionFactory*
 
-*Defined in [harmonyExtension.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L44)*
+*Defined in [harmonyExtension.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L44)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 • **utils**: *any*
 
-*Defined in [harmonyExtension.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L47)*
+*Defined in [harmonyExtension.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L47)*
 
 ___
 
@@ -118,7 +118,7 @@ ___
 
 • **wallet**: *[ExtensionInterface](../interfaces/extensioninterface.md)*
 
-*Defined in [harmonyExtension.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L40)*
+*Defined in [harmonyExtension.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L40)*
 
 ## Methods
 
@@ -126,7 +126,7 @@ ___
 
 ▸ **isExtension**(`wallet`: [ExtensionInterface](../interfaces/extensioninterface.md)): *void*
 
-*Defined in [harmonyExtension.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L70)*
+*Defined in [harmonyExtension.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L70)*
 
 **Parameters:**
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **login**(): *Promise‹[ExtensionAccount](../interfaces/extensionaccount.md)›*
 
-*Defined in [harmonyExtension.ts:82](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L82)*
+*Defined in [harmonyExtension.ts:112](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L112)*
 
 **Returns:** *Promise‹[ExtensionAccount](../interfaces/extensionaccount.md)›*
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **setProvider**(`provider`: string | HttpProvider | WSProvider): *void*
 
-*Defined in [harmonyExtension.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-core/src/harmonyExtension.ts#L63)*
+*Defined in [harmonyExtension.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L63)*
 
 **Parameters:**
 

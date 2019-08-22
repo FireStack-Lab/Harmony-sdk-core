@@ -18,7 +18,7 @@
 
 • **earliest**: = "earliest"
 
-*Defined in [validators.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-utils/src/validators.ts#L143)*
+*Defined in [validators.ts:143](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/validators.ts#L143)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **latest**: = "latest"
 
-*Defined in [validators.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-utils/src/validators.ts#L145)*
+*Defined in [validators.ts:145](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/validators.ts#L145)*
 
 ___
 
@@ -34,4 +34,4 @@ ___
 
 • **pending**: = "pending"
 
-*Defined in [validators.ts:144](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-utils/src/validators.ts#L144)*
+*Defined in [validators.ts:144](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/validators.ts#L144)*

@@ -32,7 +32,7 @@
 
 Ƭ **ShardID**: *string | number*
 
-*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-account/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/types.ts#L4)*
 
 test type docs
 
@@ -42,7 +42,7 @@ ___
 
 Ƭ **Shards**: *Map‹[ShardID](globals.md#shardid), string›*
 
-*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-account/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/types.ts#L5)*
 
 ## Variables
 
@@ -53,4 +53,4 @@ ___
   ChainType.Harmony,
 )
 
-*Defined in [utils.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-account/src/utils.ts#L4)*
+*Defined in [utils.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/utils.ts#L4)*

@@ -80,7 +80,7 @@
 
 Ƭ **ReqMiddleware**: *Map‹string | [RPCMethod](enums/rpcmethod.md) | RegExp, any[]›*
 
-*Defined in [types.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/types.ts#L3)*
+*Defined in [types.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L3)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 Ƭ **ResMiddleware**: *Map‹string | [RPCMethod](enums/rpcmethod.md) | RegExp, any[]›*
 
-*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L4)*
 
 ## Variables
 
@@ -96,7 +96,7 @@ ___
 
 • **DEFAULT_TIMEOUT**: *number* = 120000
 
-*Defined in [rpcMethod/net.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L1)*
+*Defined in [rpcMethod/net.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L1)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 • **blockTrackerEvents**: *string[]* =  ['sync', 'latest']
 
-*Defined in [tracker/baseTracker.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/tracker/baseTracker.ts#L8)*
+*Defined in [tracker/baseTracker.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/tracker/baseTracker.ts#L8)*
 
 ___
 
@@ -112,9 +112,9 @@ ___
 
 • **sec**: *1000* = 1000
 
-*Defined in [tracker/baseTracker.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/tracker/baseTracker.ts#L4)*
+*Defined in [tracker/baseTracker.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/tracker/baseTracker.ts#L4)*
 
-*Defined in [tracker/pollingTracker.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/tracker/pollingTracker.ts#L5)*
+*Defined in [tracker/pollingTracker.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/tracker/pollingTracker.ts#L5)*
 
 ## Functions
 
@@ -122,7 +122,7 @@ ___
 
 ▸ **_fetch**(`fetchPromise`: Promise‹any›, `timeout`: number): *Promise‹any›*
 
-*Defined in [rpcMethod/net.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L5)*
+*Defined in [rpcMethod/net.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L5)*
 
 **Parameters:**
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **calculateSum**(`accumulator`: number, `currentValue`: number): *number*
 
-*Defined in [tracker/baseTracker.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/tracker/baseTracker.ts#L6)*
+*Defined in [tracker/baseTracker.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/tracker/baseTracker.ts#L6)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **composeMiddleware**(...`fns`: any[]): *any*
 
-*Defined in [rpcMethod/net.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L34)*
+*Defined in [rpcMethod/net.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L34)*
 
 **Parameters:**
 
@@ -172,7 +172,7 @@ ___
 
 ▸ **getRawForData**(`data`: any): *any*
 
-*Defined in [util.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/util.ts#L19)*
+*Defined in [util.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/util.ts#L19)*
 
 **Parameters:**
 
@@ -188,7 +188,7 @@ ___
 
 ▸ **getResultForData**(`data`: any): *any*
 
-*Defined in [util.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/util.ts#L9)*
+*Defined in [util.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/util.ts#L9)*
 
 **`function`** getResultForData
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **onResponse**(`response`: [ResponseMiddleware](classes/responsemiddleware.md)): *any*
 
-*Defined in [util.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/util.ts#L23)*
+*Defined in [util.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/util.ts#L23)*
 
 **Parameters:**
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **performRPC**(`request`: any, `handler`: any, `fetcher`: any): *Promise‹any›*
 
-*Defined in [rpcMethod/net.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L20)*
+*Defined in [rpcMethod/net.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L20)*
 
 **Parameters:**
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **timeout**(`duration`: number, `unref`: any): *Promise‹unknown›*
 
-*Defined in [tracker/pollingTracker.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/tracker/pollingTracker.ts#L7)*
+*Defined in [tracker/pollingTracker.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/tracker/pollingTracker.ts#L7)*
 
 **Parameters:**
 
@@ -261,13 +261,13 @@ Name | Type |
 
 ### ▪ **DEFAULT_HEADERS**: *object*
 
-*Defined in [rpcMethod/net.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L3)*
+*Defined in [rpcMethod/net.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L3)*
 
 ###  Content-Type
 
 • **Content-Type**: *string* = "application/json"
 
-*Defined in [rpcMethod/net.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/rpcMethod/net.ts#L3)*
+*Defined in [rpcMethod/net.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/net.ts#L3)*
 
 ___
 
@@ -275,37 +275,37 @@ ___
 
 ### ▪ **defaultOptions**: *object*
 
-*Defined in [providers/http.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L12)*
+*Defined in [providers/http.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L12)*
 
 ###  headers
 
 • **headers**: *object* =  DEFAULT_HEADERS
 
-*Defined in [providers/http.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L15)*
+*Defined in [providers/http.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L15)*
 
 ###  method
 
 • **method**: *string* = "POST"
 
-*Defined in [providers/http.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L13)*
+*Defined in [providers/http.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L13)*
 
 ###  password
 
 • **password**: *null* =  null
 
-*Defined in [providers/http.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L17)*
+*Defined in [providers/http.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L17)*
 
 ###  timeout
 
 • **timeout**: *number* =  DEFAULT_TIMEOUT
 
-*Defined in [providers/http.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L14)*
+*Defined in [providers/http.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L14)*
 
 ###  user
 
 • **user**: *null* =  null
 
-*Defined in [providers/http.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/http.ts#L16)*
+*Defined in [providers/http.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/http.ts#L16)*
 
 ___
 
@@ -313,13 +313,13 @@ ___
 
 ### ▪ **fetchRPC**: *object*
 
-*Defined in [providers/defaultFetcher.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/defaultFetcher.ts#L4)*
+*Defined in [providers/defaultFetcher.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/defaultFetcher.ts#L4)*
 
 ###  requestHandler
 
 ▸ **requestHandler**(`request`: [RPCRequest](interfaces/rpcrequest.md)‹any[]›, `headers`: any): *Promise‹Response›*
 
-*Defined in [providers/defaultFetcher.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/defaultFetcher.ts#L5)*
+*Defined in [providers/defaultFetcher.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/defaultFetcher.ts#L5)*
 
 **Parameters:**
 
@@ -334,7 +334,7 @@ Name | Type |
 
 ▸ **responseHandler**(`response`: Response, `request`: [RPCRequest](interfaces/rpcrequest.md)‹any›, `handler`: any): *Promise‹object›*
 
-*Defined in [providers/defaultFetcher.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/2ea7368/packages/harmony-network/src/providers/defaultFetcher.ts#L23)*
+*Defined in [providers/defaultFetcher.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/defaultFetcher.ts#L23)*
 
 **Parameters:**
 
