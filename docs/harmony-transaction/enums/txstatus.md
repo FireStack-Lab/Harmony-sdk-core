@@ -20,7 +20,7 @@
 
 • **CONFIRMED**: = "CONFIRMED"
 
-*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L24)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **INTIALIZED**: = "INITIALIZED"
 
-*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L21)*
+*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L21)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **PENDING**: = "PENDING"
 
-*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L23)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **REJECTED**: = "REJECTED"
 
-*Defined in [types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L25)*
+*Defined in [types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L25)*
 
 ___
 
@@ -52,4 +52,4 @@ ___
 
 • **SIGNED**: = "SIGNED"
 
-*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L22)*
+*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L22)*

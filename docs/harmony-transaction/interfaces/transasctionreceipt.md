@@ -37,7 +37,7 @@
 
 • **blockHash**: *string*
 
-*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L31)*
+*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L31)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **blockNumber**: *string*
 
-*Defined in [types.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L32)*
+*Defined in [types.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L32)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **byzantium**? : *undefined | false | true*
 
-*Defined in [types.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L44)*
+*Defined in [types.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L44)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **contractAddress**? : *string | null*
 
-*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L37)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **cumulativeGasUsed**: *string*
 
-*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L36)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • **from**: *string*
 
-*Defined in [types.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L33)*
+*Defined in [types.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L33)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 • **gasUsed**: *string*
 
-*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L35)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 • **logs**: *any[]*
 
-*Defined in [types.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L38)*
+*Defined in [types.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L38)*
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 • **logsBloom**: *string*
 
-*Defined in [types.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L39)*
+*Defined in [types.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L39)*
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 • **r**: *string*
 
-*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L41)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 • **responseType**? : *undefined | string*
 
-*Defined in [types.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L43)*
+*Defined in [types.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L43)*
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 • **root**? : *undefined | string*
 
-*Defined in [types.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L46)*
+*Defined in [types.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L46)*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 • **s**: *string*
 
-*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L42)*
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 • **status**? : *undefined | string*
 
-*Defined in [types.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L45)*
+*Defined in [types.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L45)*
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 • **to**: *string*
 
-*Defined in [types.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L34)*
+*Defined in [types.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L34)*
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 • **transactionHash**: *string*
 
-*Defined in [types.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L29)*
+*Defined in [types.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L29)*
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 • **transactionIndex**: *string*
 
-*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L30)*
+*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L30)*
 
 ___
 
@@ -173,4 +173,4 @@ ___
 
 • **v**: *string*
 
-*Defined in [types.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/types.ts#L40)*
+*Defined in [types.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/types.ts#L40)*

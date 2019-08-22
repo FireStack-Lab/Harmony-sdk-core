@@ -19,7 +19,7 @@
 
 • **confirmation**: = "confirmation"
 
-*Defined in [utils.ts:255](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/utils.ts#L255)*
+*Defined in [utils.ts:255](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/utils.ts#L255)*
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 • **error**: = "error"
 
-*Defined in [utils.ts:254](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/utils.ts#L254)*
+*Defined in [utils.ts:254](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/utils.ts#L254)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **receipt**: = "receipt"
 
-*Defined in [utils.ts:256](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/utils.ts#L256)*
+*Defined in [utils.ts:256](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/utils.ts#L256)*
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 • **transactionHash**: = "transactionHash"
 
-*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d840c02/packages/harmony-transaction/src/utils.ts#L253)*
+*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/517232c/packages/harmony-transaction/src/utils.ts#L253)*
