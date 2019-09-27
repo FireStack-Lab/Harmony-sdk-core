@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [MiddlewareType](middlewaretype.md)
+[@harmony-js/network](../globals.md) › [MiddlewareType](middlewaretype.md)
 
 # Enumeration: MiddlewareType
 
@@ -17,7 +15,7 @@
 
 • **REQ**:
 
-*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L7)*
 
 ___
 
@@ -25,4 +23,4 @@ ___
 
 • **RES**:
 
-*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L8)*

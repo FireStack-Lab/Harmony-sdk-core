@@ -1,6 +1,4 @@
-**[@harmony-js/utils](../README.md)**
-
-[Globals](../README.md) › [Units](units.md)
+[@harmony-js/utils](../globals.md) › [Units](units.md)
 
 # Enumeration: Units
 
@@ -26,7 +24,7 @@
 
 • **Gether**: = "Gether"
 
-*Defined in [transformers.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L14)*
+*Defined in [transformers.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L14)*
 
 ___
 
@@ -34,7 +32,7 @@ ___
 
 • **Gwei**: = "Gwei"
 
-*Defined in [transformers.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L8)*
+*Defined in [transformers.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L8)*
 
 ___
 
@@ -42,7 +40,7 @@ ___
 
 • **Kether**: = "Kether"
 
-*Defined in [transformers.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L12)*
+*Defined in [transformers.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L12)*
 
 ___
 
@@ -50,7 +48,7 @@ ___
 
 • **Mether**: = "Mether"
 
-*Defined in [transformers.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L13)*
+*Defined in [transformers.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L13)*
 
 ___
 
@@ -58,7 +56,7 @@ ___
 
 • **Mwei**: = "Mwei"
 
-*Defined in [transformers.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L7)*
+*Defined in [transformers.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L7)*
 
 ___
 
@@ -66,7 +64,7 @@ ___
 
 • **Tether**: = "Tether"
 
-*Defined in [transformers.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L15)*
+*Defined in [transformers.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L15)*
 
 ___
 
@@ -74,7 +72,7 @@ ___
 
 • **ether**: = "ether"
 
-*Defined in [transformers.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L11)*
+*Defined in [transformers.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L11)*
 
 ___
 
@@ -82,7 +80,7 @@ ___
 
 • **finney**: = "finney"
 
-*Defined in [transformers.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L10)*
+*Defined in [transformers.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L10)*
 
 ___
 
@@ -90,7 +88,7 @@ ___
 
 • **kwei**: = "kwei"
 
-*Defined in [transformers.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L6)*
+*Defined in [transformers.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L6)*
 
 ___
 
@@ -98,7 +96,7 @@ ___
 
 • **szabo**: = "szabo"
 
-*Defined in [transformers.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L9)*
+*Defined in [transformers.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L9)*
 
 ___
 
@@ -106,4 +104,4 @@ ___
 
 • **wei**: = "wei"
 
-*Defined in [transformers.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/transformers.ts#L5)*
+*Defined in [transformers.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/transformers.ts#L5)*

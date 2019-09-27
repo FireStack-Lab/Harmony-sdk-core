@@ -55,13 +55,18 @@ export class ContractMethod {
   }
   async call(options: any, blockNumber: any = 'latest') {
     try {
+      const shardID =
+        options !== undefined && options.shardID !== undefined
+          ? options.shardID
+          : this.contract.shardID;
       const nonce =
         this.wallet.signer || (options !== undefined && options.from)
           ? getResultForData(
-              await this.wallet.messenger.send(RPCMethod.GetTransactionCount, [
-                this.wallet.signer ? this.wallet.signer.address : options.from,
-                blockNumber,
-              ]),
+              await this.wallet.messenger.send(
+                RPCMethod.GetTransactionCount,
+                [this.wallet.signer ? this.wallet.signer.address : options.from, blockNumber],
+                shardID,
+              ),
             )
           : '0x0';
 
@@ -126,7 +131,15 @@ export class ContractMethod {
         }
       }
 
-      const result = await this.wallet.messenger.send(RPCMethod.Call, [sendPayload, blockNumber]);
+      const result =
+        // tslint:disable-line
+        await (<Wallet>this.wallet).messenger.send(
+          RPCMethod.Call,
+          [sendPayload, blockNumber],
+          // tslint:disable-line
+          (<Wallet>this.wallet).messenger.chainPrefix,
+          shardID,
+        );
       this.callPayload = sendPayload;
       this.callResponse = result;
       if (result.isError()) {
@@ -145,7 +158,8 @@ export class ContractMethod {
   async estimateGas() {
     try {
       const result = getResultForData(
-        await this.wallet.messenger.send(RPCMethod.EstimateGas, [
+        // tslint:disable-line
+        await (<Wallet>this.wallet).messenger.send(RPCMethod.EstimateGas, [
           {
             to: this.transaction.txParams.to,
             data: this.transaction.txParams.data,
@@ -179,22 +193,21 @@ export class ContractMethod {
   protected async signTransaction(updateNonce: boolean) {
     try {
       let signed;
-      signed =
-        this.wallet instanceof Wallet
-          ? await this.wallet.signTransaction(
-              this.transaction,
-              this.wallet.signer,
-              undefined,
-              updateNonce,
-              'rlp',
-              'latest', // 'pending',
-            )
-          : await this.wallet.signTransaction(
-              this.transaction,
-              updateNonce,
-              'rlp',
-              'latest', // 'pending',
-            );
+      signed = this.wallet.signer
+        ? await this.wallet.signTransaction(
+            this.transaction,
+            this.wallet.signer,
+            undefined,
+            updateNonce,
+            'rlp',
+            'latest', // 'pending',
+          )
+        : await this.wallet.signTransaction(
+            this.transaction,
+            updateNonce,
+            'rlp',
+            'latest', // 'pending',
+          );
       this.contract.address = TransactionFactory.getContractAddress(signed);
       this.contract.setStatus(ContractStatus.SIGNED);
       return signed;
@@ -213,7 +226,12 @@ export class ContractMethod {
   }
   protected async confirm(id: string) {
     try {
-      const result = await this.transaction.confirm(id);
+      const result = await this.transaction.confirm(
+        id,
+        20,
+        1000,
+        this.transaction ? this.transaction.txParams.shardID : this.contract.shardID,
+      );
 
       if (result.receipt && result.txStatus === TxStatus.CONFIRMED) {
         if (this.methodKey === 'contractConstructor') {
@@ -247,7 +265,8 @@ export class ContractMethod {
         data: this.encodeABI(),
       };
 
-      const result = new TransactionFactory(this.wallet.messenger).newTx(txObject);
+      // tslint:disable-line
+      const result = new TransactionFactory((<Wallet>this.wallet).messenger).newTx(txObject);
 
       return result;
     } else {

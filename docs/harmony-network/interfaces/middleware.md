@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [Middleware](middleware.md)
+[@harmony-js/network](../globals.md) › [Middleware](middleware.md)
 
 # Interface: Middleware
 
@@ -21,7 +19,7 @@
 
 • **request**: *object*
 
-*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L18)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 • **response**: *object*
 
-*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L19)*

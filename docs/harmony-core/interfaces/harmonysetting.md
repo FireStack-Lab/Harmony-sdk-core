@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [HarmonySetting](harmonysetting.md)
+[@harmony-js/core](../globals.md) › [HarmonySetting](harmonysetting.md)
 
 # Interface: HarmonySetting <**T, I**>
 
@@ -27,7 +25,7 @@
 
 • **id**: *I*
 
-*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/types.ts#L24)*
 
 ___
 
@@ -35,4 +33,4 @@ ___
 
 • **type**: *T*
 
-*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/types.ts#L23)*

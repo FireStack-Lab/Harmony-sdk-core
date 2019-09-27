@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [RPCResponseBase](rpcresponsebase.md)
+[@harmony-js/network](../globals.md) › [RPCResponseBase](rpcresponsebase.md)
 
 # Interface: RPCResponseBase
 
@@ -8,7 +6,7 @@
 
 * **RPCResponseBase**
 
-  * [RPCResponseBody](rpcresponsebody.md)
+  ↳ [RPCResponseBody](rpcresponsebody.md)
 
 ## Index
 
@@ -23,7 +21,7 @@
 
 • **id**: *string*
 
-*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L42)*
 
 ___
 
@@ -31,4 +29,4 @@ ___
 
 • **jsonrpc**: *string*
 
-*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L41)*

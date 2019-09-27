@@ -1,6 +1,4 @@
-**[@harmony-js/utils](../README.md)**
-
-[Globals](../README.md) › [HarmonyCore](harmonycore.md)
+[@harmony-js/utils](../globals.md) › [HarmonyCore](harmonycore.md)
 
 # Class: HarmonyCore
 
@@ -35,7 +33,7 @@
 
 \+ **new HarmonyCore**(`chainType`: [ChainType](../enums/chaintype.md), `chainId`: [ChainID](../enums/chainid.md)): *[HarmonyCore](harmonycore.md)*
 
-*Defined in [chain.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L38)*
+*Defined in [chain.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L42)*
 
 **Parameters:**
 
@@ -52,7 +50,7 @@ Name | Type | Default |
 
 • **chainId**: *[ChainID](../enums/chainid.md)*
 
-*Defined in [chain.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L38)*
+*Defined in [chain.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L42)*
 
 ___
 
@@ -60,7 +58,7 @@ ___
 
 • **chainType**: *[ChainType](../enums/chaintype.md)*
 
-*Defined in [chain.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L37)*
+*Defined in [chain.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L41)*
 
 ## Accessors
 
@@ -68,7 +66,7 @@ ___
 
 • **get chainPrefix**(): *string*
 
-*Defined in [chain.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L46)*
+*Defined in [chain.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L47)*
 
 **Returns:** *string*
 
@@ -78,7 +76,7 @@ ___
 
 • **get getChainId**(): *[ChainID](../enums/chainid.md)*
 
-*Defined in [chain.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L59)*
+*Defined in [chain.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L60)*
 
 **Returns:** *[ChainID](../enums/chainid.md)*
 
@@ -88,7 +86,7 @@ ___
 
 ▸ **setChainId**(`chainId`: [ChainID](../enums/chainid.md)): *void*
 
-*Defined in [chain.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L62)*
+*Defined in [chain.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L63)*
 
 **Parameters:**
 
@@ -104,7 +102,7 @@ ___
 
 ▸ **setChainType**(`chainType`: [ChainType](../enums/chaintype.md)): *void*
 
-*Defined in [chain.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/chain.ts#L65)*
+*Defined in [chain.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/chain.ts#L66)*
 
 **Parameters:**
 

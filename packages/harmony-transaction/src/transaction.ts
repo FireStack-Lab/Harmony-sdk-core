@@ -9,7 +9,7 @@ import {
   getAddress,
   HarmonyAddress,
 } from '@harmony-js/crypto';
-import { add0xToString, numberToHex, ChainType, Unit } from '@harmony-js/utils';
+import { add0xToString, numberToHex, ChainType, Unit, hexToNumber } from '@harmony-js/utils';
 import {
   Messenger,
   RPCMethod,
@@ -38,6 +38,7 @@ class Transaction {
   confirmations: number = 0;
   confirmationCheck: number = 0;
   receipt?: TransasctionReceipt;
+
   private id: string;
   private from: string;
   private nonce: number | string;
@@ -75,8 +76,10 @@ class Transaction {
       params && params.gasLimit
         ? new Unit(params.gasLimit).asWei().toWei()
         : new Unit(0).asWei().toWei();
-    this.shardID = params && params.shardID ? params.shardID : 0;
-    this.toShardID = params && params.toShardID ? params.toShardID : 0;
+    this.shardID =
+      params && params.shardID !== undefined ? params.shardID : this.messenger.currentShard;
+    this.toShardID =
+      params && params.toShardID !== undefined ? params.toShardID : this.messenger.currentShard;
 
     this.to = params && params.to ? this.normalizeAddress(params.to) : '0x';
     this.value =
@@ -96,6 +99,7 @@ class Transaction {
             recoveryParam: 0,
             v: 0,
           };
+
     this.receipt = params && params.receipt ? params.receipt : undefined;
   }
 
@@ -142,7 +146,7 @@ class Transaction {
 
   getRLPSigned(raw: any[], signature: Signature): string {
     // temp setting to be compatible with eth
-    const rawLength = this.messenger.chainType === ChainType.Harmony ? 10 : 9;
+    const rawLength = this.messenger.chainType === ChainType.Harmony ? 11 : 9;
     const sig = splitSignature(signature);
     let v = 27 + (sig.recoveryParam || 0);
     if (raw.length === rawLength) {
@@ -195,8 +199,8 @@ class Transaction {
       nonce: this.nonce || 0,
       gasPrice: this.gasPrice || new Unit(0).asWei().toWei(),
       gasLimit: this.gasLimit || new Unit(0).asWei().toWei(),
-      shardID: this.shardID || 0,
-      toShardID: this.toShardID || 0,
+      shardID: this.shardID !== undefined ? this.shardID : this.messenger.currentShard,
+      toShardID: this.toShardID !== undefined ? this.toShardID : this.messenger.currentShard,
       to: this.normalizeAddress(this.to) || '0x',
       value: this.value || new Unit(0).asWei().toWei(),
       data: this.data || '0x',
@@ -218,8 +222,10 @@ class Transaction {
       params && params.gasLimit
         ? new Unit(params.gasLimit).asWei().toWei()
         : new Unit(0).asWei().toWei();
-    this.shardID = params && params.shardID ? params.shardID : 0;
-    this.toShardID = params && params.toShardID ? params.toShardID : 0;
+    this.shardID =
+      params && params.shardID !== undefined ? params.shardID : this.messenger.currentShard;
+    this.toShardID =
+      params && params.toShardID !== undefined ? params.toShardID : this.messenger.currentShard;
     this.to = params && params.to ? this.normalizeAddress(params.to) : '0x';
     this.value =
       params && params.value ? new Unit(params.value).asWei().toWei() : new Unit(0).asWei().toWei();
@@ -281,14 +287,22 @@ class Transaction {
   }
 
   async sendTransaction(): Promise<[Transaction, string]> {
-    // TODO: we use eth RPC setting for now, incase we have other params, we should add here
     if (this.rawTransaction === 'tx' || this.rawTransaction === undefined) {
       throw new Error('Transaction not signed');
     }
     if (!this.messenger) {
       throw new Error('Messenger not found');
     }
-    const res = await this.messenger.send(RPCMethod.SendRawTransaction, this.rawTransaction);
+
+    // const fromShard = this.shardID;
+    // const toShard = this.toShardID;
+    // await this.messenger.setShardingProviders();
+    const res = await this.messenger.send(
+      RPCMethod.SendRawTransaction,
+      this.rawTransaction,
+      this.messenger.chainType,
+      typeof this.shardID === 'string' ? Number.parseInt(this.shardID, 10) : this.shardID,
+    );
 
     // temporarilly hard coded
     if (res.isResult()) {
@@ -307,12 +321,17 @@ class Transaction {
     }
   }
 
-  async trackTx(txHash: string) {
+  async trackTx(txHash: string, shardID: number | string = this.shardID) {
     if (!this.messenger) {
       throw new Error('Messenger not found');
     }
     // TODO: regex validation for txHash so we don't get garbage
-    const res = await this.messenger.send(RPCMethod.GetTransactionReceipt, txHash);
+    const res = await this.messenger.send(
+      RPCMethod.GetTransactionReceipt,
+      txHash,
+      this.messenger.chainType,
+      typeof shardID === 'string' ? Number.parseInt(shardID, 10) : shardID,
+    );
 
     if (res.isResult() && res.result !== null) {
       this.receipt = res.result;
@@ -350,7 +369,12 @@ class Transaction {
     }
   }
 
-  async confirm(txHash: string, maxAttempts: number = 20, interval: number = 1000) {
+  async confirm(
+    txHash: string,
+    maxAttempts: number = 20,
+    interval: number = 1000,
+    shardID: number | string = this.shardID,
+  ) {
     if (this.messenger.provider instanceof HttpProvider) {
       this.txStatus = TxStatus.PENDING;
       const oldBlock = await this.getBlockNumber();
@@ -364,8 +388,14 @@ class Transaction {
 
           if (newBlock.gte(nextBlock)) {
             checkBlock = newBlock;
+            this.emitTrack({
+              txHash,
+              attempt,
+              currentBlock: checkBlock.toString(),
+              shardID,
+            });
 
-            if (await this.trackTx(txHash)) {
+            if (await this.trackTx(txHash, shardID)) {
               this.emitConfirm(this.txStatus);
               return this;
             }
@@ -388,11 +418,11 @@ class Transaction {
       throw new Error(`The transaction is still not confirmed after ${maxAttempts} attempts.`);
     } else {
       try {
-        if (await this.trackTx(txHash)) {
+        if (await this.trackTx(txHash, shardID)) {
           this.emitConfirm(this.txStatus);
           return this;
         } else {
-          const result = await this.socketConfirm(txHash, maxAttempts);
+          const result = await this.socketConfirm(txHash, maxAttempts, shardID);
           return result;
         }
       } catch (error) {
@@ -405,13 +435,32 @@ class Transaction {
     }
   }
 
-  socketConfirm(txHash: string, maxAttempts: number = 20): Promise<Transaction> {
+  socketConfirm(
+    txHash: string,
+    maxAttempts: number = 20,
+    shardID: number | string = this.shardID,
+  ): Promise<Transaction> {
     return new Promise((resolve, reject) => {
-      const newHeads = Promise.resolve(new NewHeaders(this.messenger));
+      const newHeads = Promise.resolve(
+        new NewHeaders(
+          this.messenger,
+          typeof shardID === 'string' ? Number.parseInt(shardID, 10) : shardID,
+        ),
+      );
       newHeads.then((p) => {
         p.onData(async (data: any) => {
-          if (!this.blockNumbers.includes(data.params.result.number)) {
-            if (await this.trackTx(txHash)) {
+          const blockNumber =
+            this.messenger.chainPrefix === 'hmy'
+              ? data.params.result.Header.number
+              : data.params.result.number;
+          this.emitTrack({
+            txHash,
+            attempt: this.confirmationCheck,
+            currentBlock: hexToNumber(blockNumber),
+            shardID,
+          });
+          if (!this.blockNumbers.includes(blockNumber)) {
+            if (await this.trackTx(txHash, shardID)) {
               this.emitConfirm(this.txStatus);
               await p.unsubscribe();
               resolve(this);
@@ -447,10 +496,20 @@ class Transaction {
   emitConfirm(data: any) {
     this.emitter.emit(TransactionEvents.confirmation, data);
   }
+  emitTrack(data: any) {
+    this.emitter.emit(TransactionEvents.track, data);
+  }
 
   async getBlockNumber(): Promise<BN> {
     try {
-      const currentBlock = await this.messenger.send(RPCMethod.BlockNumber, []);
+      const currentBlock = await this.messenger.send(
+        RPCMethod.BlockNumber,
+        [],
+        this.messenger.chainPrefix,
+        typeof this.txParams.shardID === 'string'
+          ? Number.parseInt(this.txParams.shardID, 10)
+          : this.txParams.shardID,
+      );
       if (currentBlock.isError()) {
         throw currentBlock.message;
       }
@@ -461,7 +520,14 @@ class Transaction {
   }
   async getBlockByNumber(blockNumber: string) {
     try {
-      const block = await this.messenger.send(RPCMethod.GetBlockByNumber, [blockNumber, true]);
+      const block = await this.messenger.send(
+        RPCMethod.GetBlockByNumber,
+        [blockNumber, true],
+        this.messenger.chainPrefix,
+        typeof this.txParams.shardID === 'string'
+          ? Number.parseInt(this.txParams.shardID, 10)
+          : this.txParams.shardID,
+      );
       if (block.isError()) {
         throw block.message;
       }

@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [SubscribeReturns](subscribereturns.md)
+[@harmony-js/network](../globals.md) › [SubscribeReturns](subscribereturns.md)
 
 # Enumeration: SubscribeReturns
 
@@ -18,7 +16,7 @@
 
 • **all**: = "all"
 
-*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L12)*
 
 ___
 
@@ -26,7 +24,7 @@ ___
 
 • **id**: = "id"
 
-*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L13)*
 
 ___
 
@@ -34,4 +32,4 @@ ___
 
 • **method**: = "method"
 
-*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L14)*

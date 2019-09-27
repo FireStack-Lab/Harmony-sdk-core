@@ -1,6 +1,4 @@
-**[@harmony-js/utils](../README.md)**
-
-[Globals](../README.md) › [AssertType](asserttype.md)
+[@harmony-js/utils](../globals.md) › [AssertType](asserttype.md)
 
 # Enumeration: AssertType
 
@@ -17,7 +15,7 @@
 
 • **optional**: = "optional"
 
-*Defined in [utils.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/utils.ts#L22)*
+*Defined in [utils.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/utils.ts#L22)*
 
 ___
 
@@ -25,4 +23,4 @@ ___
 
 • **required**: = "required"
 
-*Defined in [utils.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-utils/src/utils.ts#L21)*
+*Defined in [utils.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-utils/src/utils.ts#L21)*

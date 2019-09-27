@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [RPCErrorCode](rpcerrorcode.md)
+[@harmony-js/network](../globals.md) › [RPCErrorCode](rpcerrorcode.md)
 
 # Enumeration: RPCErrorCode
 
@@ -30,7 +28,7 @@
 
 • **RPC_DATABASE_ERROR**: =  -20
 
-*Defined in [rpcMethod/rpc.ts:88](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L88)*
+*Defined in [rpcMethod/rpc.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L90)*
 
 ___
 
@@ -38,7 +36,7 @@ ___
 
 • **RPC_DESERIALIZATION_ERROR**: =  -22
 
-*Defined in [rpcMethod/rpc.ts:89](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L89)*
+*Defined in [rpcMethod/rpc.ts:91](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L91)*
 
 ___
 
@@ -46,7 +44,7 @@ ___
 
 • **RPC_INTERNAL_ERROR**: =  -32603
 
-*Defined in [rpcMethod/rpc.ts:80](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L80)*
+*Defined in [rpcMethod/rpc.ts:82](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L82)*
 
 ___
 
@@ -54,7 +52,7 @@ ___
 
 • **RPC_INVALID_ADDRESS_OR_KEY**: =  -5
 
-*Defined in [rpcMethod/rpc.ts:86](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L86)*
+*Defined in [rpcMethod/rpc.ts:88](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L88)*
 
 ___
 
@@ -62,7 +60,7 @@ ___
 
 • **RPC_INVALID_PARAMETER**: =  -8
 
-*Defined in [rpcMethod/rpc.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L87)*
+*Defined in [rpcMethod/rpc.ts:89](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L89)*
 
 ___
 
@@ -70,7 +68,7 @@ ___
 
 • **RPC_INVALID_PARAMS**: =  -32602
 
-*Defined in [rpcMethod/rpc.ts:77](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L77)*
+*Defined in [rpcMethod/rpc.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L79)*
 
 ___
 
@@ -78,7 +76,7 @@ ___
 
 • **RPC_INVALID_REQUEST**: =  -32600
 
-*Defined in [rpcMethod/rpc.ts:73](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L73)*
+*Defined in [rpcMethod/rpc.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L75)*
 
 ___
 
@@ -86,7 +84,7 @@ ___
 
 • **RPC_IN_WARMUP**: =  -28
 
-*Defined in [rpcMethod/rpc.ts:92](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L92)*
+*Defined in [rpcMethod/rpc.ts:94](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L94)*
 
 ___
 
@@ -94,7 +92,7 @@ ___
 
 • **RPC_METHOD_DEPRECATED**: =  -32
 
-*Defined in [rpcMethod/rpc.ts:93](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L93)*
+*Defined in [rpcMethod/rpc.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L95)*
 
 ___
 
@@ -102,7 +100,7 @@ ___
 
 • **RPC_METHOD_NOT_FOUND**: =  -32601
 
-*Defined in [rpcMethod/rpc.ts:76](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L76)*
+*Defined in [rpcMethod/rpc.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L78)*
 
 ___
 
@@ -110,7 +108,7 @@ ___
 
 • **RPC_MISC_ERROR**: =  -1
 
-*Defined in [rpcMethod/rpc.ts:84](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L84)*
+*Defined in [rpcMethod/rpc.ts:86](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L86)*
 
 ___
 
@@ -118,7 +116,7 @@ ___
 
 • **RPC_PARSE_ERROR**: =  -32700
 
-*Defined in [rpcMethod/rpc.ts:81](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L81)*
+*Defined in [rpcMethod/rpc.ts:83](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L83)*
 
 ___
 
@@ -126,7 +124,7 @@ ___
 
 • **RPC_TYPE_ERROR**: =  -3
 
-*Defined in [rpcMethod/rpc.ts:85](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L85)*
+*Defined in [rpcMethod/rpc.ts:87](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L87)*
 
 ___
 
@@ -134,7 +132,7 @@ ___
 
 • **RPC_VERIFY_ERROR**: =  -25
 
-*Defined in [rpcMethod/rpc.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L90)*
+*Defined in [rpcMethod/rpc.ts:92](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L92)*
 
 ___
 
@@ -142,4 +140,4 @@ ___
 
 • **RPC_VERIFY_REJECTED**: =  -26
 
-*Defined in [rpcMethod/rpc.ts:91](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/rpcMethod/rpc.ts#L91)*
+*Defined in [rpcMethod/rpc.ts:93](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/rpcMethod/rpc.ts#L93)*

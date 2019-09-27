@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [Contract](contract.md)
+[@harmony-js/contract](../globals.md) › [Contract](contract.md)
 
 # Class: Contract
 
@@ -21,6 +19,7 @@
 * [events](contract.md#events)
 * [methods](contract.md#methods)
 * [options](contract.md#options)
+* [shardID](contract.md#shardid)
 * [status](contract.md#status)
 * [transaction](contract.md#optional-transaction)
 * [wallet](contract.md#wallet)
@@ -52,7 +51,7 @@
 
 \+ **new Contract**(`abi`: any, `address`: string, `options`: [ContractOptions](../interfaces/contractoptions.md), `wallet`: Wallet, `status`: [ContractStatus](../enums/contractstatus.md)): *[Contract](contract.md)*
 
-*Defined in [contract.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L22)*
+*Defined in [contract.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L23)*
 
 **Parameters:**
 
@@ -72,7 +71,7 @@ Name | Type | Default |
 
 • **abiCoder**: *[AbiCoderClass](abicoderclass.md)*
 
-*Defined in [contract.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L18)*
+*Defined in [contract.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L18)*
 
 ___
 
@@ -80,7 +79,7 @@ ___
 
 • **abiModel**: *any | [AbiModel](abimodel.md)*
 
-*Defined in [contract.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L17)*
+*Defined in [contract.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L17)*
 
 ___
 
@@ -88,7 +87,7 @@ ___
 
 • **events**: *any*
 
-*Defined in [contract.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L16)*
+*Defined in [contract.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L16)*
 
 ___
 
@@ -96,7 +95,7 @@ ___
 
 • **methods**: *any*
 
-*Defined in [contract.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L15)*
+*Defined in [contract.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L15)*
 
 ___
 
@@ -104,7 +103,15 @@ ___
 
 • **options**: *[ContractOptions](../interfaces/contractoptions.md) | any*
 
-*Defined in [contract.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L19)*
+*Defined in [contract.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L19)*
+
+___
+
+###  shardID
+
+• **shardID**: *number*
+
+*Defined in [contract.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L23)*
 
 ___
 
@@ -112,7 +119,7 @@ ___
 
 • **status**: *[ContractStatus](../enums/contractstatus.md)*
 
-*Defined in [contract.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L22)*
+*Defined in [contract.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L22)*
 
 ___
 
@@ -120,7 +127,7 @@ ___
 
 • **transaction**? : *Transaction*
 
-*Defined in [contract.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L21)*
+*Defined in [contract.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L21)*
 
 ___
 
@@ -128,7 +135,7 @@ ___
 
 • **wallet**: *Wallet | any*
 
-*Defined in [contract.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L20)*
+*Defined in [contract.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L20)*
 
 ## Accessors
 
@@ -136,13 +143,13 @@ ___
 
 • **get address**(): *string*
 
-*Defined in [contract.ts:76](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L76)*
+*Defined in [contract.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L78)*
 
 **Returns:** *string*
 
 • **set address**(`value`: string): *void*
 
-*Defined in [contract.ts:80](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L80)*
+*Defined in [contract.ts:82](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L82)*
 
 **Parameters:**
 
@@ -158,13 +165,13 @@ ___
 
 • **get data**(): *any*
 
-*Defined in [contract.ts:84](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L84)*
+*Defined in [contract.ts:86](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L86)*
 
 **Returns:** *any*
 
 • **set data**(`value`: any): *void*
 
-*Defined in [contract.ts:88](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L88)*
+*Defined in [contract.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L90)*
 
 **Parameters:**
 
@@ -180,13 +187,13 @@ ___
 
 • **get jsonInterface**(): *any[]*
 
-*Defined in [contract.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L66)*
+*Defined in [contract.ts:68](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L68)*
 
 **Returns:** *any[]*
 
 • **set jsonInterface**(`value`: any[]): *void*
 
-*Defined in [contract.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L70)*
+*Defined in [contract.ts:72](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L72)*
 
 **Parameters:**
 
@@ -202,7 +209,7 @@ Name | Type |
 
 ▸ **connect**(`wallet`: Wallet): *void*
 
-*Defined in [contract.ts:103](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L103)*
+*Defined in [contract.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L105)*
 
 **Parameters:**
 
@@ -218,7 +225,7 @@ ___
 
 ▸ **deploy**(`options`: any): *any*
 
-*Defined in [contract.ts:93](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L93)*
+*Defined in [contract.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L95)*
 
 **Parameters:**
 
@@ -234,7 +241,7 @@ ___
 
 ▸ **isCalled**(): *boolean*
 
-*Defined in [contract.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L59)*
+*Defined in [contract.ts:61](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L61)*
 
 **Returns:** *boolean*
 
@@ -244,7 +251,7 @@ ___
 
 ▸ **isDeployed**(): *boolean*
 
-*Defined in [contract.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L53)*
+*Defined in [contract.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L55)*
 
 **Returns:** *boolean*
 
@@ -254,7 +261,7 @@ ___
 
 ▸ **isInitialised**(): *boolean*
 
-*Defined in [contract.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L44)*
+*Defined in [contract.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L46)*
 
 **Returns:** *boolean*
 
@@ -264,7 +271,7 @@ ___
 
 ▸ **isRejected**(): *boolean*
 
-*Defined in [contract.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L56)*
+*Defined in [contract.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L58)*
 
 **Returns:** *boolean*
 
@@ -274,7 +281,7 @@ ___
 
 ▸ **isSent**(): *boolean*
 
-*Defined in [contract.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L50)*
+*Defined in [contract.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L52)*
 
 **Returns:** *boolean*
 
@@ -284,7 +291,7 @@ ___
 
 ▸ **isSigned**(): *boolean*
 
-*Defined in [contract.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L47)*
+*Defined in [contract.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L49)*
 
 **Returns:** *boolean*
 
@@ -294,7 +301,7 @@ ___
 
 ▸ **runEventFactory**(): *[Contract](contract.md)*
 
-*Defined in [contract.ts:100](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L100)*
+*Defined in [contract.ts:102](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L102)*
 
 **Returns:** *[Contract](contract.md)*
 
@@ -304,7 +311,7 @@ ___
 
 ▸ **runMethodFactory**(): *[Contract](contract.md)*
 
-*Defined in [contract.ts:97](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L97)*
+*Defined in [contract.ts:99](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L99)*
 
 **Returns:** *[Contract](contract.md)*
 
@@ -314,7 +321,7 @@ ___
 
 ▸ **setMessegner**(`messenger`: Messenger): *void*
 
-*Defined in [contract.ts:106](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L106)*
+*Defined in [contract.ts:108](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L108)*
 
 **Parameters:**
 
@@ -330,7 +337,7 @@ ___
 
 ▸ **setStatus**(`status`: [ContractStatus](../enums/contractstatus.md)): *void*
 
-*Defined in [contract.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/contract.ts#L62)*
+*Defined in [contract.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/contract.ts#L64)*
 
 **Parameters:**
 

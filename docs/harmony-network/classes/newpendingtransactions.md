@@ -1,14 +1,12 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [NewPendingTransactions](newpendingtransactions.md)
+[@harmony-js/network](../globals.md) › [NewPendingTransactions](newpendingtransactions.md)
 
 # Class: NewPendingTransactions
 
 ## Hierarchy
 
-  * [SubscriptionMethod](subscriptionmethod.md)
+  ↳ [SubscriptionMethod](subscriptionmethod.md)
 
-  * **NewPendingTransactions**
+  ↳ **NewPendingTransactions**
 
 ## Index
 
@@ -27,6 +25,7 @@
 * [param](newpendingtransactions.md#param)
 * [reqMiddleware](newpendingtransactions.md#protected-reqmiddleware)
 * [resMiddleware](newpendingtransactions.md#protected-resmiddleware)
+* [shardID](newpendingtransactions.md#shardid)
 * [subscriptionId](newpendingtransactions.md#subscriptionid)
 * [subscriptions](newpendingtransactions.md#subscriptions)
 * [url](newpendingtransactions.md#url)
@@ -75,17 +74,18 @@
 
 ###  constructor
 
-\+ **new NewPendingTransactions**(`messenger`: [Messenger](messenger.md)): *[NewPendingTransactions](newpendingtransactions.md)*
+\+ **new NewPendingTransactions**(`messenger`: [Messenger](messenger.md), `shardID`: number): *[NewPendingTransactions](newpendingtransactions.md)*
 
 *Overrides [SubscriptionMethod](subscriptionmethod.md).[constructor](subscriptionmethod.md#constructor)*
 
-*Defined in [subscriptions/NewPendingTransactionsSub.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/NewPendingTransactionsSub.ts#L4)*
+*Defined in [subscriptions/NewPendingTransactionsSub.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/NewPendingTransactionsSub.ts#L4)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`messenger` | [Messenger](messenger.md) |
+Name | Type | Default |
+------ | ------ | ------ |
+`messenger` | [Messenger](messenger.md) | - |
+`shardID` | number | 0 |
 
 **Returns:** *[NewPendingTransactions](newpendingtransactions.md)*
 
@@ -97,7 +97,7 @@ Name | Type |
 
 *Inherited from [WSProvider](wsprovider.md).[connection](wsprovider.md#connection)*
 
-*Defined in [providers/ws.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L22)*
+*Defined in [providers/ws.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L22)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[emitter](basesocket.md#emitter)*
 
-*Defined in [providers/baseSocket.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L29)*
+*Defined in [providers/baseSocket.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L29)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[handlers](basesocket.md#handlers)*
 
-*Defined in [providers/baseSocket.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L30)*
+*Defined in [providers/baseSocket.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L30)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[jsonRpc](wsprovider.md#jsonrpc)*
 
-*Defined in [providers/ws.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L23)*
+*Defined in [providers/ws.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L23)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[messenger](subscriptionmethod.md#messenger)*
 
-*Defined in [subscriptions/Subscription.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L9)*
+*Defined in [subscriptions/Subscription.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L10)*
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 *Overrides [WSProvider](wsprovider.md).[options](wsprovider.md#options)*
 
-*Defined in [subscriptions/Subscription.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L8)*
+*Defined in [subscriptions/Subscription.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L8)*
 
 ___
 
@@ -159,27 +159,37 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[param](subscriptionmethod.md#param)*
 
-*Defined in [subscriptions/Subscription.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L7)*
+*Defined in [subscriptions/Subscription.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L7)*
 
 ___
 
 ### `Protected` reqMiddleware
 
-• **reqMiddleware**: *[ReqMiddleware](../README.md#reqmiddleware)* =  new Map().set('*', [])
+• **reqMiddleware**: *[ReqMiddleware](../globals.md#reqmiddleware)* =  new Map().set('*', [])
 
 *Inherited from [BaseProvider](baseprovider.md).[reqMiddleware](baseprovider.md#protected-reqmiddleware)*
 
-*Defined in [providers/baseProvider.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L18)*
+*Defined in [providers/baseProvider.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L18)*
 
 ___
 
 ### `Protected` resMiddleware
 
-• **resMiddleware**: *[ResMiddleware](../README.md#resmiddleware)* =  new Map().set('*', [])
+• **resMiddleware**: *[ResMiddleware](../globals.md#resmiddleware)* =  new Map().set('*', [])
 
 *Inherited from [BaseProvider](baseprovider.md).[resMiddleware](baseprovider.md#protected-resmiddleware)*
 
-*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L19)*
+*Defined in [providers/baseProvider.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L19)*
+
+___
+
+###  shardID
+
+• **shardID**: *number*
+
+*Inherited from [SubscriptionMethod](subscriptionmethod.md).[shardID](subscriptionmethod.md#shardid)*
+
+*Defined in [subscriptions/Subscription.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L9)*
 
 ___
 
@@ -189,7 +199,7 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[subscriptionId](subscriptionmethod.md#subscriptionid)*
 
-*Defined in [subscriptions/Subscription.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L11)*
+*Defined in [subscriptions/Subscription.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L12)*
 
 ___
 
@@ -199,7 +209,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[subscriptions](wsprovider.md#subscriptions)*
 
-*Defined in [providers/ws.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L20)*
+*Defined in [providers/ws.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L20)*
 
 ___
 
@@ -211,7 +221,7 @@ ___
 
 *Overrides [BaseSocket](basesocket.md).[url](basesocket.md#url)*
 
-*Defined in [providers/ws.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L19)*
+*Defined in [providers/ws.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L19)*
 
 ## Accessors
 
@@ -221,7 +231,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[connected](wsprovider.md#connected)*
 
-*Defined in [providers/ws.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L15)*
+*Defined in [providers/ws.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L15)*
 
 **Returns:** *boolean*
 
@@ -233,7 +243,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[addEventListener](basesocket.md#addeventlistener)*
 
-*Defined in [providers/baseSocket.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L51)*
+*Defined in [providers/baseSocket.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L51)*
 
 **Parameters:**
 
@@ -252,7 +262,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[clearSubscriptions](wsprovider.md#clearsubscriptions)*
 
-*Defined in [providers/ws.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L166)*
+*Defined in [providers/ws.ts:165](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L165)*
 
 **Parameters:**
 
@@ -270,7 +280,7 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[constructPayload](subscriptionmethod.md#constructpayload)*
 
-*Defined in [subscriptions/Subscription.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L19)*
+*Defined in [subscriptions/Subscription.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L21)*
 
 **Parameters:**
 
@@ -290,7 +300,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[createWebsocketProvider](wsprovider.md#createwebsocketprovider)*
 
-*Defined in [providers/ws.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L63)*
+*Defined in [providers/ws.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L63)*
 
 **Parameters:**
 
@@ -305,19 +315,19 @@ ___
 
 ### `Protected` getMiddleware
 
-▸ **getMiddleware**(`method`: [RPCMethod](../enums/rpcmethod.md) | string): *[[ReqMiddleware](../README.md#reqmiddleware)[], [ResMiddleware](../README.md#resmiddleware)[]]*
+▸ **getMiddleware**(`method`: [RPCMethod](../enums/rpcmethod.md) | string): *[[ReqMiddleware](../globals.md#reqmiddleware)[], [ResMiddleware](../globals.md#resmiddleware)[]]*
 
 *Inherited from [BaseProvider](baseprovider.md).[getMiddleware](baseprovider.md#protected-getmiddleware)*
 
-*Defined in [providers/baseProvider.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L47)*
+*Defined in [providers/baseProvider.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L47)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`method` | [RPCMethod](../enums/rpcmethod.md) \| string |
+`method` | [RPCMethod](../enums/rpcmethod.md) &#124; string |
 
-**Returns:** *[[ReqMiddleware](../README.md#reqmiddleware)[], [ResMiddleware](../README.md#resmiddleware)[]]*
+**Returns:** *[[ReqMiddleware](../globals.md#reqmiddleware)[], [ResMiddleware](../globals.md#resmiddleware)[]]*
 
 ___
 
@@ -327,7 +337,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[getSubscriptionEvent](wsprovider.md#getsubscriptionevent)*
 
-*Defined in [providers/ws.ts:242](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L242)*
+*Defined in [providers/ws.ts:234](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L234)*
 
 **Parameters:**
 
@@ -345,7 +355,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[hasSubscription](wsprovider.md#hassubscription)*
 
-*Defined in [providers/ws.ts:256](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L256)*
+*Defined in [providers/ws.ts:248](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L248)*
 
 **Parameters:**
 
@@ -363,7 +373,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[isConnecting](wsprovider.md#isconnecting)*
 
-*Defined in [providers/ws.ts:97](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L97)*
+*Defined in [providers/ws.ts:97](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L97)*
 
 **Returns:** *boolean*
 
@@ -375,7 +385,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[on](wsprovider.md#on)*
 
-*Defined in [providers/ws.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L40)*
+*Defined in [providers/ws.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L40)*
 
 **Parameters:**
 
@@ -396,7 +406,7 @@ ___
 
 *Overrides [BaseSocket](basesocket.md).[onClose](basesocket.md#onclose)*
 
-*Defined in [providers/ws.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L55)*
+*Defined in [providers/ws.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L55)*
 
 **Parameters:**
 
@@ -414,7 +424,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[onConnect](wsprovider.md#onconnect)*
 
-*Defined in [providers/ws.ts:223](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L223)*
+*Defined in [providers/ws.ts:217](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L217)*
 
 **Returns:** *Promise‹void›*
 
@@ -426,7 +436,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[onData](wsprovider.md#ondata)*
 
-*Defined in [providers/ws.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L44)*
+*Defined in [providers/ws.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L44)*
 
 **Parameters:**
 
@@ -446,7 +456,7 @@ ___
 
 *Overrides [BaseSocket](basesocket.md).[onError](basesocket.md#onerror)*
 
-*Defined in [providers/ws.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L48)*
+*Defined in [providers/ws.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L48)*
 
 **Parameters:**
 
@@ -464,7 +474,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[onMessage](wsprovider.md#onmessage)*
 
-*Defined in [providers/ws.ts:195](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L195)*
+*Defined in [providers/ws.ts:190](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L190)*
 
 **Parameters:**
 
@@ -482,7 +492,7 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[onNewSubscriptionItem](subscriptionmethod.md#onnewsubscriptionitem)*
 
-*Defined in [subscriptions/Subscription.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L66)*
+*Defined in [subscriptions/Subscription.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L57)*
 
 **Parameters:**
 
@@ -500,7 +510,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[onReady](basesocket.md#onready)*
 
-*Defined in [providers/baseSocket.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L78)*
+*Defined in [providers/baseSocket.ts:78](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L78)*
 
 **Parameters:**
 
@@ -518,7 +528,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[once](basesocket.md#once)*
 
-*Defined in [providers/baseSocket.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L46)*
+*Defined in [providers/baseSocket.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L46)*
 
 **Parameters:**
 
@@ -537,7 +547,7 @@ ___
 
 *Inherited from [BaseProvider](baseprovider.md).[pushMiddleware](baseprovider.md#protected-pushmiddleware)*
 
-*Defined in [providers/baseProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L31)*
+*Defined in [providers/baseProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L31)*
 
 **Parameters:**
 
@@ -545,7 +555,7 @@ Name | Type |
 ------ | ------ |
 `fn` | any |
 `type` | [MiddlewareType](../enums/middlewaretype.md) |
-`match` | string \| [RPCMethod](../enums/rpcmethod.md) \| RegExp |
+`match` | string &#124; [RPCMethod](../enums/rpcmethod.md) &#124; RegExp |
 
 **Returns:** *void*
 
@@ -557,7 +567,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[reconnect](wsprovider.md#reconnect)*
 
-*Defined in [providers/ws.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L90)*
+*Defined in [providers/ws.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L90)*
 
 **Returns:** *void*
 
@@ -569,7 +579,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[registerEventListeners](wsprovider.md#registereventlisteners)*
 
-*Defined in [providers/ws.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L187)*
+*Defined in [providers/ws.ts:182](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L182)*
 
 **Returns:** *void*
 
@@ -581,7 +591,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[removeAllSocketListeners](basesocket.md#removeallsocketlisteners)*
 
-*Defined in [providers/baseSocket.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L70)*
+*Defined in [providers/baseSocket.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L70)*
 
 **Returns:** *void*
 
@@ -593,13 +603,13 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[removeEventListener](basesocket.md#removeeventlistener)*
 
-*Defined in [providers/baseSocket.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L55)*
+*Defined in [providers/baseSocket.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L55)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`type?` | undefined \| string |
+`type?` | undefined &#124; string |
 `handler?` | mitt.Handler |
 
 **Returns:** *void*
@@ -612,7 +622,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[reset](basesocket.md#reset)*
 
-*Defined in [providers/baseSocket.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L66)*
+*Defined in [providers/baseSocket.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L66)*
 
 **Returns:** *void*
 
@@ -624,7 +634,7 @@ ___
 
 *Inherited from [BaseSocket](basesocket.md).[resetHandlers](basesocket.md#resethandlers)*
 
-*Defined in [providers/baseSocket.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseSocket.ts#L39)*
+*Defined in [providers/baseSocket.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseSocket.ts#L39)*
 
 **Returns:** *void*
 
@@ -636,7 +646,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[send](wsprovider.md#send)*
 
-*Defined in [providers/ws.ts:101](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L101)*
+*Defined in [providers/ws.ts:101](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L101)*
 
 **Parameters:**
 
@@ -654,7 +664,7 @@ ___
 
 *Inherited from [SubscriptionMethod](subscriptionmethod.md).[start](subscriptionmethod.md#start)*
 
-*Defined in [subscriptions/Subscription.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L34)*
+*Defined in [subscriptions/Subscription.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L32)*
 
 **Returns:** *Promise‹this›*
 
@@ -666,7 +676,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[subscribe](wsprovider.md#subscribe)*
 
-*Defined in [providers/ws.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L131)*
+*Defined in [providers/ws.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L131)*
 
 **Parameters:**
 
@@ -686,7 +696,7 @@ ___
 
 *Overrides [WSProvider](wsprovider.md).[unsubscribe](wsprovider.md#unsubscribe)*
 
-*Defined in [subscriptions/Subscription.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/subscriptions/Subscription.ts#L59)*
+*Defined in [subscriptions/Subscription.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/subscriptions/Subscription.ts#L53)*
 
 **Returns:** *Promise‹any›*
 
@@ -698,7 +708,7 @@ ___
 
 *Inherited from [WSProvider](wsprovider.md).[validate](wsprovider.md#validate)*
 
-*Defined in [providers/ws.ts:259](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/ws.ts#L259)*
+*Defined in [providers/ws.ts:251](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/ws.ts#L251)*
 
 **Parameters:**
 
@@ -717,16 +727,16 @@ Name | Type |
 
 *Inherited from [BaseProvider](baseprovider.md).[middlewares](baseprovider.md#middlewares)*
 
-*Defined in [providers/baseProvider.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L5)*
+*Defined in [providers/baseProvider.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L5)*
 
 ▪ **request**: *object*
 
-*Defined in [providers/baseProvider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L6)*
+*Defined in [providers/baseProvider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L6)*
 
-* **use**(`fn`: [ReqMiddleware](../README.md#reqmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*
+* **use**(`fn`: [ReqMiddleware](../globals.md#reqmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*
 
 ▪ **response**: *object*
 
-*Defined in [providers/baseProvider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/baseProvider.ts#L11)*
+*Defined in [providers/baseProvider.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/baseProvider.ts#L11)*
 
-* **use**(`fn`: [ResMiddleware](../README.md#resmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*
+* **use**(`fn`: [ResMiddleware](../globals.md#resmiddleware), `match`: string | [RPCMethod](../enums/rpcmethod.md) | RegExp): *void*

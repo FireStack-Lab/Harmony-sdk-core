@@ -5,8 +5,8 @@ import {
   ResponseMiddleware,
 } from '@harmony-js/network';
 
-import {ChainID, ChainType} from '@harmony-js/utils';
-import {HDNode} from '@harmony-js/account';
+import { ChainID, ChainType, Unit } from '@harmony-js/utils';
+import { HDNode } from '@harmony-js/account';
 
 export interface ArgsResolver {
   newArgs: any;
@@ -16,32 +16,53 @@ export interface ArgsResolver {
   callback: (error: any, res?: any) => void;
 }
 
+export interface HDOptions {
+  menmonic?: string;
+  index: number;
+  addressCount: number;
+}
+export interface ChainOptions {
+  shardID: number;
+  chainType: ChainType;
+  chainId: ChainID;
+}
+export interface TransactionOptions {
+  gasLimit: string;
+  gasPrice: string;
+}
+
 export class TruffleProvider extends HDNode {
   constructor(
     provider: string | HttpProvider | WSProvider = 'http://localhost:9500',
-    menmonic?: string,
-    index: number = 0,
-    addressCount: number = 1,
-    chainType: ChainType = ChainType.Harmony,
-    chainId: ChainID = ChainID.Default,
-    gasLimit = '1000000',
-    gasPrice = '2000000000',
+    hdOptions: HDOptions = {
+      menmonic: undefined,
+      index: 0,
+      addressCount: 1,
+    },
+    chainOptions: ChainOptions = {
+      shardID: 0,
+      chainType: ChainType.Harmony,
+      chainId: ChainID.HmyLocal,
+    },
+    transactionOptions: TransactionOptions = {
+      gasLimit: '10000000',
+      gasPrice: '20000000000',
+    },
   ) {
     super(
       provider,
-      menmonic,
-      index,
-      addressCount,
-      chainType,
-      chainId,
-      gasLimit,
-      gasPrice,
+      hdOptions.menmonic,
+      hdOptions.index,
+      hdOptions.addressCount,
+      chainOptions.shardID,
+      chainOptions.chainType,
+      chainOptions.chainId,
+      transactionOptions.gasLimit,
+      transactionOptions.gasPrice,
     );
   }
   async send(...args: [RPCRequestPayload<any>, any]) {
-    const {newArgs, id, params, newMethod, callback} = this.resolveArgs(
-      ...args,
-    );
+    const { newArgs, id, params, newMethod, callback } = this.resolveArgs(...args);
 
     switch (newMethod) {
       case 'hmy_accounts': {
@@ -68,8 +89,7 @@ export class TruffleProvider extends HDNode {
             params: [rawTxn],
             jsonrpc: '2.0',
           },
-          (err: any, res: ResponseMiddleware | any) =>
-            this.resolveCallback(err, res, callback),
+          (err: any, res: ResponseMiddleware | any) => this.resolveCallback(err, res, callback),
         );
         return this.resolveResult(result);
 
@@ -89,6 +109,7 @@ export class TruffleProvider extends HDNode {
                 callback(err);
               }
               const response = this.resolveResult(res);
+
               if (response.result !== null) {
                 response.result.status = '0x1';
               }
@@ -100,12 +121,53 @@ export class TruffleProvider extends HDNode {
         );
         return this.resolveResult(result);
       }
+      case 'net_version': {
+        callback(null, {
+          result: String(this.messenger.chainId),
+          id,
+          jsonrpc: '2.0',
+        });
+        return {
+          result: String(this.messenger.chainId),
+          id,
+          jsonrpc: '2.0',
+        };
+      }
+      case 'hmy_getBlockByNumber': {
+        const result = await this.provider.send(newArgs, (err: any, res: any) => {
+          try {
+            if (err) {
+              callback(err);
+            }
+            const response = this.resolveResult(res);
+
+            if (
+              new Unit(response.result.gasLimit)
+                .asWei()
+                .toWei()
+                .gt(new Unit(this.gasLimit).asWei().toWei())
+            ) {
+              response.result.gasLimit = `0x${new Unit(this.gasLimit)
+                .asWei()
+                .toWei()
+                .toString('hex')}`;
+            }
+            callback(null, response);
+          } catch (error) {
+            throw error;
+          }
+        });
+        return this.resolveResult(result);
+      }
+
       default: {
+        // hmy_getBlockByNumber
+
         const result = await this.provider.send(
           newArgs,
-          (err: any, res: ResponseMiddleware | any) =>
-            this.resolveCallback(err, res, callback),
+          (err: any, res: ResponseMiddleware | any) => this.resolveCallback(err, res, callback),
         );
+
         return this.resolveResult(result);
         //  break;
       }
@@ -125,7 +187,7 @@ export class TruffleProvider extends HDNode {
     }
     args[0].method = newMethod;
 
-    const {id} = args[0];
+    const { id } = args[0];
 
     return {
       newArgs: args[0],

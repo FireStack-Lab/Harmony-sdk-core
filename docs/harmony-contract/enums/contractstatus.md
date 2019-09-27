@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [ContractStatus](contractstatus.md)
+[@harmony-js/contract](../globals.md) › [ContractStatus](contractstatus.md)
 
 # Enumeration: ContractStatus
 
@@ -23,7 +21,7 @@
 
 • **CALLED**: = "called"
 
-*Defined in [utils/status.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L9)*
+*Defined in [utils/status.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L9)*
 
 ___
 
@@ -31,7 +29,7 @@ ___
 
 • **DEPLOYED**: = "deployed"
 
-*Defined in [utils/status.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L8)*
+*Defined in [utils/status.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L8)*
 
 ___
 
@@ -39,7 +37,7 @@ ___
 
 • **ERROR**: = "error"
 
-*Defined in [utils/status.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L4)*
+*Defined in [utils/status.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L4)*
 
 ___
 
@@ -47,7 +45,7 @@ ___
 
 • **INITIALISED**: = "initialised"
 
-*Defined in [utils/status.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L2)*
+*Defined in [utils/status.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L2)*
 
 ___
 
@@ -55,7 +53,7 @@ ___
 
 • **REJECTED**: = "rejected"
 
-*Defined in [utils/status.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L7)*
+*Defined in [utils/status.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L7)*
 
 ___
 
@@ -63,7 +61,7 @@ ___
 
 • **SENT**: = "sent"
 
-*Defined in [utils/status.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L6)*
+*Defined in [utils/status.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L6)*
 
 ___
 
@@ -71,7 +69,7 @@ ___
 
 • **SIGNED**: = "signed"
 
-*Defined in [utils/status.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L5)*
+*Defined in [utils/status.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L5)*
 
 ___
 
@@ -79,4 +77,4 @@ ___
 
 • **TESTED**: = "tested"
 
-*Defined in [utils/status.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/utils/status.ts#L3)*
+*Defined in [utils/status.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/utils/status.ts#L3)*

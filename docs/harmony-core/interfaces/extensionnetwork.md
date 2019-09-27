@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [ExtensionNetwork](extensionnetwork.md)
+[@harmony-js/core](../globals.md) › [ExtensionNetwork](extensionnetwork.md)
 
 # Interface: ExtensionNetwork
 
@@ -21,7 +19,7 @@
 
 • **chain_url**: *string*
 
-*Defined in [harmonyExtension.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L20)*
+*Defined in [harmonyExtension.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L28)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 • **net_version**: *number*
 
-*Defined in [harmonyExtension.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L21)*
+*Defined in [harmonyExtension.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L29)*

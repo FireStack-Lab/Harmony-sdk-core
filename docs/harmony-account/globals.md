@@ -1,6 +1,4 @@
-**[@harmony-js/account](README.md)**
-
-[Globals](globals.md)
+[@harmony-js/account](README.md) › [Globals](globals.md)
 
 # @harmony-js/account
 
@@ -14,6 +12,7 @@
 
 ### Interfaces
 
+* [BalanceObject](interfaces/balanceobject.md)
 * [WalletsInterfaces](interfaces/walletsinterfaces.md)
 * [Web3TxPrams](interfaces/web3txprams.md)
 
@@ -32,7 +31,7 @@
 
 Ƭ **ShardID**: *string | number*
 
-*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-account/src/types.ts#L4)*
 
 test type docs
 
@@ -40,17 +39,18 @@ ___
 
 ###  Shards
 
-Ƭ **Shards**: *Map‹[ShardID](globals.md#shardid), string›*
+Ƭ **Shards**: *Map‹[ShardID](globals.md#shardid), [BalanceObject](interfaces/balanceobject.md)›*
 
-*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/types.ts#L5)*
+*Defined in [types.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-account/src/types.ts#L10)*
 
 ## Variables
 
 ### `Const` defaultMessenger
 
 • **defaultMessenger**: *Messenger* =  new Messenger(
-  new HttpProvider('http://localhost:8545'),
+  new HttpProvider('http://localhost:9500'),
   ChainType.Harmony,
+  ChainID.HmyLocal,
 )
 
-*Defined in [utils.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-account/src/utils.ts#L4)*
+*Defined in [utils.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-account/src/utils.ts#L4)*

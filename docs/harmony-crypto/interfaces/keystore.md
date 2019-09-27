@@ -1,6 +1,4 @@
-**[@harmony-js/crypto](../README.md)**
-
-[Globals](../README.md) › [Keystore](keystore.md)
+[@harmony-js/crypto](../globals.md) › [Keystore](keystore.md)
 
 # Interface: Keystore
 
@@ -23,7 +21,7 @@
 
 • **Crypto**: *object*
 
-*Defined in [types.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/types.ts#L27)*
+*Defined in [types.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L27)*
 
 #### Type declaration:
 
@@ -35,9 +33,9 @@
 
 * **ciphertext**: *string*
 
-* **kdf**: *[KDF](../README.md#kdf)*
+* **kdf**: *[KDF](../globals.md#kdf)*
 
-* **kdfparams**: *[KDFParams](../README.md#kdfparams)*
+* **kdfparams**: *[KDFParams](../globals.md#kdfparams)*
 
 * **mac**: *string*
 
@@ -47,7 +45,7 @@ ___
 
 • **address**? : *undefined | string*
 
-*Defined in [types.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/types.ts#L26)*
+*Defined in [types.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L26)*
 
 ___
 
@@ -55,7 +53,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L37)*
 
 ___
 
@@ -63,4 +61,4 @@ ___
 
 • **version**: *3*
 
-*Defined in [types.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/types.ts#L38)*
+*Defined in [types.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L38)*

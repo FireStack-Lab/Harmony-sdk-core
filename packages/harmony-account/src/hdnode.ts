@@ -1,4 +1,4 @@
-import {bip39, hdkey, getAddress, BN, Signature} from '@harmony-js/crypto';
+import { bip39, hdkey, getAddress, BN, Signature } from '@harmony-js/crypto';
 import {
   HDPath,
   // defineReadOnly,
@@ -10,13 +10,9 @@ import {
   isHex,
   hexToNumber,
 } from '@harmony-js/utils';
-import {Messenger, HttpProvider, WSProvider} from '@harmony-js/network';
-import {
-  Transaction,
-  TxStatus,
-  TransasctionReceipt,
-} from '@harmony-js/transaction';
-import {Account} from './account';
+import { Messenger, HttpProvider, WSProvider } from '@harmony-js/network';
+import { Transaction, TxStatus, TransasctionReceipt } from '@harmony-js/transaction';
+import { Account } from './account';
 
 export interface WalletsInterfaces {
   [key: string]: Account;
@@ -51,32 +47,36 @@ export class HDNode {
     return bip39.generateMnemonic();
   }
   public provider: HttpProvider | WSProvider;
-  private messenger: Messenger;
+  public gasLimit: string;
+  public gasPrice: string;
+  public messenger: Messenger;
+  private shardID: number;
   private hdwallet: hdkey | undefined;
   private path: string;
   private index: number;
   private addressCount: number;
   private addresses: string[];
   private wallets: WalletsInterfaces;
-  private gasLimit: string;
-  private gasPrice: string;
 
   constructor(
     provider: string | HttpProvider | WSProvider = 'http://localhost:9500',
     menmonic?: string,
     index: number = 0,
     addressCount: number = 1,
+    shardID: number = 0,
     chainType: ChainType = ChainType.Harmony,
     chainId: ChainID = ChainID.Default,
     gasLimit = '1000000',
     gasPrice = '2000000000',
   ) {
     this.provider = this.setProvider(provider);
+    this.shardID = shardID;
     this.messenger = new Messenger(this.provider, chainType, chainId);
+    this.messenger.setDefaultShardID(this.shardID);
     this.hdwallet = undefined;
     this.addresses = [];
     this.wallets = {};
-    this.path = HDPath;
+    this.path = chainType === ChainType.Harmony ? HDPath : `m/44'/60'/0'/0/`;
     this.index = index;
     this.addressCount = addressCount;
     this.getHdWallet(menmonic || HDNode.generateMnemonic());
@@ -151,13 +151,12 @@ export class HDNode {
   }
   // tslint:disable-next-line: ban-types
   async signTransaction(txParams: any | Web3TxPrams) {
-    const from: string = txParams.from
-      ? getAddress(txParams.from).checksum
-      : '0x';
+    const from: string = txParams.from ? getAddress(txParams.from).checksum : '0x';
     const accountNonce = await this.messenger.send(
       'hmy_getTransactionCount',
       [from, 'latest'],
       'hmy',
+      this.shardID,
     );
 
     const to: string = txParams.to ? getAddress(txParams.to).checksum : '0x';
@@ -165,49 +164,61 @@ export class HDNode {
     let gasLimit = new Unit('0').asWei().toWei();
 
     if (txParams.gas !== undefined && isHex(txParams.gas)) {
-      gasLimit = new BN(hexToNumber(txParams.gas)).lt(new BN(this.gasLimit))
-        ? txParams.gas
-        : this.gasLimit;
+      gasLimit = new Unit(txParams.gas)
+        .asWei()
+        .toWei()
+        .lt(new Unit(this.gasLimit).asWei().toWei())
+        ? new Unit(txParams.gas).asWei().toWei()
+        : new Unit(this.gasLimit).asWei().toWei();
     }
     if (txParams.gasLimit !== undefined && isHex(txParams.gasLimit)) {
-      gasLimit = new BN(hexToNumber(txParams.gasLimit)).lt(
-        new BN(this.gasLimit),
-      )
-        ? txParams.gasLimit
-        : this.gasLimit;
+      gasLimit = new Unit(txParams.gasLimit)
+        .asWei()
+        .toWei()
+        .lt(new Unit(this.gasLimit).asWei().toWei())
+        ? new Unit(txParams.gasLimit).asWei().toWei()
+        : new Unit(this.gasLimit).asWei().toWei();
     }
 
     let gasPrice = new Unit('0').asWei().toWei();
     if (txParams.gasPrice !== undefined && isHex(txParams.gasPrice)) {
-      gasPrice = new BN(hexToNumber(txParams.gasPrice)).lt(
-        new BN(this.gasPrice),
-      )
-        ? txParams.gasPrice
-        : this.gasPrice;
+      gasPrice = new Unit(txParams.gasPrice)
+        .asWei()
+        .toWei()
+        .lt(new Unit(this.gasPrice).asWei().toWei())
+        ? new Unit(txParams.gasPrice).asWei().toWei()
+        : new Unit(this.gasPrice).asWei().toWei();
     }
 
-    const value =
-      txParams.value !== undefined && isHex(txParams.value)
-        ? txParams.value
-        : '0';
+    const value = txParams.value !== undefined && isHex(txParams.value) ? txParams.value : '0';
     const nonce =
       txParams.nonce !== undefined && isHex(txParams.nonce)
         ? Number.parseInt(hexToNumber(txParams.nonce), 10)
         : Number.parseInt(hexToNumber(accountNonce.result), 10);
-    const data =
-      txParams.data !== undefined && isHex(txParams.data)
-        ? txParams.data
-        : '0x';
+    const data = txParams.data !== undefined && isHex(txParams.data) ? txParams.data : '0x';
     const prv = this.wallets[from].privateKey;
 
     const signerAccount = new Account(prv, this.messenger);
 
     const tx = new Transaction(
-      {...txParams, from, to, gasLimit, gasPrice, value, nonce, data},
+      {
+        ...txParams,
+        from,
+        to,
+        gasLimit,
+        gasPrice,
+        value,
+        nonce,
+        data,
+        shardID: this.shardID,
+        chainId: this.messenger.chainId,
+      },
       this.messenger,
       TxStatus.INTIALIZED,
     );
+
     const signed = await signerAccount.signTransaction(tx);
+
     return signed.getRawTransaction();
   }
   getAddress(idx?: number) {

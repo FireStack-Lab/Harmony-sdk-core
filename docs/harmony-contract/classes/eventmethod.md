@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [EventMethod](eventmethod.md)
+[@harmony-js/contract](../globals.md) › [EventMethod](eventmethod.md)
 
 # Class: EventMethod
 
@@ -8,7 +6,7 @@
 
 * LogSub
 
-  * **EventMethod**
+  ↳ **EventMethod**
 
 ## Index
 
@@ -33,6 +31,7 @@
 * [params](eventmethod.md#params)
 * [reqMiddleware](eventmethod.md#protected-reqmiddleware)
 * [resMiddleware](eventmethod.md#protected-resmiddleware)
+* [shardID](eventmethod.md#shardid)
 * [subscriptionId](eventmethod.md#subscriptionid)
 * [subscriptions](eventmethod.md#subscriptions)
 * [url](eventmethod.md#url)
@@ -77,7 +76,7 @@
 
 *Overrides void*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L10)*
 
 **Parameters:**
 
@@ -96,7 +95,7 @@ Name | Type |
 
 • **abiItem**: *[AbiItemModel](../interfaces/abiitemmodel.md)*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L10)*
 
 ___
 
@@ -124,7 +123,7 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L9)*
+*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L9)*
 
 ___
 
@@ -164,7 +163,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:7
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:8
 
 ___
 
@@ -172,7 +171,7 @@ ___
 
 • **methodKey**: *string*
 
-*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L8)*
+*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L8)*
 
 ___
 
@@ -226,7 +225,7 @@ ___
 
 • **params**: *any*
 
-*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L7)*
+*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L7)*
 
 ___
 
@@ -250,13 +249,23 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 ___
 
+###  shardID
+
+• **shardID**: *number*
+
+*Inherited from void*
+
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:7
+
+___
+
 ###  subscriptionId
 
 • **subscriptionId**: *any*
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:8
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:9
 
 ___
 
@@ -325,7 +334,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:10
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:11
 
 **Parameters:**
 
@@ -370,7 +379,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 Name | Type |
 ------ | ------ |
-`method` | RPCMethod \| string |
+`method` | RPCMethod &#124; string |
 
 **Returns:** *[ReqMiddleware[], ResMiddleware[]]*
 
@@ -537,7 +546,7 @@ ___
 
 *Overrides void*
 
-*Defined in [events/event.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/events/event.ts#L29)*
+*Defined in [events/event.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/events/event.ts#L24)*
 
 **Parameters:**
 
@@ -600,7 +609,7 @@ Name | Type |
 ------ | ------ |
 `fn` | any |
 `type` | MiddlewareType |
-`match` | string \| RPCMethod \| RegExp |
+`match` | string &#124; RPCMethod &#124; RegExp |
 
 **Returns:** *void*
 
@@ -654,7 +663,7 @@ Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-ne
 
 Name | Type |
 ------ | ------ |
-`type?` | undefined \| string |
+`type?` | undefined &#124; string |
 `handler?` | mitt.Handler |
 
 **Returns:** *void*
@@ -709,7 +718,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:11
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:12
 
 **Returns:** *Promise‹this›*
 
@@ -737,7 +746,7 @@ ___
 
 *Overrides void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:12
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-network/dist/subscriptions/Subscription.d.ts:13
 
 **Returns:** *Promise‹any›*
 

@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [ProviderType](providertype.md)
+[@harmony-js/network](../globals.md) › [ProviderType](providertype.md)
 
 # Enumeration: ProviderType
 
@@ -17,7 +15,7 @@
 
 • **http**: = "http"
 
-*Defined in [providers/provider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/provider.ts#L6)*
+*Defined in [providers/provider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/provider.ts#L6)*
 
 ___
 
@@ -25,4 +23,4 @@ ___
 
 • **ws**: = "ws"
 
-*Defined in [providers/provider.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/providers/provider.ts#L7)*
+*Defined in [providers/provider.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/providers/provider.ts#L7)*

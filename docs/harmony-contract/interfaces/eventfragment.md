@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [EventFragment](eventfragment.md)
+[@harmony-js/contract](../globals.md) › [EventFragment](eventfragment.md)
 
 # Interface: EventFragment
 
@@ -23,7 +21,7 @@
 
 • **anonymous**: *boolean*
 
-*Defined in [abi/abiCoder.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L50)*
+*Defined in [abi/abiCoder.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L50)*
 
 ___
 
@@ -31,7 +29,7 @@ ___
 
 • **inputs**: *[ParamType](paramtype.md)[]*
 
-*Defined in [abi/abiCoder.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L52)*
+*Defined in [abi/abiCoder.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L52)*
 
 ___
 
@@ -39,7 +37,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [abi/abiCoder.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L48)*
+*Defined in [abi/abiCoder.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L48)*
 
 ___
 
@@ -47,4 +45,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [abi/abiCoder.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L47)*
+*Defined in [abi/abiCoder.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L47)*

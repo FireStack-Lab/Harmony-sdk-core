@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [ParamType](paramtype.md)
+[@harmony-js/contract](../globals.md) › [ParamType](paramtype.md)
 
 # Interface: ParamType
 
@@ -23,7 +21,7 @@
 
 • **components**? : *any[]*
 
-*Defined in [abi/abiCoder.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L41)*
+*Defined in [abi/abiCoder.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L41)*
 
 ___
 
@@ -31,7 +29,7 @@ ___
 
 • **indexed**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L40)*
+*Defined in [abi/abiCoder.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L40)*
 
 ___
 
@@ -39,7 +37,7 @@ ___
 
 • **name**? : *undefined | string*
 
-*Defined in [abi/abiCoder.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L38)*
+*Defined in [abi/abiCoder.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L38)*
 
 ___
 
@@ -47,4 +45,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [abi/abiCoder.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/abi/abiCoder.ts#L39)*
+*Defined in [abi/abiCoder.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/abi/abiCoder.ts#L39)*

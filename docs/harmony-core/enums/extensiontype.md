@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [ExtensionType](extensiontype.md)
+[@harmony-js/core](../globals.md) › [ExtensionType](extensiontype.md)
 
 # Enumeration: ExtensionType
 
@@ -16,4 +14,4 @@
 
 • **MathWallet**: = "MathWallet"
 
-*Defined in [harmonyExtension.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L11)*
+*Defined in [harmonyExtension.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L19)*

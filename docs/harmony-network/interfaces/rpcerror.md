@@ -1,6 +1,4 @@
-**[@harmony-js/network](../README.md)**
-
-[Globals](../README.md) › [RPCError](rpcerror.md)
+[@harmony-js/network](../globals.md) › [RPCError](rpcerror.md)
 
 # Interface: RPCError
 
@@ -22,7 +20,7 @@
 
 • **code**: *[RPCErrorCode](../enums/rpcerrorcode.md)*
 
-*Defined in [types.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L51)*
+*Defined in [types.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L51)*
 
 ___
 
@@ -30,7 +28,7 @@ ___
 
 • **data**: *any*
 
-*Defined in [types.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L53)*
+*Defined in [types.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L53)*
 
 ___
 
@@ -38,4 +36,4 @@ ___
 
 • **message**: *string*
 
-*Defined in [types.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-network/src/types.ts#L52)*
+*Defined in [types.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-network/src/types.ts#L52)*

@@ -1,6 +1,4 @@
-**[@harmony-js/transaction](../README.md)**
-
-[Globals](../README.md) › [TransactionEvents](transactionevents.md)
+[@harmony-js/transaction](../globals.md) › [TransactionEvents](transactionevents.md)
 
 # Enumeration: TransactionEvents
 
@@ -11,6 +9,7 @@
 * [confirmation](transactionevents.md#confirmation)
 * [error](transactionevents.md#error)
 * [receipt](transactionevents.md#receipt)
+* [track](transactionevents.md#track)
 * [transactionHash](transactionevents.md#transactionhash)
 
 ## Enumeration members
@@ -19,7 +18,7 @@
 
 • **confirmation**: = "confirmation"
 
-*Defined in [utils.ts:255](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-transaction/src/utils.ts#L255)*
+*Defined in [utils.ts:248](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-transaction/src/utils.ts#L248)*
 
 ___
 
@@ -27,7 +26,7 @@ ___
 
 • **error**: = "error"
 
-*Defined in [utils.ts:254](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-transaction/src/utils.ts#L254)*
+*Defined in [utils.ts:247](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-transaction/src/utils.ts#L247)*
 
 ___
 
@@ -35,7 +34,15 @@ ___
 
 • **receipt**: = "receipt"
 
-*Defined in [utils.ts:256](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-transaction/src/utils.ts#L256)*
+*Defined in [utils.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-transaction/src/utils.ts#L249)*
+
+___
+
+###  track
+
+• **track**: = "track"
+
+*Defined in [utils.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-transaction/src/utils.ts#L250)*
 
 ___
 
@@ -43,4 +50,4 @@ ___
 
 • **transactionHash**: = "transactionHash"
 
-*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-transaction/src/utils.ts#L253)*
+*Defined in [utils.ts:246](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-transaction/src/utils.ts#L246)*

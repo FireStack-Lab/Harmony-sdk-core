@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [UrlType](urltype.md)
+[@harmony-js/core](../globals.md) › [UrlType](urltype.md)
 
 # Enumeration: UrlType
 
@@ -17,7 +15,7 @@
 
 • **http**:
 
-*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/types.ts#L18)*
 
 ___
 
@@ -25,4 +23,4 @@ ___
 
 • **ws**:
 
-*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/types.ts#L19)*

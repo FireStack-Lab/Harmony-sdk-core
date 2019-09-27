@@ -1,6 +1,4 @@
-**[@harmony-js/crypto](../README.md)**
-
-[Globals](../README.md) › [HarmonyAddress](harmonyaddress.md)
+[@harmony-js/crypto](../globals.md) › [HarmonyAddress](harmonyaddress.md)
 
 # Class: HarmonyAddress
 
@@ -40,7 +38,7 @@
 
 \+ **new HarmonyAddress**(`raw`: string): *[HarmonyAddress](harmonyaddress.md)*
 
-*Defined in [address.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L48)*
+*Defined in [address.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L48)*
 
 **Parameters:**
 
@@ -56,7 +54,7 @@ Name | Type |
 
 • **basic**: *string*
 
-*Defined in [address.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L35)*
+*Defined in [address.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L35)*
 
 ___
 
@@ -64,7 +62,7 @@ ___
 
 • **raw**: *string*
 
-*Defined in [address.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L34)*
+*Defined in [address.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L34)*
 
 ## Accessors
 
@@ -72,7 +70,7 @@ ___
 
 • **get basicHex**(): *string*
 
-*Defined in [address.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L36)*
+*Defined in [address.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L36)*
 
 **Returns:** *string*
 
@@ -82,7 +80,7 @@ ___
 
 • **get bech32**(): *string*
 
-*Defined in [address.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L43)*
+*Defined in [address.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L43)*
 
 **Returns:** *string*
 
@@ -92,7 +90,7 @@ ___
 
 • **get bech32TestNet**(): *string*
 
-*Defined in [address.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L46)*
+*Defined in [address.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L46)*
 
 **Returns:** *string*
 
@@ -102,7 +100,7 @@ ___
 
 • **get checksum**(): *string*
 
-*Defined in [address.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L39)*
+*Defined in [address.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L39)*
 
 **Returns:** *string*
 
@@ -112,7 +110,7 @@ ___
 
 ▸ **getBasic**(`addr`: string): *string*
 
-*Defined in [address.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L55)*
+*Defined in [address.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L55)*
 
 **Parameters:**
 
@@ -128,7 +126,7 @@ ___
 
 ▸ **isValidBasic**(`str`: string): *boolean*
 
-*Defined in [address.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L12)*
+*Defined in [address.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L12)*
 
 **Parameters:**
 
@@ -144,7 +142,7 @@ ___
 
 ▸ **isValidBech32**(`str`: string): *boolean*
 
-*Defined in [address.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L24)*
+*Defined in [address.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L24)*
 
 **Parameters:**
 
@@ -160,7 +158,7 @@ ___
 
 ▸ **isValidBech32TestNet**(`str`: string): *boolean*
 
-*Defined in [address.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L29)*
+*Defined in [address.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L29)*
 
 **Parameters:**
 
@@ -176,7 +174,7 @@ ___
 
 ▸ **isValidChecksum**(`str`: string): *boolean*
 
-*Defined in [address.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/address.ts#L18)*
+*Defined in [address.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/address.ts#L18)*
 
 **Parameters:**
 

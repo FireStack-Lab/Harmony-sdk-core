@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [MethodFactory](methodfactory.md)
+[@harmony-js/contract](../globals.md) › [MethodFactory](methodfactory.md)
 
 # Class: MethodFactory
 
@@ -32,7 +30,7 @@
 
 \+ **new MethodFactory**(`contract`: [Contract](contract.md)): *[MethodFactory](methodfactory.md)*
 
-*Defined in [methods/methodFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L10)*
+*Defined in [methods/methodFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L10)*
 
 **Parameters:**
 
@@ -48,7 +46,7 @@ Name | Type |
 
 • **abiCoder**: *[AbiCoderClass](abicoderclass.md)*
 
-*Defined in [methods/methodFactory.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L9)*
+*Defined in [methods/methodFactory.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L9)*
 
 ___
 
@@ -56,7 +54,7 @@ ___
 
 • **abiModel**: *any | [AbiModel](abimodel.md)*
 
-*Defined in [methods/methodFactory.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L8)*
+*Defined in [methods/methodFactory.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L8)*
 
 ___
 
@@ -64,7 +62,7 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [methods/methodFactory.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L7)*
+*Defined in [methods/methodFactory.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L7)*
 
 ___
 
@@ -72,7 +70,7 @@ ___
 
 • **methodKeys**: *string[]*
 
-*Defined in [methods/methodFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L10)*
+*Defined in [methods/methodFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L10)*
 
 ## Methods
 
@@ -80,7 +78,7 @@ ___
 
 ▸ **addMethodsToContract**(): *[Contract](contract.md)*
 
-*Defined in [methods/methodFactory.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L20)*
+*Defined in [methods/methodFactory.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L20)*
 
 **Returns:** *[Contract](contract.md)*
 
@@ -90,7 +88,7 @@ ___
 
 ▸ **mapMethodKeys**(): *string[]*
 
-*Defined in [methods/methodFactory.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/methods/methodFactory.ts#L39)*
+*Defined in [methods/methodFactory.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/methods/methodFactory.ts#L39)*
 
 **`function`** mapMethodKeys
 

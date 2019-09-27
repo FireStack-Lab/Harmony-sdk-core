@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [Harmony](harmony.md)
+[@harmony-js/core](../globals.md) › [Harmony](harmony.md)
 
 # Class: Harmony
 
@@ -8,7 +6,7 @@
 
 * HarmonyCore
 
-  * **Harmony**
+  ↳ **Harmony**
 
 ## Index
 
@@ -24,6 +22,7 @@
 * [chainType](harmony.md#chaintype)
 * [contracts](harmony.md#contracts)
 * [crypto](harmony.md#crypto)
+* [defaultShardID](harmony.md#optional-defaultshardid)
 * [getChainId](harmony.md#getchainid)
 * [messenger](harmony.md#messenger)
 * [provider](harmony.md#private-provider)
@@ -35,7 +34,10 @@
 
 * [setChainId](harmony.md#setchainid)
 * [setChainType](harmony.md#setchaintype)
+* [setMessenger](harmony.md#private-setmessenger)
 * [setProvider](harmony.md#setprovider)
+* [setShardID](harmony.md#setshardid)
+* [shardingStructures](harmony.md#shardingstructures)
 
 ### Object literals
 
@@ -49,15 +51,14 @@
 
 *Overrides void*
 
-*Defined in [harmony.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L30)*
+*Defined in [harmony.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L31)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`url` | string |  utils.defaultConfig.Default.Chain_URL |
+`url` | string | - |
 `config` | [HarmonyConfig](../interfaces/harmonyconfig.md) |  {
-      chainUrl: utils.defaultConfig.Default.Chain_URL,
       chainId: utils.defaultConfig.Default.Chain_ID,
       chainType: utils.defaultConfig.Default.Chain_Type,
     } |
@@ -70,7 +71,7 @@ Name | Type | Default |
 
 • **blockchain**: *[Blockchain](blockchain.md)*
 
-*Defined in [harmony.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L26)*
+*Defined in [harmony.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L26)*
 
 ___
 
@@ -80,7 +81,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:35
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:39
 
 ___
 
@@ -90,7 +91,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:37
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:41
 
 ___
 
@@ -100,7 +101,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:34
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:38
 
 ___
 
@@ -108,7 +109,7 @@ ___
 
 • **contracts**: *ContractFactory*
 
-*Defined in [harmony.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L27)*
+*Defined in [harmony.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L27)*
 
 ___
 
@@ -116,7 +117,15 @@ ___
 
 • **crypto**: *any*
 
-*Defined in [harmony.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L28)*
+*Defined in [harmony.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L28)*
+
+___
+
+### `Optional` defaultShardID
+
+• **defaultShardID**? : *undefined | number*
+
+*Defined in [harmony.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L30)*
 
 ___
 
@@ -126,7 +135,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:38
+Defined in /home/travis/build/FireStack-Lab/Harmony-sdk-core/packages/harmony-utils/dist/chain.d.ts:42
 
 ___
 
@@ -134,7 +143,7 @@ ___
 
 • **messenger**: *Messenger*
 
-*Defined in [harmony.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L23)*
+*Defined in [harmony.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L23)*
 
 ___
 
@@ -142,7 +151,7 @@ ___
 
 • **provider**: *HttpProvider | WSProvider*
 
-*Defined in [harmony.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L30)*
+*Defined in [harmony.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L31)*
 
 ___
 
@@ -150,7 +159,7 @@ ___
 
 • **transactions**: *TransactionFactory*
 
-*Defined in [harmony.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L24)*
+*Defined in [harmony.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L24)*
 
 ___
 
@@ -158,7 +167,7 @@ ___
 
 • **utils**: *any*
 
-*Defined in [harmony.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L29)*
+*Defined in [harmony.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L29)*
 
 ___
 
@@ -166,7 +175,7 @@ ___
 
 • **wallet**: *Wallet*
 
-*Defined in [harmony.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L25)*
+*Defined in [harmony.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L25)*
 
 ## Methods
 
@@ -176,7 +185,7 @@ ___
 
 *Overrides void*
 
-*Defined in [harmony.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L60)*
+*Defined in [harmony.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L63)*
 
 **Parameters:**
 
@@ -194,7 +203,7 @@ ___
 
 *Overrides void*
 
-*Defined in [harmony.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L67)*
+*Defined in [harmony.ts:73](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L73)*
 
 **Parameters:**
 
@@ -206,17 +215,65 @@ Name | Type |
 
 ___
 
-###  setProvider
+### `Private` setMessenger
 
-▸ **setProvider**(`provider`: string | HttpProvider | WSProvider): *void*
+▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [harmony.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L52)*
+*Defined in [harmony.ts:92](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L92)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`provider` | string \| HttpProvider \| WSProvider |
+`messenger` | Messenger |
+
+**Returns:** *void*
+
+___
+
+###  setProvider
+
+▸ **setProvider**(`provider`: string | HttpProvider | WSProvider): *void*
+
+*Defined in [harmony.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L57)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`provider` | string &#124; HttpProvider &#124; WSProvider |
+
+**Returns:** *void*
+
+___
+
+###  setShardID
+
+▸ **setShardID**(`shardID`: number): *void*
+
+*Defined in [harmony.ts:68](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L68)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`shardID` | number |
+
+**Returns:** *void*
+
+___
+
+###  shardingStructures
+
+▸ **shardingStructures**(`shardingStructures`: ShardingItem[]): *void*
+
+*Defined in [harmony.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L79)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`shardingStructures` | ShardingItem[] |
 
 **Returns:** *void*
 
@@ -226,58 +283,58 @@ Name | Type |
 
 ### ▪ **Modules**: *object*
 
-*Defined in [harmony.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L12)*
+*Defined in [harmony.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L12)*
 
 ###  Account
 
 • **Account**: *Account*
 
-*Defined in [harmony.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L20)*
+*Defined in [harmony.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L20)*
 
 ###  Blockchain
 
 • **Blockchain**: *[Blockchain](blockchain.md)*
 
-*Defined in [harmony.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L16)*
+*Defined in [harmony.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L16)*
 
 ###  Contract
 
 • **Contract**: *Contract*
 
-*Defined in [harmony.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L21)*
+*Defined in [harmony.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L21)*
 
 ###  HttpProvider
 
 • **HttpProvider**: *HttpProvider*
 
-*Defined in [harmony.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L13)*
+*Defined in [harmony.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L13)*
 
 ###  Messenger
 
 • **Messenger**: *Messenger*
 
-*Defined in [harmony.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L15)*
+*Defined in [harmony.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L15)*
 
 ###  Transaction
 
 • **Transaction**: *Transaction*
 
-*Defined in [harmony.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L19)*
+*Defined in [harmony.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L19)*
 
 ###  TransactionFactory
 
 • **TransactionFactory**: *TransactionFactory*
 
-*Defined in [harmony.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L17)*
+*Defined in [harmony.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L17)*
 
 ###  WSProvider
 
 • **WSProvider**: *WSProvider*
 
-*Defined in [harmony.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L14)*
+*Defined in [harmony.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L14)*
 
 ###  Wallet
 
 • **Wallet**: *Wallet*
 
-*Defined in [harmony.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmony.ts#L18)*
+*Defined in [harmony.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmony.ts#L18)*

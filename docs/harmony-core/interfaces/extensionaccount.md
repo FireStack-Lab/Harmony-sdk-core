@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [ExtensionAccount](extensionaccount.md)
+[@harmony-js/core](../globals.md) › [ExtensionAccount](extensionaccount.md)
 
 # Interface: ExtensionAccount
 
@@ -21,7 +19,7 @@
 
 • **address**: *"string"*
 
-*Defined in [harmonyExtension.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L15)*
+*Defined in [harmonyExtension.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L23)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 • **name**: *"string"*
 
-*Defined in [harmonyExtension.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L16)*
+*Defined in [harmonyExtension.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L24)*

@@ -1,6 +1,4 @@
-**[@harmony-js/contract](../README.md)**
-
-[Globals](../README.md) › [AbiItem](abiitem.md)
+[@harmony-js/contract](../globals.md) › [AbiItem](abiitem.md)
 
 # Class: AbiItem
 
@@ -40,13 +38,13 @@
 
 \+ **new AbiItem**(`abiItem`: [AbiItemModel](../interfaces/abiitemmodel.md) | any): *[AbiItem](abiitem.md)*
 
-*Defined in [models/AbiItemModel.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L13)*
+*Defined in [models/AbiItemModel.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L13)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`abiItem` | [AbiItemModel](../interfaces/abiitemmodel.md) \| any |
+`abiItem` | [AbiItemModel](../interfaces/abiitemmodel.md) &#124; any |
 
 **Returns:** *[AbiItem](abiitem.md)*
 
@@ -56,7 +54,7 @@ Name | Type |
 
 • **abiItem**: *[AbiItemModel](../interfaces/abiitemmodel.md)*
 
-*Defined in [models/AbiItemModel.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L5)*
+*Defined in [models/AbiItemModel.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L5)*
 
 ___
 
@@ -64,7 +62,7 @@ ___
 
 • **anonymous**: *boolean*
 
-*Defined in [models/AbiItemModel.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L9)*
+*Defined in [models/AbiItemModel.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L9)*
 
 ___
 
@@ -72,7 +70,7 @@ ___
 
 • **contractMethodParameters**: *any[]*
 
-*Defined in [models/AbiItemModel.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L13)*
+*Defined in [models/AbiItemModel.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L13)*
 
 ___
 
@@ -80,7 +78,7 @@ ___
 
 • **inputs**? : *[AbiInput](../interfaces/abiinput.md)[]*
 
-*Defined in [models/AbiItemModel.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L11)*
+*Defined in [models/AbiItemModel.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L11)*
 
 ___
 
@@ -88,7 +86,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [models/AbiItemModel.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L7)*
+*Defined in [models/AbiItemModel.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L7)*
 
 ___
 
@@ -96,7 +94,7 @@ ___
 
 • **outputs**? : *[AbiOutput](../interfaces/abioutput.md)[]*
 
-*Defined in [models/AbiItemModel.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L12)*
+*Defined in [models/AbiItemModel.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L12)*
 
 ___
 
@@ -104,7 +102,7 @@ ___
 
 • **payable**: *boolean*
 
-*Defined in [models/AbiItemModel.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L8)*
+*Defined in [models/AbiItemModel.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L8)*
 
 ___
 
@@ -112,7 +110,7 @@ ___
 
 • **signature**: *string*
 
-*Defined in [models/AbiItemModel.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L6)*
+*Defined in [models/AbiItemModel.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L6)*
 
 ___
 
@@ -120,7 +118,7 @@ ___
 
 • **type**? : *undefined | string*
 
-*Defined in [models/AbiItemModel.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L10)*
+*Defined in [models/AbiItemModel.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L10)*
 
 ## Methods
 
@@ -128,7 +126,7 @@ ___
 
 ▸ **getIndexedInputs**(): *[AbiInput](../interfaces/abiinput.md)[]*
 
-*Defined in [models/AbiItemModel.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L52)*
+*Defined in [models/AbiItemModel.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L52)*
 
 **Returns:** *[AbiInput](../interfaces/abiinput.md)[]*
 
@@ -138,7 +136,7 @@ ___
 
 ▸ **getInputLength**(): *number*
 
-*Defined in [models/AbiItemModel.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L28)*
+*Defined in [models/AbiItemModel.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L28)*
 
 **Returns:** *number*
 
@@ -148,7 +146,7 @@ ___
 
 ▸ **getInputs**(): *[AbiInput](../interfaces/abiinput.md)[]*
 
-*Defined in [models/AbiItemModel.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L36)*
+*Defined in [models/AbiItemModel.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L36)*
 
 **Returns:** *[AbiInput](../interfaces/abiinput.md)[]*
 
@@ -158,7 +156,7 @@ ___
 
 ▸ **getOutputs**(): *[AbiOutput](../interfaces/abioutput.md)[]*
 
-*Defined in [models/AbiItemModel.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L44)*
+*Defined in [models/AbiItemModel.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L44)*
 
 **Returns:** *[AbiOutput](../interfaces/abioutput.md)[]*
 
@@ -168,7 +166,7 @@ ___
 
 ▸ **isOfType**(`type`: string): *boolean*
 
-*Defined in [models/AbiItemModel.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-contract/src/models/AbiItemModel.ts#L58)*
+*Defined in [models/AbiItemModel.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-contract/src/models/AbiItemModel.ts#L58)*
 
 **Parameters:**
 

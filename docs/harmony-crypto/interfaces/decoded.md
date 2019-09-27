@@ -1,6 +1,4 @@
-**[@harmony-js/crypto](../README.md)**
-
-[Globals](../README.md) › [Decoded](decoded.md)
+[@harmony-js/crypto](../globals.md) › [Decoded](decoded.md)
 
 # Interface: Decoded
 
@@ -21,7 +19,7 @@
 
 • **consumed**: *number*
 
-*Defined in [rlp.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/rlp.ts#L66)*
+*Defined in [rlp.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/rlp.ts#L66)*
 
 ___
 
@@ -29,4 +27,4 @@ ___
 
 • **result**: *any*
 
-*Defined in [rlp.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-crypto/src/rlp.ts#L65)*
+*Defined in [rlp.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/rlp.ts#L65)*

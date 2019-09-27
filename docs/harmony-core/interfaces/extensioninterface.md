@@ -1,6 +1,4 @@
-**[@harmony-js/core](../README.md)**
-
-[Globals](../README.md) › [ExtensionInterface](extensioninterface.md)
+[@harmony-js/core](../globals.md) › [ExtensionInterface](extensioninterface.md)
 
 # Interface: ExtensionInterface
 
@@ -25,7 +23,7 @@
 
 • **getAccount**: *function*
 
-*Defined in [harmonyExtension.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L31)*
+*Defined in [harmonyExtension.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L39)*
 
 #### Type declaration:
 
@@ -37,7 +35,7 @@ ___
 
 • **isMathWallet**? : *undefined | false | true*
 
-*Defined in [harmonyExtension.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L34)*
+*Defined in [harmonyExtension.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L42)*
 
 ___
 
@@ -45,7 +43,7 @@ ___
 
 • **messenger**? : *[Messenger](../classes/harmony.md#messenger)*
 
-*Defined in [harmonyExtension.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L32)*
+*Defined in [harmonyExtension.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L40)*
 
 ___
 
@@ -53,7 +51,7 @@ ___
 
 • **network**: *[ExtensionNetwork](extensionnetwork.md)*
 
-*Defined in [harmonyExtension.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L35)*
+*Defined in [harmonyExtension.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L43)*
 
 ___
 
@@ -61,7 +59,7 @@ ___
 
 • **signTransaction**: *function*
 
-*Defined in [harmonyExtension.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L25)*
+*Defined in [harmonyExtension.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L33)*
 
 #### Type declaration:
 
@@ -82,4 +80,4 @@ ___
 
 • **version**: *string*
 
-*Defined in [harmonyExtension.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/d171933/packages/harmony-core/src/harmonyExtension.ts#L33)*
+*Defined in [harmonyExtension.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/harmonyExtension.ts#L41)*
