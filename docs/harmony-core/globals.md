@@ -39,7 +39,7 @@
 
 ▸ **createWeb3**(`_web3`: any): *void*
 
-*Defined in [util.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/util.ts#L12)*
+*Defined in [util.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/util.ts#L12)*
 
 **Parameters:**
 

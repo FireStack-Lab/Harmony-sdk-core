@@ -22,7 +22,7 @@
 
 • **callback**: *function*
 
-*Defined in [truffleProvider.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/truffleProvider.ts#L16)*
+*Defined in [truffleProvider.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L16)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ ___
 
 • **id**: *number*
 
-*Defined in [truffleProvider.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/truffleProvider.ts#L13)*
+*Defined in [truffleProvider.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L13)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **newArgs**: *any*
 
-*Defined in [truffleProvider.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/truffleProvider.ts#L12)*
+*Defined in [truffleProvider.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L12)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **newMethod**: *string*
 
-*Defined in [truffleProvider.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/truffleProvider.ts#L15)*
+*Defined in [truffleProvider.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L15)*
 
 ___
 
@@ -65,4 +65,4 @@ ___
 
 • **params**: *any*
 
-*Defined in [truffleProvider.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-core/src/truffleProvider.ts#L14)*
+*Defined in [truffleProvider.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L14)*

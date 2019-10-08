@@ -20,7 +20,7 @@
 
 • **c**: *number*
 
-*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L6)*
+*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-crypto/src/types.ts#L6)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **dklen**: *number*
 
-*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L5)*
+*Defined in [types.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-crypto/src/types.ts#L5)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **salt**: *string*
 
-*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/33571de/packages/harmony-crypto/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-crypto/src/types.ts#L4)*
