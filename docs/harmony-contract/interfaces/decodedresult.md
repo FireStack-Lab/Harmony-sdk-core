@@ -19,7 +19,7 @@
 
 • **consumed**: *number*
 
-*Defined in [abi/abiCoder.ts:482](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/abi/abiCoder.ts#L482)*
+*Defined in [abi/abiCoder.ts:482](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/abi/abiCoder.ts#L482)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **value**: *any*
 
-*Defined in [abi/abiCoder.ts:483](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/abi/abiCoder.ts#L483)*
+*Defined in [abi/abiCoder.ts:483](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/abi/abiCoder.ts#L483)*

@@ -42,7 +42,7 @@
 
 \+ **new Emitter**(): *[Emitter](emitter.md)*
 
-*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L11)*
+*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L11)*
 
 **Returns:** *[Emitter](emitter.md)*
 
@@ -52,7 +52,7 @@
 
 • **emit**: *function*
 
-*Defined in [providers/emitter.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L7)*
+*Defined in [providers/emitter.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L7)*
 
 #### Type declaration:
 
@@ -71,7 +71,7 @@ ___
 
 • **emitter**: *Emitter*
 
-*Defined in [providers/emitter.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L5)*
+*Defined in [providers/emitter.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L5)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **handlers**? : *any*
 
-*Defined in [providers/emitter.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L4)*
+*Defined in [providers/emitter.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L4)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **off**: *function*
 
-*Defined in [providers/emitter.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L6)*
+*Defined in [providers/emitter.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L6)*
 
 #### Type declaration:
 
@@ -106,7 +106,7 @@ ___
 
 • **promise**: *Promise‹__type›*
 
-*Defined in [providers/emitter.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L8)*
+*Defined in [providers/emitter.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L8)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 • **reject**? : *any*
 
-*Defined in [providers/emitter.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L10)*
+*Defined in [providers/emitter.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L10)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 • **resolve**? : *any*
 
-*Defined in [providers/emitter.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L9)*
+*Defined in [providers/emitter.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L9)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 • **then**? : *any*
 
-*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L11)*
+*Defined in [providers/emitter.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L11)*
 
 ## Methods
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **addEventListener**(`type`: string, `handler`: mitt.Handler): *void*
 
-*Defined in [providers/emitter.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L41)*
+*Defined in [providers/emitter.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L41)*
 
 **Parameters:**
 
@@ -155,7 +155,7 @@ ___
 
 ▸ **listenerCount**(`listenKey`: any): *number*
 
-*Defined in [providers/emitter.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L64)*
+*Defined in [providers/emitter.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L64)*
 
 **Parameters:**
 
@@ -171,7 +171,7 @@ ___
 
 ▸ **on**(`type`: string, `handler`: mitt.Handler): *this*
 
-*Defined in [providers/emitter.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L30)*
+*Defined in [providers/emitter.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L30)*
 
 **Parameters:**
 
@@ -188,7 +188,7 @@ ___
 
 ▸ **onData**(`data`: any): *void*
 
-*Defined in [providers/emitter.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L60)*
+*Defined in [providers/emitter.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L60)*
 
 **Parameters:**
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **onError**(`error`: any): *void*
 
-*Defined in [providers/emitter.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L56)*
+*Defined in [providers/emitter.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L56)*
 
 **Parameters:**
 
@@ -220,7 +220,7 @@ ___
 
 ▸ **once**(`type`: string, `handler`: mitt.Handler): *void*
 
-*Defined in [providers/emitter.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L34)*
+*Defined in [providers/emitter.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L34)*
 
 **Parameters:**
 
@@ -237,7 +237,7 @@ ___
 
 ▸ **removeEventListener**(`type?`: undefined | string, `handler?`: mitt.Handler): *void*
 
-*Defined in [providers/emitter.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L45)*
+*Defined in [providers/emitter.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L45)*
 
 **Parameters:**
 
@@ -254,6 +254,6 @@ ___
 
 ▸ **resetHandlers**(): *void*
 
-*Defined in [providers/emitter.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/emitter.ts#L24)*
+*Defined in [providers/emitter.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/emitter.ts#L24)*
 
 **Returns:** *void*

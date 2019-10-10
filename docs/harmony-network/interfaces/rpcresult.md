@@ -21,7 +21,7 @@
 
 • **raw**: *any*
 
-*Defined in [types.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L60)*
+*Defined in [types.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L60)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **resultList**: *any[]*
 
-*Defined in [types.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L59)*
+*Defined in [types.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L59)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **resultMap**: *Map‹string, any›*
 
-*Defined in [types.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L58)*
+*Defined in [types.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L58)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **resultString**: *string*
 
-*Defined in [types.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L57)*
+*Defined in [types.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L57)*

@@ -62,7 +62,7 @@
 
 \+ **new Unit**(`str`: BN | string | number): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L250)*
+*Defined in [transformers.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L250)*
 
 **Parameters:**
 
@@ -78,7 +78,7 @@ Name | Type |
 
 • **unit**: *BN | string*
 
-*Defined in [transformers.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L250)*
+*Defined in [transformers.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L250)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **wei**: *BN*
 
-*Defined in [transformers.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L249)*
+*Defined in [transformers.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L249)*
 
 ## Methods
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **asEther**(): *this*
 
-*Defined in [transformers.ts:290](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L290)*
+*Defined in [transformers.ts:290](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L290)*
 
 **Returns:** *this*
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **asFinney**(): *this*
 
-*Defined in [transformers.ts:286](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L286)*
+*Defined in [transformers.ts:286](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L286)*
 
 **Returns:** *this*
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **asGether**(): *this*
 
-*Defined in [transformers.ts:302](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L302)*
+*Defined in [transformers.ts:302](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L302)*
 
 **Returns:** *this*
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **asGwei**(): *this*
 
-*Defined in [transformers.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L278)*
+*Defined in [transformers.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L278)*
 
 **Returns:** *this*
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **asKether**(): *this*
 
-*Defined in [transformers.ts:294](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L294)*
+*Defined in [transformers.ts:294](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L294)*
 
 **Returns:** *this*
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **asKwei**(): *this*
 
-*Defined in [transformers.ts:270](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L270)*
+*Defined in [transformers.ts:270](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L270)*
 
 **Returns:** *this*
 
@@ -154,7 +154,7 @@ ___
 
 ▸ **asMether**(): *this*
 
-*Defined in [transformers.ts:298](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L298)*
+*Defined in [transformers.ts:298](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L298)*
 
 **Returns:** *this*
 
@@ -164,7 +164,7 @@ ___
 
 ▸ **asMwei**(): *this*
 
-*Defined in [transformers.ts:274](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L274)*
+*Defined in [transformers.ts:274](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L274)*
 
 **Returns:** *this*
 
@@ -174,7 +174,7 @@ ___
 
 ▸ **asSzabo**(): *this*
 
-*Defined in [transformers.ts:282](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L282)*
+*Defined in [transformers.ts:282](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L282)*
 
 **Returns:** *this*
 
@@ -184,7 +184,7 @@ ___
 
 ▸ **asTether**(): *this*
 
-*Defined in [transformers.ts:306](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L306)*
+*Defined in [transformers.ts:306](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L306)*
 
 **Returns:** *this*
 
@@ -194,7 +194,7 @@ ___
 
 ▸ **asWei**(): *this*
 
-*Defined in [transformers.ts:266](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L266)*
+*Defined in [transformers.ts:266](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L266)*
 
 **Returns:** *this*
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **toEther**(): *string*
 
-*Defined in [transformers.ts:354](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L354)*
+*Defined in [transformers.ts:354](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L354)*
 
 **Returns:** *string*
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **toFinney**(): *string*
 
-*Defined in [transformers.ts:347](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L347)*
+*Defined in [transformers.ts:347](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L347)*
 
 **Returns:** *string*
 
@@ -224,7 +224,7 @@ ___
 
 ▸ **toGether**(): *string*
 
-*Defined in [transformers.ts:375](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L375)*
+*Defined in [transformers.ts:375](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L375)*
 
 **Returns:** *string*
 
@@ -234,7 +234,7 @@ ___
 
 ▸ **toGwei**(): *string*
 
-*Defined in [transformers.ts:326](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L326)*
+*Defined in [transformers.ts:326](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L326)*
 
 **Returns:** *string*
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [transformers.ts:397](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L397)*
+*Defined in [transformers.ts:397](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L397)*
 
 **Returns:** *string*
 
@@ -254,7 +254,7 @@ ___
 
 ▸ **toKether**(): *string*
 
-*Defined in [transformers.ts:361](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L361)*
+*Defined in [transformers.ts:361](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L361)*
 
 **Returns:** *string*
 
@@ -264,7 +264,7 @@ ___
 
 ▸ **toKwei**(): *string*
 
-*Defined in [transformers.ts:319](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L319)*
+*Defined in [transformers.ts:319](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L319)*
 
 **Returns:** *string*
 
@@ -274,7 +274,7 @@ ___
 
 ▸ **toMether**(): *string*
 
-*Defined in [transformers.ts:368](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L368)*
+*Defined in [transformers.ts:368](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L368)*
 
 **Returns:** *string*
 
@@ -284,7 +284,7 @@ ___
 
 ▸ **toMwei**(): *string*
 
-*Defined in [transformers.ts:333](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L333)*
+*Defined in [transformers.ts:333](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L333)*
 
 **Returns:** *string*
 
@@ -294,7 +294,7 @@ ___
 
 ▸ **toSzabo**(): *string*
 
-*Defined in [transformers.ts:340](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L340)*
+*Defined in [transformers.ts:340](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L340)*
 
 **Returns:** *string*
 
@@ -304,7 +304,7 @@ ___
 
 ▸ **toTether**(): *string*
 
-*Defined in [transformers.ts:382](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L382)*
+*Defined in [transformers.ts:382](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L382)*
 
 **Returns:** *string*
 
@@ -314,7 +314,7 @@ ___
 
 ▸ **toWei**(): *BN*
 
-*Defined in [transformers.ts:311](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L311)*
+*Defined in [transformers.ts:311](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L311)*
 
 **Returns:** *BN*
 
@@ -324,7 +324,7 @@ ___
 
 ▸ **toWeiString**(): *string*
 
-*Defined in [transformers.ts:390](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L390)*
+*Defined in [transformers.ts:390](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L390)*
 
 **Returns:** *string*
 
@@ -334,7 +334,7 @@ ___
 
 ▸ **Ether**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:233](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L233)*
+*Defined in [transformers.ts:233](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L233)*
 
 **Parameters:**
 
@@ -350,7 +350,7 @@ ___
 
 ▸ **Finney**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:230](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L230)*
+*Defined in [transformers.ts:230](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L230)*
 
 **Parameters:**
 
@@ -366,7 +366,7 @@ ___
 
 ▸ **Gether**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:242](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L242)*
+*Defined in [transformers.ts:242](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L242)*
 
 **Parameters:**
 
@@ -382,7 +382,7 @@ ___
 
 ▸ **Gwei**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:224](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L224)*
+*Defined in [transformers.ts:224](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L224)*
 
 **Parameters:**
 
@@ -398,7 +398,7 @@ ___
 
 ▸ **Kether**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L236)*
+*Defined in [transformers.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L236)*
 
 **Parameters:**
 
@@ -414,7 +414,7 @@ ___
 
 ▸ **Kwei**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:218](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L218)*
+*Defined in [transformers.ts:218](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L218)*
 
 **Parameters:**
 
@@ -430,7 +430,7 @@ ___
 
 ▸ **Mether**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:239](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L239)*
+*Defined in [transformers.ts:239](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L239)*
 
 **Parameters:**
 
@@ -446,7 +446,7 @@ ___
 
 ▸ **Mwei**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L221)*
+*Defined in [transformers.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L221)*
 
 **Parameters:**
 
@@ -462,7 +462,7 @@ ___
 
 ▸ **Szabo**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:227](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L227)*
+*Defined in [transformers.ts:227](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L227)*
 
 **Parameters:**
 
@@ -478,7 +478,7 @@ ___
 
 ▸ **Tether**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:245](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L245)*
+*Defined in [transformers.ts:245](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L245)*
 
 **Parameters:**
 
@@ -494,7 +494,7 @@ ___
 
 ▸ **Wei**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:215](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L215)*
+*Defined in [transformers.ts:215](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L215)*
 
 **Parameters:**
 
@@ -510,7 +510,7 @@ ___
 
 ▸ **from**(`str`: BN | string): *[Unit](unit.md)*
 
-*Defined in [transformers.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/transformers.ts#L211)*
+*Defined in [transformers.ts:211](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-utils/src/transformers.ts#L211)*
 
 **Parameters:**
 

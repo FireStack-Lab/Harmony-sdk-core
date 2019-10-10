@@ -67,7 +67,7 @@
 
 *Overrides [Transaction](transaction.md).[constructor](transaction.md#constructor)*
 
-*Defined in [shardingTransaction.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/shardingTransaction.ts#L7)*
+*Defined in [shardingTransaction.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/shardingTransaction.ts#L7)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ Name | Type | Default |
 
 *Inherited from [Transaction](transaction.md).[blockNumbers](transaction.md#blocknumbers)*
 
-*Defined in [transaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L37)*
+*Defined in [transaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L37)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[confirmationCheck](transaction.md#confirmationcheck)*
 
-*Defined in [transaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L39)*
+*Defined in [transaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L39)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[confirmations](transaction.md#confirmations)*
 
-*Defined in [transaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L38)*
+*Defined in [transaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L38)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitter](transaction.md#emitter)*
 
-*Defined in [transaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L34)*
+*Defined in [transaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L34)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[messenger](transaction.md#messenger)*
 
-*Defined in [transaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L35)*
+*Defined in [transaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L35)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[receipt](transaction.md#optional-receipt)*
 
-*Defined in [transaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L40)*
+*Defined in [transaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L40)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[txStatus](transaction.md#txstatus)*
 
-*Defined in [transaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L36)*
+*Defined in [transaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L36)*
 
 ## Accessors
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[txParams](transaction.md#txparams)*
 
-*Defined in [transaction.ts:195](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L195)*
+*Defined in [transaction.ts:195](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L195)*
 
 **Returns:** *[TxParams](../interfaces/txparams.md)*
 
@@ -169,7 +169,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[txPayload](transaction.md#txpayload)*
 
-*Defined in [transaction.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L181)*
+*Defined in [transaction.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L181)*
 
 **Returns:** *object*
 
@@ -199,7 +199,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[confirm](transaction.md#confirm)*
 
-*Defined in [transaction.ts:372](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L372)*
+*Defined in [transaction.ts:372](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L372)*
 
 **Parameters:**
 
@@ -220,7 +220,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitConfirm](transaction.md#emitconfirm)*
 
-*Defined in [transaction.ts:496](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L496)*
+*Defined in [transaction.ts:496](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L496)*
 
 **Parameters:**
 
@@ -238,7 +238,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitError](transaction.md#emiterror)*
 
-*Defined in [transaction.ts:493](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L493)*
+*Defined in [transaction.ts:493](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L493)*
 
 **Parameters:**
 
@@ -256,7 +256,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitReceipt](transaction.md#emitreceipt)*
 
-*Defined in [transaction.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L490)*
+*Defined in [transaction.ts:490](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L490)*
 
 **Parameters:**
 
@@ -274,7 +274,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitTrack](transaction.md#emittrack)*
 
-*Defined in [transaction.ts:499](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L499)*
+*Defined in [transaction.ts:499](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L499)*
 
 **Parameters:**
 
@@ -292,7 +292,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[emitTransactionHash](transaction.md#emittransactionhash)*
 
-*Defined in [transaction.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L487)*
+*Defined in [transaction.ts:487](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L487)*
 
 **Parameters:**
 
@@ -310,7 +310,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getBlockByNumber](transaction.md#getblockbynumber)*
 
-*Defined in [transaction.ts:521](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L521)*
+*Defined in [transaction.ts:521](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L521)*
 
 **Parameters:**
 
@@ -328,7 +328,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getBlockNumber](transaction.md#getblocknumber)*
 
-*Defined in [transaction.ts:503](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L503)*
+*Defined in [transaction.ts:503](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L503)*
 
 **Returns:** *Promise‹BN›*
 
@@ -340,7 +340,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getRLPSigned](transaction.md#getrlpsigned)*
 
-*Defined in [transaction.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L147)*
+*Defined in [transaction.ts:147](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L147)*
 
 **Parameters:**
 
@@ -359,7 +359,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getRLPUnsigned](transaction.md#getrlpunsigned)*
 
-*Defined in [transaction.ts:110](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L110)*
+*Defined in [transaction.ts:110](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L110)*
 
 **Returns:** *[string, any[]]*
 
@@ -371,7 +371,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getRawTransaction](transaction.md#getrawtransaction)*
 
-*Defined in [transaction.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L166)*
+*Defined in [transaction.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L166)*
 
 **Returns:** *string*
 
@@ -383,7 +383,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[getTxStatus](transaction.md#gettxstatus)*
 
-*Defined in [transaction.ts:264](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L264)*
+*Defined in [transaction.ts:264](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L264)*
 
 **Returns:** *[TxStatus](../enums/txstatus.md)*
 
@@ -395,7 +395,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[isConfirmed](transaction.md#isconfirmed)*
 
-*Defined in [transaction.ts:281](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L281)*
+*Defined in [transaction.ts:281](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L281)*
 
 **Returns:** *boolean*
 
@@ -407,7 +407,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[isInitialized](transaction.md#isinitialized)*
 
-*Defined in [transaction.ts:269](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L269)*
+*Defined in [transaction.ts:269](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L269)*
 
 **Returns:** *boolean*
 
@@ -419,7 +419,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[isPending](transaction.md#ispending)*
 
-*Defined in [transaction.ts:275](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L275)*
+*Defined in [transaction.ts:275](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L275)*
 
 **Returns:** *boolean*
 
@@ -431,7 +431,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[isRejected](transaction.md#isrejected)*
 
-*Defined in [transaction.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L278)*
+*Defined in [transaction.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L278)*
 
 **Returns:** *boolean*
 
@@ -443,7 +443,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[isSigned](transaction.md#issigned)*
 
-*Defined in [transaction.ts:272](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L272)*
+*Defined in [transaction.ts:272](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L272)*
 
 **Returns:** *boolean*
 
@@ -455,7 +455,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[map](transaction.md#map)*
 
-*Defined in [transaction.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L253)*
+*Defined in [transaction.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L253)*
 
 **Parameters:**
 
@@ -473,7 +473,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[normalizeAddress](transaction.md#normalizeaddress)*
 
-*Defined in [transaction.ts:540](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L540)*
+*Defined in [transaction.ts:540](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L540)*
 
 **Parameters:**
 
@@ -491,7 +491,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[observed](transaction.md#observed)*
 
-*Defined in [transaction.ts:285](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L285)*
+*Defined in [transaction.ts:285](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L285)*
 
 **Returns:** *Emitter*
 
@@ -503,7 +503,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[recover](transaction.md#recover)*
 
-*Defined in [transaction.ts:170](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L170)*
+*Defined in [transaction.ts:170](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L170)*
 
 **Parameters:**
 
@@ -521,7 +521,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[sendTransaction](transaction.md#sendtransaction)*
 
-*Defined in [transaction.ts:289](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L289)*
+*Defined in [transaction.ts:289](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L289)*
 
 **Returns:** *Promise‹[[Transaction](transaction.md), string]›*
 
@@ -533,7 +533,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[setMessenger](transaction.md#setmessenger)*
 
-*Defined in [transaction.ts:106](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L106)*
+*Defined in [transaction.ts:106](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L106)*
 
 **Parameters:**
 
@@ -551,7 +551,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[setParams](transaction.md#setparams)*
 
-*Defined in [transaction.ts:213](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L213)*
+*Defined in [transaction.ts:213](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L213)*
 
 **Parameters:**
 
@@ -569,7 +569,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[setTxStatus](transaction.md#settxstatus)*
 
-*Defined in [transaction.ts:260](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L260)*
+*Defined in [transaction.ts:260](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L260)*
 
 **Parameters:**
 
@@ -587,7 +587,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[socketConfirm](transaction.md#socketconfirm)*
 
-*Defined in [transaction.ts:438](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L438)*
+*Defined in [transaction.ts:438](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L438)*
 
 **Parameters:**
 
@@ -607,7 +607,7 @@ ___
 
 *Inherited from [Transaction](transaction.md).[trackTx](transaction.md#tracktx)*
 
-*Defined in [transaction.ts:324](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/transaction.ts#L324)*
+*Defined in [transaction.ts:324](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/transaction.ts#L324)*
 
 **Parameters:**
 

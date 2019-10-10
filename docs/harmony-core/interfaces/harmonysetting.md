@@ -25,7 +25,7 @@
 
 • **id**: *I*
 
-*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-core/src/types.ts#L24)*
+*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-core/src/types.ts#L24)*
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 • **type**: *T*
 
-*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-core/src/types.ts#L23)*
+*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-core/src/types.ts#L23)*

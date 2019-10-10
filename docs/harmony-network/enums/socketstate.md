@@ -20,7 +20,7 @@
 
 • **SOCKET_ACCOUNTS_CHANGED**: = "socket_accountsChanged"
 
-*Defined in [providers/baseSocket.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L19)*
+*Defined in [providers/baseSocket.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L19)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **SOCKET_CLOSE**: = "socket_close"
 
-*Defined in [providers/baseSocket.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L15)*
+*Defined in [providers/baseSocket.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L15)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **SOCKET_CONNECT**: = "socket_connect"
 
-*Defined in [providers/baseSocket.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L17)*
+*Defined in [providers/baseSocket.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L17)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **SOCKET_ERROR**: = "socket_error"
 
-*Defined in [providers/baseSocket.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L16)*
+*Defined in [providers/baseSocket.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L16)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **SOCKET_MESSAGE**: = "socket_message"
 
-*Defined in [providers/baseSocket.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L13)*
+*Defined in [providers/baseSocket.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L13)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **SOCKET_NETWORK_CHANGED**: = "socket_networkChanged"
 
-*Defined in [providers/baseSocket.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L18)*
+*Defined in [providers/baseSocket.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L18)*
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 • **SOCKET_READY**: = "socket_ready"
 
-*Defined in [providers/baseSocket.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/providers/baseSocket.ts#L14)*
+*Defined in [providers/baseSocket.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/providers/baseSocket.ts#L14)*

@@ -19,7 +19,7 @@
 
 • **headers**: *[]*
 
-*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L30)*
+*Defined in [types.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L30)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **method**: *string*
 
-*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-network/src/types.ts#L31)*
+*Defined in [types.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L31)*
