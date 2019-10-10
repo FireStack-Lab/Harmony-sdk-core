@@ -15,7 +15,7 @@
 
 • **http**:
 
-*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-core/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-core/src/types.ts#L18)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **ws**:
 
-*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-core/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-core/src/types.ts#L19)*

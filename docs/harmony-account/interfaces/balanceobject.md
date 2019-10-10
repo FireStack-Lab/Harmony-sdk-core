@@ -20,7 +20,7 @@
 
 • **address**: *string*
 
-*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-account/src/types.ts#L6)*
+*Defined in [types.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-account/src/types.ts#L6)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **balance**: *string*
 
-*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-account/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-account/src/types.ts#L7)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **nonce**: *number*
 
-*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-account/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-account/src/types.ts#L8)*

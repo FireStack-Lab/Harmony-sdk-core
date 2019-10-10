@@ -21,7 +21,7 @@
 
 • **components**? : *[AbiInput](abiinput.md)[]*
 
-*Defined in [models/types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/models/types.ts#L36)*
+*Defined in [models/types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/models/types.ts#L36)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **indexed**? : *undefined | false | true*
 
-*Defined in [models/types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/models/types.ts#L35)*
+*Defined in [models/types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/models/types.ts#L35)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [models/types.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/models/types.ts#L33)*
+*Defined in [models/types.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/models/types.ts#L33)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [models/types.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/models/types.ts#L34)*
+*Defined in [models/types.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/models/types.ts#L34)*

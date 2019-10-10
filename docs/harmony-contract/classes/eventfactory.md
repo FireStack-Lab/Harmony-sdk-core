@@ -31,7 +31,7 @@
 
 \+ **new EventFactory**(`contract`: [Contract](contract.md)): *[EventFactory](eventfactory.md)*
 
-*Defined in [events/eventFactory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L13)*
+*Defined in [events/eventFactory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L13)*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ Name | Type |
 
 • **abiCoder**: *[AbiCoderClass](abicoderclass.md)*
 
-*Defined in [events/eventFactory.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L12)*
+*Defined in [events/eventFactory.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L12)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **abiModel**: *any | [AbiModel](abimodel.md)*
 
-*Defined in [events/eventFactory.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L11)*
+*Defined in [events/eventFactory.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L11)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [events/eventFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L10)*
+*Defined in [events/eventFactory.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L10)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • **eventKeys**: *string[]*
 
-*Defined in [events/eventFactory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L13)*
+*Defined in [events/eventFactory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L13)*
 
 ## Methods
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **addEventsToContract**(): *[Contract](contract.md)*
 
-*Defined in [events/eventFactory.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L23)*
+*Defined in [events/eventFactory.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L23)*
 
 **Returns:** *[Contract](contract.md)*
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **map**(`abiItemModel`: [AbiItemModel](../interfaces/abiitemmodel.md), `contract`: [Contract](contract.md), `options`: any): *any*
 
-*Defined in [events/eventFactory.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L46)*
+*Defined in [events/eventFactory.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L46)*
 
 **Parameters:**
 
@@ -107,7 +107,7 @@ ___
 
 ▸ **mapEventKeys**(): *string[]*
 
-*Defined in [events/eventFactory.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/events/eventFactory.ts#L42)*
+*Defined in [events/eventFactory.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/events/eventFactory.ts#L42)*
 
 **`function`** mapMethodKeys
 

@@ -16,7 +16,7 @@
 
 • **all**: = "all"
 
-*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/types.ts#L12)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **id**: = "id"
 
-*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/types.ts#L13)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **method**: = "method"
 
-*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-network/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/types.ts#L14)*

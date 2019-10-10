@@ -44,7 +44,7 @@
   ChainType.Harmony,
 )
 
-*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L253)*
+*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L253)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
   { name: 'data', fix: false },
 ]
 
-*Defined in [utils.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L18)*
+*Defined in [utils.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L18)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
   { name: 'data', fix: false },
 ]
 
-*Defined in [utils.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L30)*
+*Defined in [utils.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L30)*
 
 ## Functions
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **RLPSign**(`transaction`: [Transaction](classes/transaction.md), `prv`: string): *[Signature, string]*
 
-*Defined in [utils.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L258)*
+*Defined in [utils.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L258)*
 
 **Parameters:**
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **handleAddress**(`value`: string): *string*
 
-*Defined in [utils.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L49)*
+*Defined in [utils.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L49)*
 
 **Parameters:**
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **handleNumber**(`value`: string): *string*
 
-*Defined in [utils.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L39)*
+*Defined in [utils.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L39)*
 
 **Parameters:**
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **recover**(`rawTransaction`: string): *[TxParams](interfaces/txparams.md)*
 
-*Defined in [utils.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L59)*
+*Defined in [utils.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L59)*
 
 **Parameters:**
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **recoverETH**(`rawTransaction`: string): *[TxParams](interfaces/txparams.md)*
 
-*Defined in [utils.ts:149](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L149)*
+*Defined in [utils.ts:149](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L149)*
 
 **Parameters:**
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **sleep**(`ms`: number): *Promise‹unknown›*
 
-*Defined in [utils.ts:240](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-transaction/src/utils.ts#L240)*
+*Defined in [utils.ts:240](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L240)*
 
 **Parameters:**
 

@@ -28,7 +28,7 @@
 
 • **address**? : *undefined | string*
 
-*Defined in [utils/options.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L4)*
+*Defined in [utils/options.ts:4](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L4)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **data**? : *undefined | string*
 
-*Defined in [utils/options.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L2)*
+*Defined in [utils/options.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L2)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **defaultAccount**? : *undefined | string*
 
-*Defined in [utils/options.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L5)*
+*Defined in [utils/options.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L5)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **defaultBlock**? : *undefined | string*
 
-*Defined in [utils/options.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L6)*
+*Defined in [utils/options.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L6)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **defaultGas**? : *undefined | string*
 
-*Defined in [utils/options.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L7)*
+*Defined in [utils/options.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L7)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **defaultGasPrice**? : *undefined | string*
 
-*Defined in [utils/options.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L8)*
+*Defined in [utils/options.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L8)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **shardID**? : *undefined | number*
 
-*Defined in [utils/options.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L3)*
+*Defined in [utils/options.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L3)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **transactionBlockTimeout**? : *undefined | number*
 
-*Defined in [utils/options.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L9)*
+*Defined in [utils/options.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L9)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **transactionConfirmationBlocks**? : *undefined | string*
 
-*Defined in [utils/options.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L10)*
+*Defined in [utils/options.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L10)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **transactionPollingTimeout**? : *undefined | number*
 
-*Defined in [utils/options.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L11)*
+*Defined in [utils/options.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L11)*
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 • **transactionSigner**? : *any*
 
-*Defined in [utils/options.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ad01043/packages/harmony-contract/src/utils/options.ts#L12)*
+*Defined in [utils/options.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/utils/options.ts#L12)*
