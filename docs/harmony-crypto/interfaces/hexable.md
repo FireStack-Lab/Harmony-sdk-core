@@ -18,6 +18,6 @@
 
 ▸ **toHexString**(): *string*
 
-*Defined in [bytes.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-crypto/src/bytes.ts#L9)*
+*Defined in [bytes.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-crypto/src/bytes.ts#L9)*
 
 **Returns:** *string*

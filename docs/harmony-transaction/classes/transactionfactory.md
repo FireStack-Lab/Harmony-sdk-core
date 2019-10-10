@@ -30,7 +30,7 @@
 
 \+ **new TransactionFactory**(`messenger`: Messenger): *[TransactionFactory](transactionfactory.md)*
 
-*Defined in [factory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L13)*
+*Defined in [factory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L13)*
 
 **Parameters:**
 
@@ -46,7 +46,7 @@ Name | Type |
 
 • **messenger**: *Messenger*
 
-*Defined in [factory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L13)*
+*Defined in [factory.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L13)*
 
 ## Methods
 
@@ -54,7 +54,7 @@ Name | Type |
 
 ▸ **clone**(`transaction`: [Transaction](transaction.md)): *[Transaction](transaction.md)*
 
-*Defined in [factory.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L28)*
+*Defined in [factory.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L28)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **newTx**(`txParams?`: [TxParams](../interfaces/txparams.md) | any, `sharding`: boolean): *[Transaction](transaction.md)*
 
-*Defined in [factory.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L21)*
+*Defined in [factory.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L21)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **recover**(`txHash`: string): *[Transaction](transaction.md)*
 
-*Defined in [factory.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L32)*
+*Defined in [factory.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L32)*
 
 **Parameters:**
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [factory.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L17)*
+*Defined in [factory.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L17)*
 
 **Parameters:**
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **getContractAddress**(`tx`: [Transaction](transaction.md)): *string*
 
-*Defined in [factory.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-transaction/src/factory.ts#L8)*
+*Defined in [factory.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-transaction/src/factory.ts#L8)*
 
 **Parameters:**
 

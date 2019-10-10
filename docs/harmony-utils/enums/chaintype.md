@@ -15,7 +15,7 @@
 
 • **Ethereum**: = "eth"
 
-*Defined in [chain.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-utils/src/chain.ts#L3)*
+*Defined in [chain.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/chain.ts#L3)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **Harmony**: = "hmy"
 
-*Defined in [chain.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-utils/src/chain.ts#L2)*
+*Defined in [chain.ts:2](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-utils/src/chain.ts#L2)*

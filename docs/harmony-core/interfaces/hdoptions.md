@@ -20,7 +20,7 @@
 
 • **addressCount**: *number*
 
-*Defined in [truffleProvider.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L22)*
+*Defined in [truffleProvider.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-core/src/truffleProvider.ts#L22)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **index**: *number*
 
-*Defined in [truffleProvider.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L21)*
+*Defined in [truffleProvider.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-core/src/truffleProvider.ts#L21)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **menmonic**? : *undefined | string*
 
-*Defined in [truffleProvider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-core/src/truffleProvider.ts#L20)*
+*Defined in [truffleProvider.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-core/src/truffleProvider.ts#L20)*

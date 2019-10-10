@@ -76,7 +76,7 @@
 
 *Overrides void*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L10)*
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ Name | Type |
 
 • **abiItem**: *[AbiItemModel](../interfaces/abiitemmodel.md)*
 
-*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L10)*
+*Defined in [events/event.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L10)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 • **contract**: *[Contract](contract.md)*
 
-*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L9)*
+*Defined in [events/event.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L9)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 • **methodKey**: *string*
 
-*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L8)*
+*Defined in [events/event.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L8)*
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 • **params**: *any*
 
-*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L7)*
+*Defined in [events/event.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L7)*
 
 ___
 
@@ -546,7 +546,7 @@ ___
 
 *Overrides void*
 
-*Defined in [events/event.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/299af73/packages/harmony-contract/src/events/event.ts#L24)*
+*Defined in [events/event.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/6759acb/packages/harmony-contract/src/events/event.ts#L24)*
 
 **Parameters:**
 
