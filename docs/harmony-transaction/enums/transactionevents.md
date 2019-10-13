@@ -7,6 +7,9 @@
 ### Enumeration members
 
 * [confirmation](transactionevents.md#confirmation)
+* [cxConfirmation](transactionevents.md#cxconfirmation)
+* [cxReceipt](transactionevents.md#cxreceipt)
+* [cxTrack](transactionevents.md#cxtrack)
 * [error](transactionevents.md#error)
 * [receipt](transactionevents.md#receipt)
 * [track](transactionevents.md#track)
@@ -18,7 +21,31 @@
 
 • **confirmation**: = "confirmation"
 
-*Defined in [utils.ts:248](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L248)*
+*Defined in [utils.ts:248](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L248)*
+
+___
+
+###  cxConfirmation
+
+• **cxConfirmation**: = "cxConfirmation"
+
+*Defined in [utils.ts:251](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L251)*
+
+___
+
+###  cxReceipt
+
+• **cxReceipt**: = "cxReceipt"
+
+*Defined in [utils.ts:252](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L252)*
+
+___
+
+###  cxTrack
+
+• **cxTrack**: = "cxTrack"
+
+*Defined in [utils.ts:253](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L253)*
 
 ___
 
@@ -26,7 +53,7 @@ ___
 
 • **error**: = "error"
 
-*Defined in [utils.ts:247](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L247)*
+*Defined in [utils.ts:247](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L247)*
 
 ___
 
@@ -34,7 +61,7 @@ ___
 
 • **receipt**: = "receipt"
 
-*Defined in [utils.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L249)*
+*Defined in [utils.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L249)*
 
 ___
 
@@ -42,7 +69,7 @@ ___
 
 • **track**: = "track"
 
-*Defined in [utils.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L250)*
+*Defined in [utils.ts:250](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L250)*
 
 ___
 
@@ -50,4 +77,4 @@ ___
 
 • **transactionHash**: = "transactionHash"
 
-*Defined in [utils.ts:246](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/utils.ts#L246)*
+*Defined in [utils.ts:246](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/utils.ts#L246)*

@@ -8,6 +8,7 @@
 
 * [CONFIRMED](txstatus.md#confirmed)
 * [INTIALIZED](txstatus.md#intialized)
+* [NONE](txstatus.md#none)
 * [PENDING](txstatus.md#pending)
 * [REJECTED](txstatus.md#rejected)
 * [SIGNED](txstatus.md#signed)
@@ -18,7 +19,7 @@
 
 • **CONFIRMED**: = "CONFIRMED"
 
-*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/types.ts#L24)*
+*Defined in [types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L25)*
 
 ___
 
@@ -26,7 +27,15 @@ ___
 
 • **INTIALIZED**: = "INITIALIZED"
 
-*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/types.ts#L21)*
+*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L22)*
+
+___
+
+###  NONE
+
+• **NONE**: = "NONE"
+
+*Defined in [types.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L21)*
 
 ___
 
@@ -34,7 +43,7 @@ ___
 
 • **PENDING**: = "PENDING"
 
-*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/types.ts#L23)*
+*Defined in [types.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L24)*
 
 ___
 
@@ -42,7 +51,7 @@ ___
 
 • **REJECTED**: = "REJECTED"
 
-*Defined in [types.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/types.ts#L25)*
+*Defined in [types.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L26)*
 
 ___
 
@@ -50,4 +59,4 @@ ___
 
 • **SIGNED**: = "SIGNED"
 
-*Defined in [types.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-transaction/src/types.ts#L22)*
+*Defined in [types.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/types.ts#L23)*

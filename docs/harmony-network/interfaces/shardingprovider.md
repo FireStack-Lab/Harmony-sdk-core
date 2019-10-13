@@ -21,7 +21,7 @@
 
 • **current**: *boolean*
 
-*Defined in [messenger/messenger.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/messenger/messenger.ts#L11)*
+*Defined in [messenger/messenger.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/messenger/messenger.ts#L11)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **http**: *string*
 
-*Defined in [messenger/messenger.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/messenger/messenger.ts#L13)*
+*Defined in [messenger/messenger.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/messenger/messenger.ts#L13)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **shardID**: *number*
 
-*Defined in [messenger/messenger.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/messenger/messenger.ts#L12)*
+*Defined in [messenger/messenger.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/messenger/messenger.ts#L12)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **ws**: *string*
 
-*Defined in [messenger/messenger.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/messenger/messenger.ts#L14)*
+*Defined in [messenger/messenger.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/messenger/messenger.ts#L14)*

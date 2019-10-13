@@ -22,7 +22,7 @@
 
 • **allowArray**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/abi/abiCoder.ts#L109)*
+*Defined in [abi/abiCoder.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-contract/src/abi/abiCoder.ts#L109)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **allowName**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:110](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/abi/abiCoder.ts#L110)*
+*Defined in [abi/abiCoder.ts:110](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-contract/src/abi/abiCoder.ts#L110)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **allowParams**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/abi/abiCoder.ts#L111)*
+*Defined in [abi/abiCoder.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-contract/src/abi/abiCoder.ts#L111)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **allowType**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:112](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/abi/abiCoder.ts#L112)*
+*Defined in [abi/abiCoder.ts:112](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-contract/src/abi/abiCoder.ts#L112)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **readArray**? : *undefined | false | true*
 
-*Defined in [abi/abiCoder.ts:113](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-contract/src/abi/abiCoder.ts#L113)*
+*Defined in [abi/abiCoder.ts:113](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-contract/src/abi/abiCoder.ts#L113)*

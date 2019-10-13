@@ -19,7 +19,7 @@
 
 • **request**: *object*
 
-*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/types.ts#L18)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **response**: *object*
 
-*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/436f358/packages/harmony-network/src/types.ts#L19)*
+*Defined in [types.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/types.ts#L19)*
