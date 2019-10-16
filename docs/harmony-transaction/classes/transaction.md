@@ -95,7 +95,7 @@
 
 \+ **new Transaction**(`params?`: [TxParams](../interfaces/txparams.md) | any, `messenger`: Messenger, `txStatus`: [TxStatus](../enums/txstatus.md)): *[Transaction](transaction.md)*
 
-*Defined in [transaction.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L59)*
+*Defined in [transaction.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L59)*
 
 **Parameters:**
 
@@ -113,7 +113,7 @@ Name | Type | Default |
 
 • **blockNumbers**: *string[]* =  []
 
-*Defined in [transaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L37)*
+*Defined in [transaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L37)*
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 • **chainId**: *number*
 
-*Defined in [transaction.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L56)*
+*Defined in [transaction.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L56)*
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 • **confirmationCheck**: *number* = 0
 
-*Defined in [transaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L39)*
+*Defined in [transaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L39)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 • **confirmations**: *number* = 0
 
-*Defined in [transaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L38)*
+*Defined in [transaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L38)*
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 • **cxBlockNumbers**: *string[]* =  []
 
-*Defined in [transaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L41)*
+*Defined in [transaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L41)*
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 • **cxConfirmationCheck**: *number* = 0
 
-*Defined in [transaction.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L43)*
+*Defined in [transaction.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L43)*
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 • **cxConfirmations**: *number* = 0
 
-*Defined in [transaction.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L42)*
+*Defined in [transaction.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L42)*
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 • **cxStatus**: *[TxStatus](../enums/txstatus.md)* =  TxStatus.INTIALIZED
 
-*Defined in [transaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L40)*
+*Defined in [transaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L40)*
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 • **data**: *string*
 
-*Defined in [transaction.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L54)*
+*Defined in [transaction.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L54)*
 
 ___
 
@@ -185,7 +185,7 @@ ___
 
 • **emitter**: *Emitter*
 
-*Defined in [transaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L34)*
+*Defined in [transaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L34)*
 
 ___
 
@@ -193,7 +193,7 @@ ___
 
 • **from**: *string*
 
-*Defined in [transaction.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L47)*
+*Defined in [transaction.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L47)*
 
 ___
 
@@ -201,7 +201,7 @@ ___
 
 • **gasLimit**: *BN*
 
-*Defined in [transaction.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L52)*
+*Defined in [transaction.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L52)*
 
 ___
 
@@ -209,7 +209,7 @@ ___
 
 • **gasPrice**: *BN*
 
-*Defined in [transaction.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L53)*
+*Defined in [transaction.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L53)*
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [transaction.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L46)*
+*Defined in [transaction.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L46)*
 
 ___
 
@@ -225,7 +225,7 @@ ___
 
 • **messenger**: *Messenger*
 
-*Defined in [transaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L35)*
+*Defined in [transaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L35)*
 
 ___
 
@@ -233,7 +233,7 @@ ___
 
 • **nonce**: *number | string*
 
-*Defined in [transaction.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L48)*
+*Defined in [transaction.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L48)*
 
 ___
 
@@ -241,7 +241,7 @@ ___
 
 • **rawTransaction**: *string*
 
-*Defined in [transaction.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L57)*
+*Defined in [transaction.ts:57](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L57)*
 
 ___
 
@@ -249,7 +249,7 @@ ___
 
 • **receipt**? : *[TransasctionReceipt](../interfaces/transasctionreceipt.md)*
 
-*Defined in [transaction.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L44)*
+*Defined in [transaction.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L44)*
 
 ___
 
@@ -257,7 +257,7 @@ ___
 
 • **shardID**: *number | string*
 
-*Defined in [transaction.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L50)*
+*Defined in [transaction.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L50)*
 
 ___
 
@@ -265,7 +265,7 @@ ___
 
 • **signature**: *Signature*
 
-*Defined in [transaction.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L59)*
+*Defined in [transaction.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L59)*
 
 ___
 
@@ -273,7 +273,7 @@ ___
 
 • **to**: *string*
 
-*Defined in [transaction.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L49)*
+*Defined in [transaction.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L49)*
 
 ___
 
@@ -281,7 +281,7 @@ ___
 
 • **toShardID**: *number | string*
 
-*Defined in [transaction.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L51)*
+*Defined in [transaction.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L51)*
 
 ___
 
@@ -289,7 +289,7 @@ ___
 
 • **txStatus**: *[TxStatus](../enums/txstatus.md)*
 
-*Defined in [transaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L36)*
+*Defined in [transaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L36)*
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 • **unsignedRawTransaction**: *string*
 
-*Defined in [transaction.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L58)*
+*Defined in [transaction.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L58)*
 
 ___
 
@@ -305,7 +305,7 @@ ___
 
 • **value**: *BN*
 
-*Defined in [transaction.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L55)*
+*Defined in [transaction.ts:55](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L55)*
 
 ## Accessors
 
@@ -313,7 +313,7 @@ ___
 
 • **get txParams**(): *[TxParams](../interfaces/txparams.md)*
 
-*Defined in [transaction.ts:200](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L200)*
+*Defined in [transaction.ts:200](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L200)*
 
 **Returns:** *[TxParams](../interfaces/txparams.md)*
 
@@ -323,7 +323,7 @@ ___
 
 • **get txPayload**(): *object*
 
-*Defined in [transaction.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L186)*
+*Defined in [transaction.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L186)*
 
 **Returns:** *object*
 
@@ -351,7 +351,7 @@ ___
 
 ▸ **confirm**(`txHash`: string, `maxAttempts`: number, `interval`: number, `shardID`: number | string): *Promise‹[Transaction](transaction.md)›*
 
-*Defined in [transaction.ts:396](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L396)*
+*Defined in [transaction.ts:396](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L396)*
 
 **Parameters:**
 
@@ -370,7 +370,7 @@ ___
 
 ▸ **cxConfirm**(`txHash`: string, `maxAttempts`: number, `interval`: number, `shardID`: number | string, `toShardID`: number | string): *Promise‹undefined | [Transaction](transaction.md)›*
 
-*Defined in [transaction.ts:571](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L571)*
+*Defined in [transaction.ts:571](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L571)*
 
 **Parameters:**
 
@@ -390,7 +390,7 @@ ___
 
 ▸ **emitConfirm**(`data`: any): *void*
 
-*Defined in [transaction.ts:520](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L520)*
+*Defined in [transaction.ts:520](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L520)*
 
 **Parameters:**
 
@@ -406,7 +406,7 @@ ___
 
 ▸ **emitCxConfirm**(`data`: any): *void*
 
-*Defined in [transaction.ts:529](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L529)*
+*Defined in [transaction.ts:529](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L529)*
 
 **Parameters:**
 
@@ -422,7 +422,7 @@ ___
 
 ▸ **emitCxReceipt**(`receipt`: any): *void*
 
-*Defined in [transaction.ts:526](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L526)*
+*Defined in [transaction.ts:526](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L526)*
 
 **Parameters:**
 
@@ -438,7 +438,7 @@ ___
 
 ▸ **emitCxTrack**(`data`: any): *void*
 
-*Defined in [transaction.ts:532](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L532)*
+*Defined in [transaction.ts:532](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L532)*
 
 **Parameters:**
 
@@ -454,7 +454,7 @@ ___
 
 ▸ **emitError**(`error`: any): *void*
 
-*Defined in [transaction.ts:517](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L517)*
+*Defined in [transaction.ts:517](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L517)*
 
 **Parameters:**
 
@@ -470,7 +470,7 @@ ___
 
 ▸ **emitReceipt**(`receipt`: any): *void*
 
-*Defined in [transaction.ts:514](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L514)*
+*Defined in [transaction.ts:514](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L514)*
 
 **Parameters:**
 
@@ -486,7 +486,7 @@ ___
 
 ▸ **emitTrack**(`data`: any): *void*
 
-*Defined in [transaction.ts:523](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L523)*
+*Defined in [transaction.ts:523](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L523)*
 
 **Parameters:**
 
@@ -502,7 +502,7 @@ ___
 
 ▸ **emitTransactionHash**(`transactionHash`: string): *void*
 
-*Defined in [transaction.ts:511](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L511)*
+*Defined in [transaction.ts:511](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L511)*
 
 **Parameters:**
 
@@ -518,7 +518,7 @@ ___
 
 ▸ **getBlockByNumber**(`blockNumber`: string): *Promise‹any›*
 
-*Defined in [transaction.ts:552](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L552)*
+*Defined in [transaction.ts:552](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L552)*
 
 **Parameters:**
 
@@ -534,7 +534,7 @@ ___
 
 ▸ **getBlockNumber**(`shardID`: number | string): *Promise‹BN›*
 
-*Defined in [transaction.ts:536](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L536)*
+*Defined in [transaction.ts:536](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L536)*
 
 **Parameters:**
 
@@ -550,7 +550,7 @@ ___
 
 ▸ **getCxStatus**(): *[TxStatus](../enums/txstatus.md)*
 
-*Defined in [transaction.ts:276](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L276)*
+*Defined in [transaction.ts:276](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L276)*
 
 **Returns:** *[TxStatus](../enums/txstatus.md)*
 
@@ -560,7 +560,7 @@ ___
 
 ▸ **getRLPSigned**(`raw`: any[], `signature`: Signature): *string*
 
-*Defined in [transaction.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L152)*
+*Defined in [transaction.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L152)*
 
 **Parameters:**
 
@@ -577,7 +577,7 @@ ___
 
 ▸ **getRLPUnsigned**(): *[string, any[]]*
 
-*Defined in [transaction.ts:115](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L115)*
+*Defined in [transaction.ts:115](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L115)*
 
 **Returns:** *[string, any[]]*
 
@@ -587,7 +587,7 @@ ___
 
 ▸ **getRawTransaction**(): *string*
 
-*Defined in [transaction.ts:171](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L171)*
+*Defined in [transaction.ts:171](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L171)*
 
 **Returns:** *string*
 
@@ -597,7 +597,7 @@ ___
 
 ▸ **getTxStatus**(): *[TxStatus](../enums/txstatus.md)*
 
-*Defined in [transaction.ts:269](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L269)*
+*Defined in [transaction.ts:269](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L269)*
 
 **Returns:** *[TxStatus](../enums/txstatus.md)*
 
@@ -607,7 +607,7 @@ ___
 
 ▸ **isConfirmed**(): *boolean*
 
-*Defined in [transaction.ts:293](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L293)*
+*Defined in [transaction.ts:293](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L293)*
 
 **Returns:** *boolean*
 
@@ -617,7 +617,7 @@ ___
 
 ▸ **isCrossShard**(): *boolean*
 
-*Defined in [transaction.ts:305](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L305)*
+*Defined in [transaction.ts:305](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L305)*
 
 **Returns:** *boolean*
 
@@ -627,7 +627,7 @@ ___
 
 ▸ **isCxConfirmed**(): *boolean*
 
-*Defined in [transaction.ts:302](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L302)*
+*Defined in [transaction.ts:302](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L302)*
 
 **Returns:** *boolean*
 
@@ -637,7 +637,7 @@ ___
 
 ▸ **isCxPending**(): *boolean*
 
-*Defined in [transaction.ts:296](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L296)*
+*Defined in [transaction.ts:296](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L296)*
 
 **Returns:** *boolean*
 
@@ -647,7 +647,7 @@ ___
 
 ▸ **isCxRejected**(): *boolean*
 
-*Defined in [transaction.ts:299](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L299)*
+*Defined in [transaction.ts:299](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L299)*
 
 **Returns:** *boolean*
 
@@ -657,7 +657,7 @@ ___
 
 ▸ **isInitialized**(): *boolean*
 
-*Defined in [transaction.ts:281](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L281)*
+*Defined in [transaction.ts:281](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L281)*
 
 **Returns:** *boolean*
 
@@ -667,7 +667,7 @@ ___
 
 ▸ **isPending**(): *boolean*
 
-*Defined in [transaction.ts:287](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L287)*
+*Defined in [transaction.ts:287](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L287)*
 
 **Returns:** *boolean*
 
@@ -677,7 +677,7 @@ ___
 
 ▸ **isRejected**(): *boolean*
 
-*Defined in [transaction.ts:290](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L290)*
+*Defined in [transaction.ts:290](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L290)*
 
 **Returns:** *boolean*
 
@@ -687,7 +687,7 @@ ___
 
 ▸ **isSigned**(): *boolean*
 
-*Defined in [transaction.ts:284](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L284)*
+*Defined in [transaction.ts:284](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L284)*
 
 **Returns:** *boolean*
 
@@ -697,7 +697,7 @@ ___
 
 ▸ **map**(`fn`: any): *this*
 
-*Defined in [transaction.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L258)*
+*Defined in [transaction.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L258)*
 
 **Parameters:**
 
@@ -713,7 +713,7 @@ ___
 
 ▸ **normalizeAddress**(`address`: string): *string*
 
-*Defined in [transaction.ts:714](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L714)*
+*Defined in [transaction.ts:716](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L716)*
 
 **Parameters:**
 
@@ -729,7 +729,7 @@ ___
 
 ▸ **observed**(): *Emitter*
 
-*Defined in [transaction.ts:309](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L309)*
+*Defined in [transaction.ts:309](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L309)*
 
 **Returns:** *Emitter*
 
@@ -739,7 +739,7 @@ ___
 
 ▸ **recover**(`rawTransaction`: string): *[Transaction](transaction.md)*
 
-*Defined in [transaction.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L175)*
+*Defined in [transaction.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L175)*
 
 **Parameters:**
 
@@ -755,7 +755,7 @@ ___
 
 ▸ **sendTransaction**(): *Promise‹[[Transaction](transaction.md), string]›*
 
-*Defined in [transaction.ts:313](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L313)*
+*Defined in [transaction.ts:313](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L313)*
 
 **Returns:** *Promise‹[[Transaction](transaction.md), string]›*
 
@@ -765,7 +765,7 @@ ___
 
 ▸ **setCxStatus**(`cxStatus`: [TxStatus](../enums/txstatus.md)): *void*
 
-*Defined in [transaction.ts:272](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L272)*
+*Defined in [transaction.ts:272](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L272)*
 
 **Parameters:**
 
@@ -781,7 +781,7 @@ ___
 
 ▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [transaction.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L111)*
+*Defined in [transaction.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L111)*
 
 **Parameters:**
 
@@ -797,7 +797,7 @@ ___
 
 ▸ **setParams**(`params`: [TxParams](../interfaces/txparams.md)): *void*
 
-*Defined in [transaction.ts:218](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L218)*
+*Defined in [transaction.ts:218](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L218)*
 
 **Parameters:**
 
@@ -813,7 +813,7 @@ ___
 
 ▸ **setTxStatus**(`txStatus`: [TxStatus](../enums/txstatus.md)): *void*
 
-*Defined in [transaction.ts:265](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L265)*
+*Defined in [transaction.ts:265](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L265)*
 
 **Parameters:**
 
@@ -829,7 +829,7 @@ ___
 
 ▸ **socketConfirm**(`txHash`: string, `maxAttempts`: number, `shardID`: number | string): *Promise‹[Transaction](transaction.md)›*
 
-*Defined in [transaction.ts:462](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L462)*
+*Defined in [transaction.ts:462](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L462)*
 
 **Parameters:**
 
@@ -847,7 +847,7 @@ ___
 
 ▸ **socketCxConfirm**(`txHash`: string, `maxAttempts`: number, `toShardID`: number | string): *Promise‹[Transaction](transaction.md)›*
 
-*Defined in [transaction.ts:666](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L666)*
+*Defined in [transaction.ts:668](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L668)*
 
 **Parameters:**
 
@@ -865,7 +865,7 @@ ___
 
 ▸ **trackCx**(`txHash`: string, `toShardID`: number | string): *Promise‹boolean›*
 
-*Defined in [transaction.ts:643](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L643)*
+*Defined in [transaction.ts:643](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L643)*
 
 **Parameters:**
 
@@ -882,7 +882,7 @@ ___
 
 ▸ **trackTx**(`txHash`: string, `shardID`: number | string): *Promise‹boolean›*
 
-*Defined in [transaction.ts:348](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-transaction/src/transaction.ts#L348)*
+*Defined in [transaction.ts:348](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-transaction/src/transaction.ts#L348)*
 
 **Parameters:**
 

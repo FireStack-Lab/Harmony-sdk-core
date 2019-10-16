@@ -19,7 +19,7 @@
 
 • **address**: *"string"*
 
-*Defined in [harmonyExtension.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L23)*
+*Defined in [harmonyExtension.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L23)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *"string"*
 
-*Defined in [harmonyExtension.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L24)*
+*Defined in [harmonyExtension.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L24)*

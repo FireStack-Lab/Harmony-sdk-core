@@ -24,7 +24,7 @@
 
 • **options**: *[RPCRequestOptions](rpcrequestoptions.md)*
 
-*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/types.ts#L37)*
+*Defined in [types.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L37)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **payload**: *[RPCRequestPayload](rpcrequestpayload.md)‹T›*
 
-*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/types.ts#L36)*
+*Defined in [types.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L36)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **url**: *string*
 
-*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/types.ts#L35)*
+*Defined in [types.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L35)*

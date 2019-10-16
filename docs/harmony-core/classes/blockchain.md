@@ -55,7 +55,7 @@
 
 \+ **new Blockchain**(`messenger`: Messenger): *[Blockchain](blockchain.md)*
 
-*Defined in [blockchain.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L24)*
+*Defined in [blockchain.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L24)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ Name | Type |
 
 • **messenger**: *Messenger*
 
-*Defined in [blockchain.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L24)*
+*Defined in [blockchain.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L24)*
 
 ## Methods
 
@@ -79,7 +79,7 @@ Name | Type |
 
 ▸ **call**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:450](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L450)*
+*Defined in [blockchain.ts:450](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L450)*
 
 **Parameters:**
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **createObservedTransaction**(`transaction`: Transaction): *Emitter*
 
-*Defined in [blockchain.ts:402](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L402)*
+*Defined in [blockchain.ts:402](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L402)*
 
 **Parameters:**
 
@@ -115,7 +115,7 @@ ___
 
 ▸ **estimateGas**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:422](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L422)*
+*Defined in [blockchain.ts:422](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L422)*
 
 **Parameters:**
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **gasPrice**(`shardID`: number): *Promise‹any›*
 
-*Defined in [blockchain.ts:440](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L440)*
+*Defined in [blockchain.ts:440](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L440)*
 
 **Parameters:**
 
@@ -151,7 +151,7 @@ ___
 
 ▸ **getBalance**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L48)*
+*Defined in [blockchain.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L48)*
 
 **Parameters:**
 
@@ -171,7 +171,7 @@ ___
 
 ▸ **getBlockByHash**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:83](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L83)*
+*Defined in [blockchain.ts:83](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L83)*
 
 **Parameters:**
 
@@ -191,7 +191,7 @@ ___
 
 ▸ **getBlockByNumber**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L109)*
+*Defined in [blockchain.ts:109](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L109)*
 
 **Parameters:**
 
@@ -211,7 +211,7 @@ ___
 
 ▸ **getBlockNumber**(`shardID`: number): *Promise‹any›*
 
-*Defined in [blockchain.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L66)*
+*Defined in [blockchain.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L66)*
 
 **Parameters:**
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **getBlockTransactionCountByHash**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L131)*
+*Defined in [blockchain.ts:131](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L131)*
 
 **Parameters:**
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **getBlockTransactionCountByNumber**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:151](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L151)*
+*Defined in [blockchain.ts:151](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L151)*
 
 **Parameters:**
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **getCode**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:280](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L280)*
+*Defined in [blockchain.ts:280](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L280)*
 
 **Parameters:**
 
@@ -285,7 +285,7 @@ ___
 
 ▸ **getCxReceiptByHash**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L263)*
+*Defined in [blockchain.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L263)*
 
 **Parameters:**
 
@@ -304,7 +304,7 @@ ___
 
 ▸ **getProtocolVersion**(`shardID`: number): *Promise‹any›*
 
-*Defined in [blockchain.ts:309](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L309)*
+*Defined in [blockchain.ts:309](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L309)*
 
 **Parameters:**
 
@@ -320,7 +320,7 @@ ___
 
 ▸ **getRpcResult**(`result`: any): *any*
 
-*Defined in [blockchain.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L32)*
+*Defined in [blockchain.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L32)*
 
 **Parameters:**
 
@@ -336,7 +336,7 @@ ___
 
 ▸ **getShardingStructure**(): *Promise‹any›*
 
-*Defined in [blockchain.ts:368](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L368)*
+*Defined in [blockchain.ts:368](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L368)*
 
 **Returns:** *Promise‹any›*
 
@@ -346,7 +346,7 @@ ___
 
 ▸ **getStorageAt**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:325](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L325)*
+*Defined in [blockchain.ts:325](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L325)*
 
 **Parameters:**
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **getTransactionByBlockHashAndIndex**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L175)*
+*Defined in [blockchain.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L175)*
 
 **Parameters:**
 
@@ -387,7 +387,7 @@ ___
 
 ▸ **getTransactionByBlockNumberAndIndex**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:198](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L198)*
+*Defined in [blockchain.ts:198](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L198)*
 
 **Parameters:**
 
@@ -407,7 +407,7 @@ ___
 
 ▸ **getTransactionByHash**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:220](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L220)*
+*Defined in [blockchain.ts:220](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L220)*
 
 **Parameters:**
 
@@ -426,7 +426,7 @@ ___
 
 ▸ **getTransactionCount**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:350](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L350)*
+*Defined in [blockchain.ts:350](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L350)*
 
 **Parameters:**
 
@@ -446,7 +446,7 @@ ___
 
 ▸ **getTransactionReceipt**(`__namedParameters`: object): *Promise‹any›*
 
-*Defined in [blockchain.ts:243](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L243)*
+*Defined in [blockchain.ts:243](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L243)*
 
 **Parameters:**
 
@@ -465,7 +465,7 @@ ___
 
 ▸ **logs**(`options`: any, `shardID`: number): *LogSub*
 
-*Defined in [blockchain.ts:492](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L492)*
+*Defined in [blockchain.ts:492](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L492)*
 
 **Parameters:**
 
@@ -482,7 +482,7 @@ ___
 
 ▸ **net_peerCount**(`shardID`: number): *Promise‹any›*
 
-*Defined in [blockchain.ts:298](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L298)*
+*Defined in [blockchain.ts:298](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L298)*
 
 **Parameters:**
 
@@ -498,7 +498,7 @@ ___
 
 ▸ **net_version**(`shardID`: number): *Promise‹any›*
 
-*Defined in [blockchain.ts:303](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L303)*
+*Defined in [blockchain.ts:303](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L303)*
 
 **Parameters:**
 
@@ -514,7 +514,7 @@ ___
 
 ▸ **newBlockHeaders**(`shardID`: number): *NewHeaders*
 
-*Defined in [blockchain.ts:476](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L476)*
+*Defined in [blockchain.ts:476](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L476)*
 
 **Parameters:**
 
@@ -530,7 +530,7 @@ ___
 
 ▸ **newPendingTransactions**(`shardID`: number): *NewPendingTransactions*
 
-*Defined in [blockchain.ts:468](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L468)*
+*Defined in [blockchain.ts:468](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L468)*
 
 **Parameters:**
 
@@ -546,7 +546,7 @@ ___
 
 ▸ **sendRawTransaction**(`transaction`: Transaction): *Promise‹undefined | string›*
 
-*Defined in [blockchain.ts:392](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L392)*
+*Defined in [blockchain.ts:392](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L392)*
 
 **Parameters:**
 
@@ -562,7 +562,7 @@ ___
 
 ▸ **sendTransaction**(`transaction`: Transaction): *Promise‹any›*
 
-*Defined in [blockchain.ts:377](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L377)*
+*Defined in [blockchain.ts:377](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L377)*
 
 **Parameters:**
 
@@ -578,7 +578,7 @@ ___
 
 ▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [blockchain.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L29)*
+*Defined in [blockchain.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L29)*
 
 **Parameters:**
 
@@ -594,7 +594,7 @@ ___
 
 ▸ **syncing**(`shardID`: number): *Syncing*
 
-*Defined in [blockchain.ts:484](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/blockchain.ts#L484)*
+*Defined in [blockchain.ts:484](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/blockchain.ts#L484)*
 
 **Parameters:**
 

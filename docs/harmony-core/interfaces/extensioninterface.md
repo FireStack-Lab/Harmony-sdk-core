@@ -23,7 +23,7 @@
 
 • **getAccount**: *function*
 
-*Defined in [harmonyExtension.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L39)*
+*Defined in [harmonyExtension.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L39)*
 
 #### Type declaration:
 
@@ -35,7 +35,7 @@ ___
 
 • **isMathWallet**? : *undefined | false | true*
 
-*Defined in [harmonyExtension.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L42)*
+*Defined in [harmonyExtension.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L42)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **messenger**? : *[Messenger](../classes/harmony.md#messenger)*
 
-*Defined in [harmonyExtension.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L40)*
+*Defined in [harmonyExtension.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L40)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **network**: *[ExtensionNetwork](extensionnetwork.md)*
 
-*Defined in [harmonyExtension.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L43)*
+*Defined in [harmonyExtension.ts:43](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L43)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **signTransaction**: *function*
 
-*Defined in [harmonyExtension.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L33)*
+*Defined in [harmonyExtension.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L33)*
 
 #### Type declaration:
 
@@ -80,4 +80,4 @@ ___
 
 • **version**: *string*
 
-*Defined in [harmonyExtension.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L41)*
+*Defined in [harmonyExtension.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L41)*

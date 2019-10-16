@@ -15,7 +15,7 @@
 
 • **http**: = "http"
 
-*Defined in [providers/provider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/providers/provider.ts#L6)*
+*Defined in [providers/provider.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/provider.ts#L6)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **ws**: = "ws"
 
-*Defined in [providers/provider.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-network/src/providers/provider.ts#L7)*
+*Defined in [providers/provider.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/provider.ts#L7)*

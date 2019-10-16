@@ -19,7 +19,7 @@
 
 • **chain_url**: *string*
 
-*Defined in [harmonyExtension.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L28)*
+*Defined in [harmonyExtension.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L28)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **net_version**: *number*
 
-*Defined in [harmonyExtension.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/a192dab/packages/harmony-core/src/harmonyExtension.ts#L29)*
+*Defined in [harmonyExtension.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/harmonyExtension.ts#L29)*
