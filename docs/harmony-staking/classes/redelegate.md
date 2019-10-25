@@ -29,7 +29,7 @@
 
 \+ **new Redelegate**(`delegatorAddress`: string, `validatorSrcAddress`: string, `validatorDstAddress`: string, `amount`: number): *[Redelegate](redelegate.md)*
 
-*Defined in [stakingTransaction.ts:340](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L340)*
+*Defined in [stakingTransaction.ts:359](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L359)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • **amount**: *number*
 
-*Defined in [stakingTransaction.ts:340](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L340)*
+*Defined in [stakingTransaction.ts:359](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L359)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **delegatorAddress**: *string*
 
-*Defined in [stakingTransaction.ts:337](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L337)*
+*Defined in [stakingTransaction.ts:356](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L356)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **validatorDstAddress**: *string*
 
-*Defined in [stakingTransaction.ts:339](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L339)*
+*Defined in [stakingTransaction.ts:358](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L358)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • **validatorSrcAddress**: *string*
 
-*Defined in [stakingTransaction.ts:338](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L338)*
+*Defined in [stakingTransaction.ts:357](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L357)*
 
 ## Methods
 
@@ -80,6 +80,6 @@ ___
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:352](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L352)*
+*Defined in [stakingTransaction.ts:371](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L371)*
 
 **Returns:** *any[]*

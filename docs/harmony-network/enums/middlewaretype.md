@@ -15,7 +15,7 @@
 
 • **REQ**:
 
-*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L7)*
+*Defined in [types.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/types.ts#L7)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **RES**:
 
-*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L8)*
+*Defined in [types.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/types.ts#L8)*

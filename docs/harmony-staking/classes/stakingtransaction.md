@@ -46,6 +46,7 @@
 
 ### Methods
 
+* [confirm](stakingtransaction.md#confirm)
 * [cxConfirm](stakingtransaction.md#cxconfirm)
 * [emitConfirm](stakingtransaction.md#emitconfirm)
 * [emitCxConfirm](stakingtransaction.md#emitcxconfirm)
@@ -99,7 +100,7 @@
 
 *Overrides void*
 
-*Defined in [stakingTransaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L41)*
+*Defined in [stakingTransaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L41)*
 
 **Parameters:**
 
@@ -135,7 +136,7 @@ ___
 
 • **chainId**: *number*
 
-*Defined in [stakingTransaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L37)*
+*Defined in [stakingTransaction.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L37)*
 
 ___
 
@@ -203,7 +204,7 @@ ___
 
 • **directive**: *[Directive](../enums/directive.md)*
 
-*Defined in [stakingTransaction.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L32)*
+*Defined in [stakingTransaction.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L32)*
 
 ___
 
@@ -221,7 +222,7 @@ ___
 
 • **from**: *string*
 
-*Defined in [stakingTransaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L41)*
+*Defined in [stakingTransaction.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L41)*
 
 ___
 
@@ -229,7 +230,7 @@ ___
 
 • **gasLimit**: *number | string*
 
-*Defined in [stakingTransaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L35)*
+*Defined in [stakingTransaction.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L35)*
 
 ___
 
@@ -237,7 +238,7 @@ ___
 
 • **gasPrice**: *number | string*
 
-*Defined in [stakingTransaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L36)*
+*Defined in [stakingTransaction.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L36)*
 
 ___
 
@@ -265,7 +266,7 @@ ___
 
 • **nonce**: *number | string*
 
-*Defined in [stakingTransaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L34)*
+*Defined in [stakingTransaction.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L34)*
 
 ___
 
@@ -273,7 +274,7 @@ ___
 
 • **rawTransaction**: *string*
 
-*Defined in [stakingTransaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L38)*
+*Defined in [stakingTransaction.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L38)*
 
 ___
 
@@ -301,7 +302,7 @@ ___
 
 • **signature**: *Signature*
 
-*Defined in [stakingTransaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L40)*
+*Defined in [stakingTransaction.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L40)*
 
 ___
 
@@ -309,7 +310,7 @@ ___
 
 • **stakeMsg**: *[NewValidator](newvalidator.md) | [EditValidator](editvalidator.md) | [Delegate](delegate.md) | [Redelegate](redelegate.md) | [Undelegate](undelegate.md)*
 
-*Defined in [stakingTransaction.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L33)*
+*Defined in [stakingTransaction.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L33)*
 
 ___
 
@@ -327,9 +328,29 @@ ___
 
 • **unsignedRawTransaction**: *string*
 
-*Defined in [stakingTransaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L39)*
+*Defined in [stakingTransaction.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L39)*
 
 ## Methods
+
+###  confirm
+
+▸ **confirm**(`txHash`: string, `maxAttempts`: number, `interval`: number, `shardID`: number | string, `toShardID`: number | string): *Promise‹TransactionBase›*
+
+*Defined in [stakingTransaction.ts:182](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L182)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`txHash` | string | - |
+`maxAttempts` | number | 20 |
+`interval` | number | 1000 |
+`shardID` | number &#124; string |  this.messenger.currentShard |
+`toShardID` | number &#124; string | 0 |
+
+**Returns:** *Promise‹TransactionBase›*
+
+___
 
 ###  cxConfirm
 
@@ -500,7 +521,7 @@ ___
 
 ▸ **encode**(): *[string, any[]]*
 
-*Defined in [stakingTransaction.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L75)*
+*Defined in [stakingTransaction.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L75)*
 
 **Returns:** *[string, any[]]*
 
@@ -558,7 +579,7 @@ ___
 
 ▸ **getFromAddress**(): *string*
 
-*Defined in [stakingTransaction.ts:178](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L178)*
+*Defined in [stakingTransaction.ts:179](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L179)*
 
 **Returns:** *string*
 
@@ -568,7 +589,7 @@ ___
 
 ▸ **getRLPSigned**(`raw`: any[], `signature`: Signature): *string*
 
-*Defined in [stakingTransaction.ts:103](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L103)*
+*Defined in [stakingTransaction.ts:103](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L103)*
 
 **Parameters:**
 
@@ -585,7 +606,7 @@ ___
 
 ▸ **getRawTransaction**(): *string*
 
-*Defined in [stakingTransaction.ts:171](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L171)*
+*Defined in [stakingTransaction.ts:172](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L172)*
 
 **Returns:** *string*
 
@@ -595,7 +616,7 @@ ___
 
 ▸ **getSignature**(): *Signature*
 
-*Defined in [stakingTransaction.ts:174](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L174)*
+*Defined in [stakingTransaction.ts:175](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L175)*
 
 **Returns:** *Signature*
 
@@ -617,7 +638,7 @@ ___
 
 ▸ **getUnsignedRawTransaction**(): *string*
 
-*Defined in [stakingTransaction.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L168)*
+*Defined in [stakingTransaction.ts:169](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L169)*
 
 **Returns:** *string*
 
@@ -735,7 +756,7 @@ ___
 
 ▸ **rlpSign**(`prv`: string): *[Signature, string]*
 
-*Defined in [stakingTransaction.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L95)*
+*Defined in [stakingTransaction.ts:95](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L95)*
 
 **Parameters:**
 
@@ -751,7 +772,7 @@ ___
 
 ▸ **sendTransaction**(): *Promise‹[[StakingTransaction](stakingtransaction.md), string]›*
 
-*Defined in [stakingTransaction.ts:118](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L118)*
+*Defined in [stakingTransaction.ts:118](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L118)*
 
 **Returns:** *Promise‹[[StakingTransaction](stakingtransaction.md), string]›*
 
@@ -779,7 +800,7 @@ ___
 
 ▸ **setFromAddress**(`address`: string): *void*
 
-*Defined in [stakingTransaction.ts:165](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L165)*
+*Defined in [stakingTransaction.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L166)*
 
 **Parameters:**
 
@@ -813,7 +834,7 @@ ___
 
 ▸ **setNonce**(`nonce`: number): *void*
 
-*Defined in [stakingTransaction.ts:162](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L162)*
+*Defined in [stakingTransaction.ts:163](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L163)*
 
 **Parameters:**
 
@@ -829,7 +850,7 @@ ___
 
 ▸ **setRawTransaction**(`rawTransaction`: string): *void*
 
-*Defined in [stakingTransaction.ts:151](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L151)*
+*Defined in [stakingTransaction.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L152)*
 
 **Parameters:**
 
@@ -845,7 +866,7 @@ ___
 
 ▸ **setSignature**(`signature`: Signature): *void*
 
-*Defined in [stakingTransaction.ts:154](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L154)*
+*Defined in [stakingTransaction.ts:155](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L155)*
 
 **Parameters:**
 
@@ -879,7 +900,7 @@ ___
 
 ▸ **setUnsigned**(`unSigned`: string): *void*
 
-*Defined in [stakingTransaction.ts:148](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L148)*
+*Defined in [stakingTransaction.ts:149](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L149)*
 
 **Parameters:**
 

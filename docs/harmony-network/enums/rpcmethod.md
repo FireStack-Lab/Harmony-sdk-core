@@ -47,7 +47,7 @@
 
 • **BlockNumber**: = "hmy_blockNumber"
 
-*Defined in [rpcMethod/rpc.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L62)*
+*Defined in [rpcMethod/rpc.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L62)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **Call**: = "hmy_call"
 
-*Defined in [rpcMethod/rpc.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L56)*
+*Defined in [rpcMethod/rpc.ts:56](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L56)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • **EstimateGas**: = "hmy_estimateGas"
 
-*Defined in [rpcMethod/rpc.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L58)*
+*Defined in [rpcMethod/rpc.ts:58](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L58)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • **GasPrice**: = "hmy_gasPrice"
 
-*Defined in [rpcMethod/rpc.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L60)*
+*Defined in [rpcMethod/rpc.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L60)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **GetBalance**: = "hmy_getBalance"
 
-*Defined in [rpcMethod/rpc.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L28)*
+*Defined in [rpcMethod/rpc.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L28)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **GetBlockByHash**: = "hmy_getBlockByHash"
 
-*Defined in [rpcMethod/rpc.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L3)*
+*Defined in [rpcMethod/rpc.ts:3](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L3)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • **GetBlockByNumber**: = "hmy_getBlockByNumber"
 
-*Defined in [rpcMethod/rpc.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L5)*
+*Defined in [rpcMethod/rpc.ts:5](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L5)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • **GetBlockTransactionCountByHash**: = "hmy_getBlockTransactionCountByHash"
 
-*Defined in [rpcMethod/rpc.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L7)*
+*Defined in [rpcMethod/rpc.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L7)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • **GetBlockTransactionCountByNumber**: = "hmy_getBlockTransactionCountByNumber"
 
-*Defined in [rpcMethod/rpc.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L9)*
+*Defined in [rpcMethod/rpc.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L9)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 • **GetCXReceiptByHash**: = "hmy_getCXReceiptByHash"
 
-*Defined in [rpcMethod/rpc.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L21)*
+*Defined in [rpcMethod/rpc.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L21)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 • **GetCode**: = "hmy_getCode"
 
-*Defined in [rpcMethod/rpc.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L11)*
+*Defined in [rpcMethod/rpc.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L11)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 • **GetFilterChanges**: = "hmy_getFilterChanges"
 
-*Defined in [rpcMethod/rpc.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L48)*
+*Defined in [rpcMethod/rpc.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L48)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • **GetPastLogs**: = "hmy_getLogs"
 
-*Defined in [rpcMethod/rpc.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L40)*
+*Defined in [rpcMethod/rpc.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L40)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 • **GetProof**: = "hmy_getProof"
 
-*Defined in [rpcMethod/rpc.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L46)*
+*Defined in [rpcMethod/rpc.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L46)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 • **GetShardingStructure**: = "hmy_getShardingStructure"
 
-*Defined in [rpcMethod/rpc.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L70)*
+*Defined in [rpcMethod/rpc.ts:70](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L70)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 • **GetStorageAt**: = "hmy_getStorageAt"
 
-*Defined in [rpcMethod/rpc.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L30)*
+*Defined in [rpcMethod/rpc.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L30)*
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 • **GetTransactionByBlockHashAndIndex**: = "hmy_getTransactionByBlockHashAndIndex"
 
-*Defined in [rpcMethod/rpc.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L13)*
+*Defined in [rpcMethod/rpc.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L13)*
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 • **GetTransactionByBlockNumberAndIndex**: = "hmy_getTransactionByBlockNumberAndIndex"
 
-*Defined in [rpcMethod/rpc.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L15)*
+*Defined in [rpcMethod/rpc.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L15)*
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 • **GetTransactionByHash**: = "hmy_getTransactionByHash"
 
-*Defined in [rpcMethod/rpc.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L17)*
+*Defined in [rpcMethod/rpc.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L17)*
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 • **GetTransactionCount**: = "hmy_getTransactionCount"
 
-*Defined in [rpcMethod/rpc.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L32)*
+*Defined in [rpcMethod/rpc.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L32)*
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 • **GetTransactionReceipt**: = "hmy_getTransactionReceipt"
 
-*Defined in [rpcMethod/rpc.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L19)*
+*Defined in [rpcMethod/rpc.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L19)*
 
 ___
 
@@ -215,7 +215,7 @@ ___
 
 • **GetWork**: = "hmy_getWork"
 
-*Defined in [rpcMethod/rpc.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L42)*
+*Defined in [rpcMethod/rpc.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L42)*
 
 ___
 
@@ -223,7 +223,7 @@ ___
 
 • **NetVersion**: = "net_version"
 
-*Defined in [rpcMethod/rpc.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L66)*
+*Defined in [rpcMethod/rpc.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L66)*
 
 ___
 
@@ -231,7 +231,7 @@ ___
 
 • **NewBlockFilter**: = "hmy_newBlockFilter"
 
-*Defined in [rpcMethod/rpc.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L52)*
+*Defined in [rpcMethod/rpc.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L52)*
 
 ___
 
@@ -239,7 +239,7 @@ ___
 
 • **NewFilter**: = "hmy_newFilter"
 
-*Defined in [rpcMethod/rpc.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L54)*
+*Defined in [rpcMethod/rpc.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L54)*
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 • **NewPendingTransactionFilter**: = "hmy_newPendingTransactionFilter"
 
-*Defined in [rpcMethod/rpc.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L50)*
+*Defined in [rpcMethod/rpc.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L50)*
 
 ___
 
@@ -255,7 +255,7 @@ ___
 
 • **PeerCount**: = "net_peerCount"
 
-*Defined in [rpcMethod/rpc.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L25)*
+*Defined in [rpcMethod/rpc.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L25)*
 
 ___
 
@@ -263,7 +263,7 @@ ___
 
 • **ProtocolVersion**: = "hmy_protocolVersion"
 
-*Defined in [rpcMethod/rpc.ts:68](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L68)*
+*Defined in [rpcMethod/rpc.ts:68](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L68)*
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 • **SendRawStakingTransaction**: = "hmy_sendRawStakingTransaction"
 
-*Defined in [rpcMethod/rpc.ts:72](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L72)*
+*Defined in [rpcMethod/rpc.ts:72](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L72)*
 
 ___
 
@@ -279,7 +279,7 @@ ___
 
 • **SendRawTransaction**: = "hmy_sendRawTransaction"
 
-*Defined in [rpcMethod/rpc.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L36)*
+*Defined in [rpcMethod/rpc.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L36)*
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 • **SendTransaction**: = "hmy_sendTransaction"
 
-*Defined in [rpcMethod/rpc.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L34)*
+*Defined in [rpcMethod/rpc.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L34)*
 
 ___
 
@@ -295,7 +295,7 @@ ___
 
 • **Subscribe**: = "hmy_subscribe"
 
-*Defined in [rpcMethod/rpc.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L38)*
+*Defined in [rpcMethod/rpc.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L38)*
 
 ___
 
@@ -303,7 +303,7 @@ ___
 
 • **Syncing**: = "hmy_syncing"
 
-*Defined in [rpcMethod/rpc.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L23)*
+*Defined in [rpcMethod/rpc.ts:23](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L23)*
 
 ___
 
@@ -311,4 +311,4 @@ ___
 
 • **UnSubscribe**: = "hmy_unsubscribe"
 
-*Defined in [rpcMethod/rpc.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/rpcMethod/rpc.ts#L64)*
+*Defined in [rpcMethod/rpc.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-network/src/rpcMethod/rpc.ts#L64)*

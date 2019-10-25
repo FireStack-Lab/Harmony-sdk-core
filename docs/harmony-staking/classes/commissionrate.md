@@ -28,7 +28,7 @@
 
 \+ **new CommissionRate**(`rate`: [Decimal](decimal.md), `maxRate`: [Decimal](decimal.md), `maxChangeRate`: [Decimal](decimal.md)): *[CommissionRate](commissionrate.md)*
 
-*Defined in [stakingTransaction.ts:240](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L240)*
+*Defined in [stakingTransaction.ts:259](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L259)*
 
 **Parameters:**
 
@@ -46,7 +46,7 @@ Name | Type |
 
 • **maxChangeRate**: *[Decimal](decimal.md)*
 
-*Defined in [stakingTransaction.ts:240](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L240)*
+*Defined in [stakingTransaction.ts:259](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L259)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **maxRate**: *[Decimal](decimal.md)*
 
-*Defined in [stakingTransaction.ts:239](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L239)*
+*Defined in [stakingTransaction.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L258)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **rate**: *[Decimal](decimal.md)*
 
-*Defined in [stakingTransaction.ts:238](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L238)*
+*Defined in [stakingTransaction.ts:257](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L257)*
 
 ## Methods
 
@@ -70,6 +70,6 @@ ___
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:247](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L247)*
+*Defined in [stakingTransaction.ts:266](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L266)*
 
 **Returns:** *any[]*

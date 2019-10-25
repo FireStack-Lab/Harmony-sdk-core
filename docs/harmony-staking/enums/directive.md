@@ -18,7 +18,7 @@
 
 • **DirectiveDelegate**:
 
-*Defined in [stakingTransaction.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L26)*
+*Defined in [stakingTransaction.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L26)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **DirectiveEditValidator**:
 
-*Defined in [stakingTransaction.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L25)*
+*Defined in [stakingTransaction.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L25)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **DirectiveNewValidator**:
 
-*Defined in [stakingTransaction.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L24)*
+*Defined in [stakingTransaction.ts:24](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L24)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **DirectiveRedelegate**:
 
-*Defined in [stakingTransaction.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L27)*
+*Defined in [stakingTransaction.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L27)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **DirectiveUndelegate**:
 
-*Defined in [stakingTransaction.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L28)*
+*Defined in [stakingTransaction.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L28)*

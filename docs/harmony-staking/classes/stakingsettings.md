@@ -18,4 +18,4 @@
 
 ▪ **PRECISION**: *number* = 18
 
-*Defined in [stakingTransaction.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L20)*
+*Defined in [stakingTransaction.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L20)*

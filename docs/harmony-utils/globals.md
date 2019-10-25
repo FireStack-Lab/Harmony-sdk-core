@@ -71,7 +71,7 @@
 
 • **AddressSuffix**: *"-"* = "-"
 
-*Defined in [chain.ts:73](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L73)*
+*Defined in [chain.ts:73](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/chain.ts#L73)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **HDPath**: *"m/44'/1023'/0'/0/"* =  `m/44'/1023'/0'/0/`
 
-*Defined in [chain.ts:71](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L71)*
+*Defined in [chain.ts:71](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/chain.ts#L71)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
   [Units.Tether, '1000000000000000000000000000000'], // 1e30 wei
 ])
 
-*Defined in [transformers.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L18)*
+*Defined in [transformers.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L18)*
 
 ## Functions
 
@@ -107,7 +107,7 @@ ___
 
 ▸ **add0xToString**(`obj`: string): *string*
 
-*Defined in [transformers.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L67)*
+*Defined in [transformers.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L67)*
 
 **Parameters:**
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **assertObject**(`input`: any): *(Anonymous function)*
 
-*Defined in [utils.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L111)*
+*Defined in [utils.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L111)*
 
 **Parameters:**
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **defineReadOnly**(`object`: any, `name`: string, `value`: any): *void*
 
-*Defined in [tools.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/tools.ts#L1)*
+*Defined in [tools.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/tools.ts#L1)*
 
 **Parameters:**
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **fromWei**(`wei`: BN | string, `unit`: [Units](enums/units.md), `options`: any): *string*
 
-*Defined in [transformers.ts:169](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L169)*
+*Defined in [transformers.ts:169](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L169)*
 
 **Parameters:**
 
@@ -175,7 +175,7 @@ ___
 
 ▸ **generateValidateObjects**(`validatorObject`: object): *object*
 
-*Defined in [utils.ts:91](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L91)*
+*Defined in [utils.ts:91](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L91)*
 
 **Parameters:**
 
@@ -195,7 +195,7 @@ ___
 
 ▸ **hexToBN**(`hex`: string): *BN*
 
-*Defined in [transformers.ts:100](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L100)*
+*Defined in [transformers.ts:100](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L100)*
 
 **Parameters:**
 
@@ -211,7 +211,7 @@ ___
 
 ▸ **hexToNumber**(`hex`: string): *string*
 
-*Defined in [transformers.ts:89](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L89)*
+*Defined in [transformers.ts:89](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L89)*
 
 **Parameters:**
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **isAddress**(`address`: string): *boolean*
 
-*Defined in [validators.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L6)*
+*Defined in [validators.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L6)*
 
 **Parameters:**
 
@@ -243,7 +243,7 @@ ___
 
 ▸ **isArray**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:72](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L72)*
+*Defined in [validators.ts:72](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L72)*
 
 [isArray verify param input is an Array]
 
@@ -263,7 +263,7 @@ ___
 
 ▸ **isBech32Address**(`raw`: string): *boolean*
 
-*Defined in [validators.ts:163](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L163)*
+*Defined in [validators.ts:163](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L163)*
 
 **Parameters:**
 
@@ -279,7 +279,7 @@ ___
 
 ▸ **isBech32TestNetAddress**(`raw`: string): *boolean*
 
-*Defined in [validators.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L168)*
+*Defined in [validators.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L168)*
 
 **Parameters:**
 
@@ -295,7 +295,7 @@ ___
 
 ▸ **isBlockNumber**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:148](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L148)*
+*Defined in [validators.ts:148](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L148)*
 
 **Parameters:**
 
@@ -311,7 +311,7 @@ ___
 
 ▸ **isBoolean**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L62)*
+*Defined in [validators.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L62)*
 
 [isBoolean verify param is a Boolean]
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **isFunction**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:107](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L107)*
+*Defined in [validators.ts:107](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L107)*
 
 [isFunction verify param is a Function]
 
@@ -351,7 +351,7 @@ ___
 
 ▸ **isHash**(`hash`: string): *boolean*
 
-*Defined in [validators.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L21)*
+*Defined in [validators.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L21)*
 
 **Parameters:**
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **isHex**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:112](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L112)*
+*Defined in [validators.ts:112](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L112)*
 
 **Parameters:**
 
@@ -383,7 +383,7 @@ ___
 
 ▸ **isHttp**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:124](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L124)*
+*Defined in [validators.ts:124](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L124)*
 
 **Parameters:**
 
@@ -399,7 +399,7 @@ ___
 
 ▸ **isInt**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L41)*
+*Defined in [validators.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L41)*
 
 [isNumber verify param is a Number]
 
@@ -419,7 +419,7 @@ ___
 
 ▸ **isJsonString**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:82](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L82)*
+*Defined in [validators.ts:82](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L82)*
 
 [isJson verify param input is a Json]
 
@@ -439,7 +439,7 @@ ___
 
 ▸ **isKeyString**(`keyString`: string, `lengh`: number): *boolean*
 
-*Defined in [validators.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L1)*
+*Defined in [validators.ts:1](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L1)*
 
 **Parameters:**
 
@@ -456,7 +456,7 @@ ___
 
 ▸ **isNumber**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L31)*
+*Defined in [validators.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L31)*
 
 [isNumber verify param is a Number]
 
@@ -476,7 +476,7 @@ ___
 
 ▸ **isObject**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:96](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L96)*
+*Defined in [validators.ts:96](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L96)*
 
 [isObject verify param is an Object]
 
@@ -496,7 +496,7 @@ ___
 
 ▸ **isPrivateKey**(`privateKey`: string): *boolean*
 
-*Defined in [validators.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L11)*
+*Defined in [validators.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L11)*
 
 **Parameters:**
 
@@ -512,7 +512,7 @@ ___
 
 ▸ **isPublicKey**(`publicKey`: string): *boolean*
 
-*Defined in [validators.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L16)*
+*Defined in [validators.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L16)*
 
 **Parameters:**
 
@@ -528,7 +528,7 @@ ___
 
 ▸ **isString**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L52)*
+*Defined in [validators.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L52)*
 
 [isString verify param is a String]
 
@@ -548,7 +548,7 @@ ___
 
 ▸ **isValidAddress**(`address`: string): *boolean*
 
-*Defined in [validators.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L173)*
+*Defined in [validators.ts:173](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L173)*
 
 **Parameters:**
 
@@ -564,7 +564,7 @@ ___
 
 ▸ **isWs**(`obj`: any): *boolean*
 
-*Defined in [validators.ts:133](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/validators.ts#L133)*
+*Defined in [validators.ts:133](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/validators.ts#L133)*
 
 **Parameters:**
 
@@ -580,7 +580,7 @@ ___
 
 ▸ **numToStr**(`input`: any): *string*
 
-*Defined in [transformers.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L48)*
+*Defined in [transformers.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L48)*
 
 **Parameters:**
 
@@ -596,7 +596,7 @@ ___
 
 ▸ **numberToHex**(`obj`: any): *string*
 
-*Defined in [transformers.ts:81](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L81)*
+*Defined in [transformers.ts:81](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L81)*
 
 **Parameters:**
 
@@ -612,7 +612,7 @@ ___
 
 ▸ **numberToString**(`obj`: BN | number | string, `radix`: number): *string*
 
-*Defined in [transformers.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L36)*
+*Defined in [transformers.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L36)*
 
 **Parameters:**
 
@@ -629,7 +629,7 @@ ___
 
 ▸ **strip0x**(`obj`: string): *string*
 
-*Defined in [transformers.ts:77](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L77)*
+*Defined in [transformers.ts:77](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L77)*
 
 **Parameters:**
 
@@ -645,7 +645,7 @@ ___
 
 ▸ **toWei**(`input`: BN | string, `unit`: [Units](enums/units.md)): *BN*
 
-*Defined in [transformers.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L111)*
+*Defined in [transformers.ts:111](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L111)*
 
 **Parameters:**
 
@@ -662,7 +662,7 @@ ___
 
 ▸ **validateArgs**(`args`: any, `requiredArgs`: any, `optionalArgs`: any): *boolean*
 
-*Defined in [utils.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L44)*
+*Defined in [utils.ts:44](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L44)*
 
 **Parameters:**
 
@@ -680,13 +680,13 @@ Name | Type |
 
 ### ▪ **DEFAULT_OPTIONS**: *object*
 
-*Defined in [transformers.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L32)*
+*Defined in [transformers.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L32)*
 
 ###  pad
 
 • **pad**: *boolean* = false
 
-*Defined in [transformers.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/transformers.ts#L33)*
+*Defined in [transformers.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/transformers.ts#L33)*
 
 ___
 
@@ -694,11 +694,11 @@ ___
 
 ### ▪ **defaultConfig**: *object*
 
-*Defined in [chain.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L25)*
+*Defined in [chain.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/chain.ts#L25)*
 
 ▪ **Default**: *object*
 
-*Defined in [chain.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L26)*
+*Defined in [chain.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/chain.ts#L26)*
 
 * **Chain_ID**: *[ChainID](enums/chainid.md)* =  ChainID.HmyLocal
 
@@ -710,7 +710,7 @@ ___
 
 ▪ **DefaultWS**: *object*
 
-*Defined in [chain.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L32)*
+*Defined in [chain.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/chain.ts#L32)*
 
 * **Chain_ID**: *[ChainID](enums/chainid.md)* =  ChainID.HmyLocal
 
@@ -726,100 +726,100 @@ ___
 
 ### ▪ **validatorArray**: *object*
 
-*Defined in [utils.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L25)*
+*Defined in [utils.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L25)*
 
 ###  isAddress
 
 • **isAddress**: *isAddress[]* =  [isAddress]
 
-*Defined in [utils.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L36)*
+*Defined in [utils.ts:36](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L36)*
 
 ###  isArray
 
 • **isArray**: *isArray[]* =  [isArray]
 
-*Defined in [utils.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L29)*
+*Defined in [utils.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L29)*
 
 ###  isBech32Address
 
 • **isBech32Address**: *isBech32Address[]* =  [isBech32Address]
 
-*Defined in [utils.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L39)*
+*Defined in [utils.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L39)*
 
 ###  isBech32TestNetAddress
 
 • **isBech32TestNetAddress**: *isBech32TestNetAddress[]* =  [isBech32TestNetAddress]
 
-*Defined in [utils.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L40)*
+*Defined in [utils.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L40)*
 
 ###  isBlockNumber
 
 • **isBlockNumber**: *isBlockNumber[]* =  [isBlockNumber]
 
-*Defined in [utils.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L38)*
+*Defined in [utils.ts:38](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L38)*
 
 ###  isBoolean
 
 • **isBoolean**: *isBoolean[]* =  [isBoolean]
 
-*Defined in [utils.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L28)*
+*Defined in [utils.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L28)*
 
 ###  isFunction
 
 • **isFunction**: *isFunction[]* =  [isFunction]
 
-*Defined in [utils.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L32)*
+*Defined in [utils.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L32)*
 
 ###  isHash
 
 • **isHash**: *isHash[]* =  [isHash]
 
-*Defined in [utils.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L37)*
+*Defined in [utils.ts:37](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L37)*
 
 ###  isHex
 
 • **isHex**: *isHex[]* =  [isHex]
 
-*Defined in [utils.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L33)*
+*Defined in [utils.ts:33](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L33)*
 
 ###  isJsonString
 
 • **isJsonString**: *isJsonString[]* =  [isJsonString]
 
-*Defined in [utils.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L30)*
+*Defined in [utils.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L30)*
 
 ###  isNumber
 
 • **isNumber**: *isNumber[]* =  [isNumber]
 
-*Defined in [utils.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L26)*
+*Defined in [utils.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L26)*
 
 ###  isObject
 
 • **isObject**: *isObject[]* =  [isObject]
 
-*Defined in [utils.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L31)*
+*Defined in [utils.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L31)*
 
 ###  isPrivateKey
 
 • **isPrivateKey**: *isPrivateKey[]* =  [isPrivateKey]
 
-*Defined in [utils.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L35)*
+*Defined in [utils.ts:35](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L35)*
 
 ###  isPublicKey
 
 • **isPublicKey**: *isPublicKey[]* =  [isPublicKey]
 
-*Defined in [utils.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L34)*
+*Defined in [utils.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L34)*
 
 ###  isString
 
 • **isString**: *isString[]* =  [isString]
 
-*Defined in [utils.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L27)*
+*Defined in [utils.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L27)*
 
 ###  isValidAddress
 
 • **isValidAddress**: *isValidAddress[]* =  [isValidAddress]
 
-*Defined in [utils.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L41)*
+*Defined in [utils.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L41)*

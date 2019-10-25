@@ -47,7 +47,7 @@
 
 \+ **new Wallet**(`messenger`: Messenger): *[Wallet](wallet.md)*
 
-*Defined in [wallet.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L39)*
+*Defined in [wallet.ts:39](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L39)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ Name | Type | Default |
 
 • **accountMap**: *Map‹string, [Account](account.md)›* =  new Map()
 
-*Defined in [wallet.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L21)*
+*Defined in [wallet.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L21)*
 
 **`memberof`** Wallet
 
@@ -73,7 +73,7 @@ ___
 
 • **defaultSigner**? : *undefined | string*
 
-*Defined in [wallet.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L16)*
+*Defined in [wallet.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L16)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • **messenger**: *Messenger*
 
-*Defined in [wallet.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L15)*
+*Defined in [wallet.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L15)*
 
 ## Accessors
 
@@ -89,7 +89,7 @@ ___
 
 • **get accounts**(): *string[]*
 
-*Defined in [wallet.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L26)*
+*Defined in [wallet.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L26)*
 
 **`memberof`** Wallet
 
@@ -103,7 +103,7 @@ ___
 
 • **get signer**(): *[Account](account.md) | undefined*
 
-*Defined in [wallet.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L30)*
+*Defined in [wallet.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L30)*
 
 **Returns:** *[Account](account.md) | undefined*
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **addByKeyStore**(`keyStore`: string, `password`: string): *Promise‹[Account](account.md)›*
 
-*Defined in [wallet.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L105)*
+*Defined in [wallet.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L105)*
 
 **`function`** addByKeyStore
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **addByMnemonic**(`phrase`: string, `index`: number): *[Account](account.md)*
 
-*Defined in [wallet.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L60)*
+*Defined in [wallet.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L60)*
 
 **`function`** addByMnemonic
 
@@ -161,7 +161,7 @@ ___
 
 ▸ **addByPrivateKey**(`privateKey`: string): *[Account](account.md)*
 
-*Defined in [wallet.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L79)*
+*Defined in [wallet.ts:79](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L79)*
 
 **`function`** addByPrivateKey
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **createAccount**(`password?`: undefined | string, `options?`: EncryptOptions): *Promise‹[Account](account.md)›*
 
-*Defined in [wallet.ts:129](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L129)*
+*Defined in [wallet.ts:129](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L129)*
 
 **`function`** createAccount
 
@@ -208,7 +208,7 @@ ___
 
 ▸ **decryptAccount**(`address`: string, `password`: string): *Promise‹[Account](account.md)›*
 
-*Defined in [wallet.ts:180](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L180)*
+*Defined in [wallet.ts:180](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L180)*
 
 **`function`** decryptAccount
 
@@ -232,7 +232,7 @@ ___
 
 ▸ **encryptAccount**(`address`: string, `password`: string, `options?`: EncryptOptions): *Promise‹[Account](account.md)›*
 
-*Defined in [wallet.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L152)*
+*Defined in [wallet.ts:152](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L152)*
 
 **`function`** encryptAccount
 
@@ -257,7 +257,7 @@ ___
 
 ▸ **getAccount**(`address`: string): *[Account](account.md) | undefined*
 
-*Defined in [wallet.ts:204](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L204)*
+*Defined in [wallet.ts:204](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L204)*
 
 **`function`** getAccount
 
@@ -281,7 +281,7 @@ ___
 
 ▸ **isValidMnemonic**(`phrase`: string): *boolean*
 
-*Defined in [wallet.ts:334](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L334)*
+*Defined in [wallet.ts:334](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L334)*
 
 **`function`** isValidMnemonic
 
@@ -303,7 +303,7 @@ ___
 
 ▸ **newMnemonic**(): *string*
 
-*Defined in [wallet.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L49)*
+*Defined in [wallet.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L49)*
 
 **`function`** newMnemonic
 
@@ -319,7 +319,7 @@ ___
 
 ▸ **removeAccount**(`address`: string): *void*
 
-*Defined in [wallet.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L214)*
+*Defined in [wallet.ts:214](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L214)*
 
 **`function`** removeAccount
 
@@ -341,7 +341,7 @@ ___
 
 ▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [wallet.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L221)*
+*Defined in [wallet.ts:221](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L221)*
 
 **Parameters:**
 
@@ -357,7 +357,7 @@ ___
 
 ▸ **setSigner**(`address`: string): *void*
 
-*Defined in [wallet.ts:225](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L225)*
+*Defined in [wallet.ts:225](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L225)*
 
 **Parameters:**
 
@@ -373,7 +373,7 @@ ___
 
 ▸ **signStaking**(`staking`: StakingTransaction, `account`: [Account](account.md) | undefined, `password`: string | undefined, `updateNonce`: boolean, `encodeMode`: string, `blockNumber`: string, `shardID`: number): *Promise‹StakingTransaction›*
 
-*Defined in [wallet.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L278)*
+*Defined in [wallet.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L278)*
 
 **Parameters:**
 
@@ -395,7 +395,7 @@ ___
 
 ▸ **signTransaction**(`transaction`: Transaction, `account`: [Account](account.md) | undefined, `password`: string | undefined, `updateNonce`: boolean, `encodeMode`: string, `blockNumber`: string): *Promise‹Transaction›*
 
-*Defined in [wallet.ts:232](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L232)*
+*Defined in [wallet.ts:232](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L232)*
 
 **Parameters:**
 
@@ -416,6 +416,6 @@ ___
 
 ▸ **generateMnemonic**(): *string*
 
-*Defined in [wallet.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/wallet.ts#L11)*
+*Defined in [wallet.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-account/src/wallet.ts#L11)*
 
 **Returns:** *string*

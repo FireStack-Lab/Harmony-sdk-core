@@ -15,7 +15,7 @@
 
 • **optional**: = "optional"
 
-*Defined in [utils.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L22)*
+*Defined in [utils.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L22)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **required**: = "required"
 
-*Defined in [utils.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/utils.ts#L21)*
+*Defined in [utils.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-utils/src/utils.ts#L21)*

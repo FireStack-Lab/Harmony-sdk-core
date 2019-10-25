@@ -31,7 +31,7 @@
 
 \+ **new NewValidator**(`description`: [Description](description.md), `commission`: [CommissionRate](commissionrate.md), `minSelfDelegation`: number, `stakingAddress`: string, `pubKey`: string, `amount`: number): *[NewValidator](newvalidator.md)*
 
-*Defined in [stakingTransaction.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L263)*
+*Defined in [stakingTransaction.ts:282](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L282)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ Name | Type |
 
 • **amount**: *number*
 
-*Defined in [stakingTransaction.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L263)*
+*Defined in [stakingTransaction.ts:282](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L282)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **commission**: *[CommissionRate](commissionrate.md)*
 
-*Defined in [stakingTransaction.ts:259](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L259)*
+*Defined in [stakingTransaction.ts:278](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L278)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **description**: *[Description](description.md)*
 
-*Defined in [stakingTransaction.ts:258](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L258)*
+*Defined in [stakingTransaction.ts:277](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L277)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **minSelfDelegation**: *number*
 
-*Defined in [stakingTransaction.ts:260](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L260)*
+*Defined in [stakingTransaction.ts:279](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L279)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **pubKey**: *string*
 
-*Defined in [stakingTransaction.ts:262](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L262)*
+*Defined in [stakingTransaction.ts:281](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L281)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **stakingAddress**: *string*
 
-*Defined in [stakingTransaction.ts:261](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L261)*
+*Defined in [stakingTransaction.ts:280](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L280)*
 
 ## Methods
 
@@ -100,6 +100,6 @@ ___
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:280](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L280)*
+*Defined in [stakingTransaction.ts:299](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L299)*
 
 **Returns:** *any[]*

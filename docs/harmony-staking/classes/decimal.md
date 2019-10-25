@@ -26,7 +26,7 @@
 
 \+ **new Decimal**(`value`: number, `precision`: number): *[Decimal](decimal.md)*
 
-*Defined in [stakingTransaction.ts:217](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L217)*
+*Defined in [stakingTransaction.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L236)*
 
 **Parameters:**
 
@@ -43,7 +43,7 @@ Name | Type |
 
 • **value**: *BN*
 
-*Defined in [stakingTransaction.ts:217](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L217)*
+*Defined in [stakingTransaction.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L236)*
 
 ## Methods
 
@@ -51,6 +51,6 @@ Name | Type |
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:230](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L230)*
+*Defined in [stakingTransaction.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L249)*
 
 **Returns:** *any[]*

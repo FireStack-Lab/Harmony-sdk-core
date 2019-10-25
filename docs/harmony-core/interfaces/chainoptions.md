@@ -20,7 +20,7 @@
 
 • **chainId**: *ChainID*
 
-*Defined in [truffleProvider.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L27)*
+*Defined in [truffleProvider.ts:27](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-core/src/truffleProvider.ts#L27)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **chainType**: *ChainType*
 
-*Defined in [truffleProvider.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L26)*
+*Defined in [truffleProvider.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-core/src/truffleProvider.ts#L26)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **shardID**: *number*
 
-*Defined in [truffleProvider.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L25)*
+*Defined in [truffleProvider.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-core/src/truffleProvider.ts#L25)*

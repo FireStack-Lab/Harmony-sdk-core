@@ -19,7 +19,7 @@
 
 • **gasLimit**: *string*
 
-*Defined in [truffleProvider.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L30)*
+*Defined in [truffleProvider.ts:30](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-core/src/truffleProvider.ts#L30)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **gasPrice**: *string*
 
-*Defined in [truffleProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L31)*
+*Defined in [truffleProvider.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-core/src/truffleProvider.ts#L31)*

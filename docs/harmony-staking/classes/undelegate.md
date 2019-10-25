@@ -28,7 +28,7 @@
 
 \+ **new Undelegate**(`delegatorAddress`: string, `validatorAddress`: string, `amount`: number): *[Undelegate](undelegate.md)*
 
-*Defined in [stakingTransaction.ts:365](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L365)*
+*Defined in [stakingTransaction.ts:384](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L384)*
 
 **Parameters:**
 
@@ -46,7 +46,7 @@ Name | Type |
 
 • **amount**: *number*
 
-*Defined in [stakingTransaction.ts:365](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L365)*
+*Defined in [stakingTransaction.ts:384](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L384)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **delegatorAddress**: *string*
 
-*Defined in [stakingTransaction.ts:363](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L363)*
+*Defined in [stakingTransaction.ts:382](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L382)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **validatorAddress**: *string*
 
-*Defined in [stakingTransaction.ts:364](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L364)*
+*Defined in [stakingTransaction.ts:383](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L383)*
 
 ## Methods
 
@@ -70,6 +70,6 @@ ___
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:371](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L371)*
+*Defined in [stakingTransaction.ts:390](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L390)*
 
 **Returns:** *any[]*

@@ -30,7 +30,7 @@
 
 \+ **new Description**(`name`: string, `identity`: string, `website`: string, `securityContact`: string, `details`: string): *[Description](description.md)*
 
-*Defined in [stakingTransaction.ts:188](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L188)*
+*Defined in [stakingTransaction.ts:207](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L207)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **details**: *string*
 
-*Defined in [stakingTransaction.ts:188](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L188)*
+*Defined in [stakingTransaction.ts:207](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L207)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **identity**: *string*
 
-*Defined in [stakingTransaction.ts:185](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L185)*
+*Defined in [stakingTransaction.ts:204](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L204)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [stakingTransaction.ts:184](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L184)*
+*Defined in [stakingTransaction.ts:203](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L203)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **securityContact**: *string*
 
-*Defined in [stakingTransaction.ts:187](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L187)*
+*Defined in [stakingTransaction.ts:206](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L206)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **website**: *string*
 
-*Defined in [stakingTransaction.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L186)*
+*Defined in [stakingTransaction.ts:205](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L205)*
 
 ## Methods
 
@@ -90,6 +90,6 @@ ___
 
 ▸ **encode**(): *any[]*
 
-*Defined in [stakingTransaction.ts:204](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-staking/src/stakingTransaction.ts#L204)*
+*Defined in [stakingTransaction.ts:223](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/bb13a3b/packages/harmony-staking/src/stakingTransaction.ts#L223)*
 
 **Returns:** *any[]*
