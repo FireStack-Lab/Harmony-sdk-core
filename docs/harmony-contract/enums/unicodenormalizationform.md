@@ -18,7 +18,7 @@
 
 • **NFC**: = "NFC"
 
-*Defined in [abi/abiCoder.ts:1225](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-contract/src/abi/abiCoder.ts#L1225)*
+*Defined in [abi/abiCoder.ts:1225](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-contract/src/abi/abiCoder.ts#L1225)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **NFD**: = "NFD"
 
-*Defined in [abi/abiCoder.ts:1226](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-contract/src/abi/abiCoder.ts#L1226)*
+*Defined in [abi/abiCoder.ts:1226](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-contract/src/abi/abiCoder.ts#L1226)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **NFKC**: = "NFKC"
 
-*Defined in [abi/abiCoder.ts:1227](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-contract/src/abi/abiCoder.ts#L1227)*
+*Defined in [abi/abiCoder.ts:1227](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-contract/src/abi/abiCoder.ts#L1227)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **NFKD**: = "NFKD"
 
-*Defined in [abi/abiCoder.ts:1228](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-contract/src/abi/abiCoder.ts#L1228)*
+*Defined in [abi/abiCoder.ts:1228](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-contract/src/abi/abiCoder.ts#L1228)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **current**: = ""
 
-*Defined in [abi/abiCoder.ts:1224](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-contract/src/abi/abiCoder.ts#L1224)*
+*Defined in [abi/abiCoder.ts:1224](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-contract/src/abi/abiCoder.ts#L1224)*

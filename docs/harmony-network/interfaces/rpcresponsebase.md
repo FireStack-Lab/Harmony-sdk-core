@@ -21,7 +21,7 @@
 
 • **id**: *string*
 
-*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L42)*
+*Defined in [types.ts:42](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L42)*
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 • **jsonrpc**: *string*
 
-*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L41)*
+*Defined in [types.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L41)*

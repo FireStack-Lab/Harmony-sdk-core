@@ -21,7 +21,7 @@
 
 • **current**: *boolean*
 
-*Defined in [types.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L64)*
+*Defined in [types.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L64)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **http**: *string*
 
-*Defined in [types.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L66)*
+*Defined in [types.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L66)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **shardID**: *number | string*
 
-*Defined in [types.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L65)*
+*Defined in [types.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L65)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **ws**: *string*
 
-*Defined in [types.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/types.ts#L67)*
+*Defined in [types.ts:67](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/types.ts#L67)*

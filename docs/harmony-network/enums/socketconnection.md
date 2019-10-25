@@ -17,7 +17,7 @@
 
 • **CLOSE**: = "close"
 
-*Defined in [providers/baseSocket.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/baseSocket.ts#L9)*
+*Defined in [providers/baseSocket.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/providers/baseSocket.ts#L9)*
 
 ___
 
@@ -25,7 +25,7 @@ ___
 
 • **CONNECT**: = "connect"
 
-*Defined in [providers/baseSocket.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/baseSocket.ts#L7)*
+*Defined in [providers/baseSocket.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/providers/baseSocket.ts#L7)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **ERROR**: = "error"
 
-*Defined in [providers/baseSocket.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/baseSocket.ts#L8)*
+*Defined in [providers/baseSocket.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/providers/baseSocket.ts#L8)*
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 • **READY**: = "ready"
 
-*Defined in [providers/baseSocket.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/providers/baseSocket.ts#L6)*
+*Defined in [providers/baseSocket.ts:6](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/providers/baseSocket.ts#L6)*

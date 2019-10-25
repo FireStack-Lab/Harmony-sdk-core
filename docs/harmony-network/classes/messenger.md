@@ -68,7 +68,7 @@
 
 *Overrides void*
 
-*Defined in [messenger/messenger.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L32)*
+*Defined in [messenger/messenger.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L32)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ Name | Type | Default |
 
 • **JsonRpc**: *[JsonRpc](jsonrpc.md)*
 
-*Defined in [messenger/messenger.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L31)*
+*Defined in [messenger/messenger.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L31)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • **Network_ID**: *string* = "Default"
 
-*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L28)*
+*Defined in [messenger/messenger.ts:28](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L28)*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 • **config**? : *undefined | object*
 
-*Defined in [messenger/messenger.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L26)*
+*Defined in [messenger/messenger.ts:26](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L26)*
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 • **defaultShardID**? : *undefined | number*
 
-*Defined in [messenger/messenger.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L32)*
+*Defined in [messenger/messenger.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L32)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 • **provider**: *[HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)*
 
-*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L25)*
+*Defined in [messenger/messenger.ts:25](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L25)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 • **shardProviders**: *Map‹number, [ShardingProvider](../interfaces/shardingprovider.md)›*
 
-*Defined in [messenger/messenger.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L29)*
+*Defined in [messenger/messenger.ts:29](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L29)*
 
 ## Accessors
 
@@ -175,7 +175,7 @@ ___
 
 • **get currentShard**(): *number*
 
-*Defined in [messenger/messenger.ts:76](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L76)*
+*Defined in [messenger/messenger.ts:76](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L76)*
 
 **Returns:** *number*
 
@@ -185,7 +185,7 @@ ___
 
 • **get shardCount**(): *number*
 
-*Defined in [messenger/messenger.ts:80](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L80)*
+*Defined in [messenger/messenger.ts:80](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L80)*
 
 **Returns:** *number*
 
@@ -195,7 +195,7 @@ ___
 
 ▸ **getCurrentShardID**(): *undefined | number*
 
-*Defined in [messenger/messenger.ts:296](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L296)*
+*Defined in [messenger/messenger.ts:296](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L296)*
 
 **Returns:** *undefined | number*
 
@@ -205,7 +205,7 @@ ___
 
 ▸ **getShardProvider**(`shardID`: number): *[HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)*
 
-*Defined in [messenger/messenger.ts:287](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L287)*
+*Defined in [messenger/messenger.ts:287](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L287)*
 
 **Parameters:**
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **providerCheck**(): *void*
 
-*Defined in [messenger/messenger.ts:142](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L142)*
+*Defined in [messenger/messenger.ts:142](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L142)*
 
 **`function`** providerCheck
 
@@ -239,7 +239,7 @@ ___
 
 ▸ **send**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string, `shardID`: number): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L90)*
+*Defined in [messenger/messenger.ts:90](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L90)*
 
 **Parameters:**
 
@@ -296,7 +296,7 @@ ___
 
 ▸ **setDefaultShardID**(`shardID`: number): *void*
 
-*Defined in [messenger/messenger.ts:307](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L307)*
+*Defined in [messenger/messenger.ts:307](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L307)*
 
 **Parameters:**
 
@@ -312,7 +312,7 @@ ___
 
 ▸ **setNetworkID**(`id`: string): *void*
 
-*Defined in [messenger/messenger.ts:176](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L176)*
+*Defined in [messenger/messenger.ts:176](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L176)*
 
 **`function`** setNetworkID
 
@@ -334,7 +334,7 @@ ___
 
 ▸ **setProvider**(`provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *void*
 
-*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L132)*
+*Defined in [messenger/messenger.ts:132](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L132)*
 
 **`function`** setProvider
 
@@ -356,7 +356,7 @@ ___
 
 ▸ **setRPCPrefix**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `prefix`: string): *string*
 
-*Defined in [messenger/messenger.ts:180](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L180)*
+*Defined in [messenger/messenger.ts:180](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L180)*
 
 **Parameters:**
 
@@ -373,7 +373,7 @@ ___
 
 ▸ **setReqMiddleware**(`middleware`: any, `method`: string, `provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *void*
 
-*Defined in [messenger/messenger.ts:155](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L155)*
+*Defined in [messenger/messenger.ts:155](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L155)*
 
 **`function`** setReqMiddleware
 
@@ -397,7 +397,7 @@ ___
 
 ▸ **setResMiddleware**(`middleware`: any, `method`: string, `provider`: [HttpProvider](httpprovider.md) | [WSProvider](wsprovider.md)): *void*
 
-*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L166)*
+*Defined in [messenger/messenger.ts:166](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L166)*
 
 **`function`** setResMiddleware
 
@@ -421,7 +421,7 @@ ___
 
 ▸ **setShardingProviders**(): *Promise‹void›*
 
-*Defined in [messenger/messenger.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L263)*
+*Defined in [messenger/messenger.ts:263](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L263)*
 
 **Returns:** *Promise‹void›*
 
@@ -431,7 +431,7 @@ ___
 
 ▸ **subscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `returnType`: [SubscribeReturns](../enums/subscribereturns.md), `rpcPrefix`: string, `shardID`: number): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:189](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L189)*
+*Defined in [messenger/messenger.ts:189](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L189)*
 
 **Parameters:**
 
@@ -451,7 +451,7 @@ ___
 
 ▸ **unsubscribe**(`method`: [RPCMethod](../enums/rpcmethod.md) | string, `params?`: string | any[] | undefined, `rpcPrefix?`: undefined | string, `shardID`: number): *Promise‹any›*
 
-*Defined in [messenger/messenger.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-network/src/messenger/messenger.ts#L236)*
+*Defined in [messenger/messenger.ts:236](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-network/src/messenger/messenger.ts#L236)*
 
 **Parameters:**
 

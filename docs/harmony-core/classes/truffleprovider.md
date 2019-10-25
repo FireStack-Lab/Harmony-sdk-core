@@ -49,7 +49,7 @@
 
 *Overrides void*
 
-*Defined in [truffleProvider.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L34)*
+*Defined in [truffleProvider.ts:34](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L34)*
 
 **Parameters:**
 
@@ -240,7 +240,7 @@ ___
 
 ▸ **resolveArgs**(...`args`: [RPCRequestPayload‹any›, any]): *[ArgsResolver](../interfaces/argsresolver.md)*
 
-*Defined in [truffleProvider.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L181)*
+*Defined in [truffleProvider.ts:181](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L181)*
 
 **Parameters:**
 
@@ -256,7 +256,7 @@ ___
 
 ▸ **resolveCallback**(`err`: any, `res`: any, `callback`: function): *void*
 
-*Defined in [truffleProvider.ts:207](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L207)*
+*Defined in [truffleProvider.ts:207](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L207)*
 
 **Parameters:**
 
@@ -283,7 +283,7 @@ ___
 
 ▸ **resolveResult**(`response`: ResponseMiddleware | any): *any*
 
-*Defined in [truffleProvider.ts:201](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L201)*
+*Defined in [truffleProvider.ts:201](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L201)*
 
 **Parameters:**
 
@@ -299,7 +299,7 @@ ___
 
 ▸ **send**(...`args`: [RPCRequestPayload‹any›, any]): *Promise‹any›*
 
-*Defined in [truffleProvider.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L64)*
+*Defined in [truffleProvider.ts:64](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L64)*
 
 **Parameters:**
 
@@ -315,7 +315,7 @@ ___
 
 ▸ **sendAsync**(...`args`: [RPCRequestPayload‹any›, any]): *Promise‹any›*
 
-*Defined in [truffleProvider.ts:177](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-core/src/truffleProvider.ts#L177)*
+*Defined in [truffleProvider.ts:177](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-core/src/truffleProvider.ts#L177)*
 
 **Parameters:**
 

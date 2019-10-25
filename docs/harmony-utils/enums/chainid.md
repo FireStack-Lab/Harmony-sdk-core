@@ -29,7 +29,7 @@
 
 • **Default**: = 0
 
-*Defined in [chain.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L7)*
+*Defined in [chain.ts:7](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L7)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **EtcMainnet**: = 61
 
-*Defined in [chain.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L15)*
+*Defined in [chain.ts:15](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L15)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **EtcTestnet**: = 62
 
-*Defined in [chain.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L16)*
+*Defined in [chain.ts:16](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L16)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **EthMainnet**: = 1
 
-*Defined in [chain.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L8)*
+*Defined in [chain.ts:8](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L8)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **Ganache**: = 0
 
-*Defined in [chain.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L18)*
+*Defined in [chain.ts:18](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L18)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **Geth**: = 1337
 
-*Defined in [chain.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L17)*
+*Defined in [chain.ts:17](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L17)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • **HmyLocal**: = 2
 
-*Defined in [chain.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L21)*
+*Defined in [chain.ts:21](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L21)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 • **HmyMainnet**: = 1
 
-*Defined in [chain.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L19)*
+*Defined in [chain.ts:19](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L19)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 • **HmyPangaea**: = 3
 
-*Defined in [chain.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L22)*
+*Defined in [chain.ts:22](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L22)*
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 • **HmyTestnet**: = 2
 
-*Defined in [chain.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L20)*
+*Defined in [chain.ts:20](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L20)*
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 • **Kovan**: = 42
 
-*Defined in [chain.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L14)*
+*Defined in [chain.ts:14](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L14)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 • **Morden**: = 2
 
-*Defined in [chain.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L9)*
+*Defined in [chain.ts:9](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L9)*
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 • **Rinkeby**: = 4
 
-*Defined in [chain.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L11)*
+*Defined in [chain.ts:11](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L11)*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 • **RootstockMainnet**: = 30
 
-*Defined in [chain.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L12)*
+*Defined in [chain.ts:12](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L12)*
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 • **RootstockTestnet**: = 31
 
-*Defined in [chain.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L13)*
+*Defined in [chain.ts:13](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L13)*
 
 ___
 
@@ -149,4 +149,4 @@ ___
 
 • **Ropsten**: = 3
 
-*Defined in [chain.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-utils/src/chain.ts#L10)*
+*Defined in [chain.ts:10](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-utils/src/chain.ts#L10)*

@@ -41,6 +41,7 @@
 * [getBalance](account.md#getbalance)
 * [getShardBalance](account.md#getshardbalance)
 * [setMessenger](account.md#setmessenger)
+* [signStaking](account.md#signstaking)
 * [signTransaction](account.md#signtransaction)
 * [toFile](account.md#tofile)
 * [updateBalances](account.md#updatebalances)
@@ -53,7 +54,7 @@
 
 \+ **new Account**(`key?`: undefined | string, `messenger`: Messenger): *[Account](account.md)*
 
-*Defined in [account.ts:75](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L75)*
+*Defined in [account.ts:76](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L76)*
 
 **Parameters:**
 
@@ -70,7 +71,7 @@ Name | Type | Default |
 
 • **address**? : *undefined | string*
 
-*Defined in [account.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L47)*
+*Defined in [account.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L48)*
 
 ___
 
@@ -78,7 +79,7 @@ ___
 
 • **balance**? : *undefined | string* = "0"
 
-*Defined in [account.ts:48](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L48)*
+*Defined in [account.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L49)*
 
 ___
 
@@ -86,7 +87,7 @@ ___
 
 • **encrypted**: *boolean* = false
 
-*Defined in [account.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L53)*
+*Defined in [account.ts:54](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L54)*
 
 ___
 
@@ -94,7 +95,7 @@ ___
 
 • **messenger**: *Messenger*
 
-*Defined in [account.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L52)*
+*Defined in [account.ts:53](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L53)*
 
 ___
 
@@ -102,7 +103,7 @@ ___
 
 • **nonce**? : *undefined | number* = 0
 
-*Defined in [account.ts:49](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L49)*
+*Defined in [account.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L50)*
 
 ___
 
@@ -110,7 +111,7 @@ ___
 
 • **privateKey**? : *undefined | string*
 
-*Defined in [account.ts:45](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L45)*
+*Defined in [account.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L46)*
 
 ___
 
@@ -118,7 +119,7 @@ ___
 
 • **publicKey**? : *undefined | string*
 
-*Defined in [account.ts:46](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L46)*
+*Defined in [account.ts:47](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L47)*
 
 ___
 
@@ -126,7 +127,7 @@ ___
 
 • **shardID**: *number*
 
-*Defined in [account.ts:50](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L50)*
+*Defined in [account.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L51)*
 
 ___
 
@@ -134,7 +135,7 @@ ___
 
 • **shards**: *[Shards](../globals.md#shards)*
 
-*Defined in [account.ts:51](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L51)*
+*Defined in [account.ts:52](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L52)*
 
 ## Accessors
 
@@ -142,7 +143,7 @@ ___
 
 • **get bech32Address**(): *string*
 
-*Defined in [account.ts:62](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L62)*
+*Defined in [account.ts:63](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L63)*
 
 **Returns:** *string*
 
@@ -152,7 +153,7 @@ ___
 
 • **get bech32TestNetAddress**(): *string*
 
-*Defined in [account.ts:65](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L65)*
+*Defined in [account.ts:66](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L66)*
 
 **Returns:** *string*
 
@@ -162,7 +163,7 @@ ___
 
 • **get checksumAddress**(): *string*
 
-*Defined in [account.ts:59](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L59)*
+*Defined in [account.ts:60](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L60)*
 
 **`function`** checksumAddress checsumAddress getter
 
@@ -176,7 +177,7 @@ ___
 
 • **get getShardsCount**(): *number*
 
-*Defined in [account.ts:73](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L73)*
+*Defined in [account.ts:74](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L74)*
 
 **`function`** getShardsCount getShards number with this Account
 
@@ -190,7 +191,7 @@ shard size
 
 ▸ **_import**(`key`: string): *[Account](account.md)*
 
-*Defined in [account.ts:310](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L310)*
+*Defined in [account.ts:364](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L364)*
 
 **`function`** _import private method import a private Key
 
@@ -210,7 +211,7 @@ ___
 
 ▸ **_new**(): *[Account](account.md)*
 
-*Defined in [account.ts:297](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L297)*
+*Defined in [account.ts:351](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L351)*
 
 **`function`** _new private method create Account
 
@@ -224,7 +225,7 @@ ___
 
 ▸ **fromFile**(`keyStore`: string, `password`: string): *Promise‹[Account](account.md)›*
 
-*Defined in [account.ts:104](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L104)*
+*Defined in [account.ts:105](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L105)*
 
 **Parameters:**
 
@@ -241,7 +242,7 @@ ___
 
 ▸ **getAddressFromShardID**(`shardID`: number): *undefined | string*
 
-*Defined in [account.ts:249](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L249)*
+*Defined in [account.ts:303](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L303)*
 
 **Parameters:**
 
@@ -257,7 +258,7 @@ ___
 
 ▸ **getAddresses**(): *string[]*
 
-*Defined in [account.ts:257](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L257)*
+*Defined in [account.ts:311](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L311)*
 
 **Returns:** *string[]*
 
@@ -267,7 +268,7 @@ ___
 
 ▸ **getBalance**(`blockNumber`: string): *Promise‹object›*
 
-*Defined in [account.ts:125](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L125)*
+*Defined in [account.ts:126](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L126)*
 
 **`function`** getBalance get Account's balance
 
@@ -287,7 +288,7 @@ ___
 
 ▸ **getShardBalance**(`shardID`: number, `blockNumber`: string): *Promise‹object›*
 
-*Defined in [account.ts:266](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L266)*
+*Defined in [account.ts:320](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L320)*
 
 **Parameters:**
 
@@ -304,7 +305,7 @@ ___
 
 ▸ **setMessenger**(`messenger`: Messenger): *void*
 
-*Defined in [account.ts:245](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L245)*
+*Defined in [account.ts:299](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L299)*
 
 **Parameters:**
 
@@ -316,11 +317,31 @@ Name | Type |
 
 ___
 
+###  signStaking
+
+▸ **signStaking**(`staking`: StakingTransaction, `updateNonce`: boolean, `encodeMode`: string, `blockNumber`: string, `shardID`: number): *Promise‹StakingTransaction›*
+
+*Defined in [account.ts:246](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L246)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`staking` | StakingTransaction | - |
+`updateNonce` | boolean | true |
+`encodeMode` | string | "rlp" |
+`blockNumber` | string | "latest" |
+`shardID` | number |  this.messenger.currentShard |
+
+**Returns:** *Promise‹StakingTransaction›*
+
+___
+
 ###  signTransaction
 
 ▸ **signTransaction**(`transaction`: Transaction, `updateNonce`: boolean, `encodeMode`: string, `blockNumber`: string): *Promise‹Transaction›*
 
-*Defined in [account.ts:185](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L185)*
+*Defined in [account.ts:186](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L186)*
 
 **Parameters:**
 
@@ -339,7 +360,7 @@ ___
 
 ▸ **toFile**(`password`: string, `options?`: EncryptOptions): *Promise‹string›*
 
-*Defined in [account.ts:93](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L93)*
+*Defined in [account.ts:94](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L94)*
 
 **Parameters:**
 
@@ -356,7 +377,7 @@ ___
 
 ▸ **updateBalances**(`blockNumber`: string): *Promise‹void›*
 
-*Defined in [account.ts:168](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L168)*
+*Defined in [account.ts:169](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L169)*
 
 **`function`** updateShards
 
@@ -376,7 +397,7 @@ ___
 
 ▸ **add**(`key`: string): *[Account](account.md)*
 
-*Defined in [account.ts:40](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L40)*
+*Defined in [account.ts:41](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L41)*
 
 **`function`** add static method add a private key to Account
 
@@ -396,7 +417,7 @@ ___
 
 ▸ **new**(): *[Account](account.md)*
 
-*Defined in [account.ts:31](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/ffbbffb/packages/harmony-account/src/account.ts#L31)*
+*Defined in [account.ts:32](https://github.com/FireStack-Lab/Harmony-sdk-core/blob/1e63f5a/packages/harmony-account/src/account.ts#L32)*
 
 **`function`** new static method create account
 
