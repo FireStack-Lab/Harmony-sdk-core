@@ -4,7 +4,8 @@ const { Harmony } = require('@harmony-js/core');
 // import or require settings
 const { ChainID, ChainType } = require('@harmony-js/utils');
 
-const URL_TESTNET = `https://api.s0.b.hmny.io`;
+//const URL_TESTNET = `https://api.s0.b.hmny.io`;
+const URL_TESTNET = `localhost:9500`;
 const URL_MAINNET = `https://api.s0.t.hmny.io`;
 
 // 1. initialize the Harmony instance
@@ -22,15 +23,16 @@ const harmony = new Harmony(
 
 // 2. get wallet ready
 // one18n8e7472pg5fqvcfcr5hg0npquha24wsxmjheg
-// const phrase = 'genius cable radar memory high catch blossom correct middle wish gentle fiscal';
-const phrase =
-  'resemble rent deposit unique garment ripple burst negative else decorate menu theme';
+//const phrase = 'genius cable radar memory high catch blossom correct middle wish gentle fiscal';
 
 // one1a2rhuaqjcvfu69met9sque2l3w5v9z6qcdcz65
 // surge welcome lion goose gate consider taste injury health march debris kick
 
 // add privateKey to wallet
-const sender = harmony.wallet.addByMnemonic(phrase);
+//const sender = harmony.wallet.addByMnemonic(phrase);
+// add privateKey to wallet
+const private = 'fd416cb87dcf8ed187e85545d7734a192fc8e976f5b540e9e21e896ec2bc25c3';
+const sender = harmony.wallet.addByPrivateKey(private);
 
 // 3. get sharding info
 async function setSharding() {
@@ -58,7 +60,7 @@ async function transfer(receiver) {
     // send token from shardID
     shardID: 0,
     // send token to toShardID
-    toShardID: 1,
+    toShardID: 0,
     // gas Price, you can use Unit class, and use Gwei, then remember to use toWei(), which will be transformed to BN
     gasPrice: new harmony.utils.Unit('100').asGwei().toWei(),
   });
@@ -118,10 +120,6 @@ async function transfer(receiver) {
       console.log('Normal transaction');
       console.log(`${txnHash} is confirmed`);
       console.log('');
-      console.log('please see detail in explorer:');
-      console.log('');
-      console.log('https://explorer.harmony.one/#/tx/' + txnHash);
-      console.log('');
       process.exit();
     }
   }
@@ -131,13 +129,9 @@ async function transfer(receiver) {
     console.log('Cross-Shard transaction');
     console.log(`${txnHash} is confirmed`);
     console.log('');
-    console.log('please see detail in explorer:');
-    console.log('');
-    console.log('https://explorer.harmony.one/#/tx/' + txnHash);
-    console.log('');
     process.exit();
   }
 }
 
 // sending from one18n8e7472pg5fqvcfcr5hg0npquha24wsxmjheg to  one1a2rhuaqjcvfu69met9sque2l3w5v9z6qcdcz65
-// (async () => await transfer('one18n8e7472pg5fqvcfcr5hg0npquha24wsxmjheg'))();
+transfer('one1a2rhuaqjcvfu69met9sque2l3w5v9z6qcdcz65');
